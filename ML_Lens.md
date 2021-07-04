@@ -116,5 +116,13 @@
 6. To make sure that confidence levels are used appropriately, use Views in Amazon In this example, the object of interest is an image and Amazon Rekognition is used to analyze the image.
 
 
+- Use Managed ML Services to Build Custom ML Models
+
+![1](https://user-images.githubusercontent.com/23625821/124393253-e14fc180-dcf9-11eb-9ec6-f5809a4673bb.png)
+
+1. Amazon S3 is used as a data lake that holds the raw, modeled, enhanced, and transformed data.
+2. Data transformation code is hosted on AWS Lambda to prepare the raw data for consumption. 
+3. Data transformation code is hosted on AWS Lambda.
+
 
 
