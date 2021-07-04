@@ -148,6 +148,7 @@
 - Train the object detection model using the Amazon SageMaker built-in algorithm
 - Host the model using an Amazon SageMaker endpoint
 
+
 - Deploy the model to the edge on AWS DeepLens:
   a. Convert the model artifacts before you deploy to AWS DeepLens
   b. Optimize the model from your AWS Lambda function on AWS DeepLens
