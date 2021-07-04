@@ -144,7 +144,6 @@
 2. In this architecture, an object detection model is trained on Amazon SageMaker and deployed to an edge device.
 3. The edge device used for this use case is AWS DeepLens, which is a deep-learning-enabled video camera.
 
-
 - Gather, understand, and prepare the bird image dataset
 - Train the object detection model using the Amazon SageMaker built-in algorithm
 - Host the model using an Amazon SageMaker endpoint
@@ -155,4 +154,13 @@
 
 - Perform model inference and bird species identification on AWS DeepLens
 - If you want to deploy an ML model to a platform other than the specific platform that you trained it for, you must first optimize the model using Sagemaker Neo. 
+
+
+
+
+- Model Deployment Approaches 
+
+- Amazon SageMaker provides model hosting services for model deployment, and provides an HTTPS endpoint where the ML model is available to provide inferences.
+- Specify the name of one or more models in production variants, and the ML compute instances
+- Amazon SageMaker launches the ML compute instances and deploys the model, or models, as model can then use the endpoint to make inferences.
 
