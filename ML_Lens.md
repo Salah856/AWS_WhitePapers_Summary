@@ -103,6 +103,19 @@
 8. AWS Acceptable Use Policy (AUP) prohibits customers from using any AWS service, including Amazon Rekognition, to violate the law, and customers who violate our AUP will not be able to use our services.
 
 
+- Reference Architecure
+
+![1](https://user-images.githubusercontent.com/23625821/124392779-b06e8d00-dcf7-11eb-94bd-2c0c6aa0e213.png)
+
+1. Create an Amazon S3 bucket to temporarily store images and enable encryption on the bucket. 
+2. Customer images captured in the retail store are uploaded to the Amazon S3 bucket.
+3. Each image uploaded to Amazon S3 triggers an AWS Lambda function, and you can use facial analysis. 
+
+4. The demographic data is stored in .csv format in a second Amazon S3 bucket.
+5. Amazon Athena reads and loads the demographic data from the .csv files for queries.
+6. To make sure that confidence levels are used appropriately, use Views in Amazon In this example, the object of interest is an image and Amazon Rekognition is used to analyze the image.
+
+
 
 
 
