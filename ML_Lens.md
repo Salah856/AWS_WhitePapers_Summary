@@ -89,3 +89,20 @@
 4. Automate training and evaluation pipeline
 
 
+- Build Intelligent Applications using AWS AI Services
+
+1. When developers use these services, they don’t have to manage the data preparation, data analysis, etc. 
+2. Amazon Comprehend is a natural language processing (NLP) service that uses ML to help you uncover and parts of speech, and because the service understands how positive or negative the text is. 
+3. Amazon Lex is a service for building conversational interfaces into any application using voice and text. 
+
+4. Amazon Polly is a text-to-speech service that uses advanced deep learning technologies to synthesize speech that sounds like a human. 
+5. Amazon Rekognition makes it easy to add image and video analysis to your applications. 
+6. Amazon Transcribe is an automatic speech recognition (ASR) service that makes it easy for you to add speech-to-text capability to your applications files stored in Amazon S3 and have the service return a text file of the transcribed speech. 
+
+7. Amazon Translate is a neural machine translation service that delivers fast, high-quality, and affordable translations. 
+8. AWS Acceptable Use Policy (AUP) prohibits customers from using any AWS service, including Amazon Rekognition, to violate the law, and customers who violate our AUP will not be able to use our services.
+
+
+
+
+
