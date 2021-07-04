@@ -7,9 +7,8 @@
 
 - The Machine Learning Lens is based on five pillars: operational excellence, security, reliability, performance efficiency, and cost optimization. AWS provides multiple core components for ML workloads that enable you to design robust architectures for your ML applications.
 
-- There are two areas that you should evaluate when you build a machine learning workload.
-
-1. Machine Learning Stack 
-2. Phases of ML Workloads 
+- There are two areas that you should evaluate when you build a machine learning workload:
+ 1. Machine Learning Stack 
+ 2. Phases of ML Workloads 
 
 
