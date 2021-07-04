@@ -14,8 +14,9 @@
 - When you build an ML-based workload in AWS, you can choose from different levels of abstraction to ML Services ML Frameworks and Infrastructure. 
 
 -  The AI Services level provides fully managed services that enable you to quickly add ML capabilities
-- The ML Services level provides managed services and resources for machine learning to developers,
+
 - The ML Frameworks and Infrastructure level is intended for expert machine learning practitioners.
+
 
 
 
