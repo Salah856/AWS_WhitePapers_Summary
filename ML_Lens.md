@@ -125,4 +125,21 @@
 3. Data transformation code is hosted on AWS Lambda.
 
 
+- Machine Learning on Edge and on Multiple Platforms
 
+![2](https://user-images.githubusercontent.com/23625821/124393374-836fa980-dcfa-11eb-8ce1-3f162c7d015e.png)
+
+1. Performing inference locally on connected devices running AWS IoT Greengrass reduces latency and cost.
+2. Instead of sending all device data to the cloud to perform ML inference and make a prediction, you can run inference directly on the device. 
+3. Data gathered from the inference running on AWS IoT Greengrass can be sent back to Amazon Sagemaker. 
+
+
+- Reference Architecture 
+
+1. a Bird Species Identification on the Edge use case is shown. 
+
+![1](https://user-images.githubusercontent.com/23625821/124393593-71dad180-dcfb-11eb-89fa-2b96e9a420ae.png)
+
+
+2. In this architecture, an object detection model is trained on Amazon SageMaker and deployed to an edge device.
+3. The edge device used for this use case is AWS DeepLens, which is a deep-learning-enabled video camera.
