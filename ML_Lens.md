@@ -154,4 +154,5 @@
   b. Optimize the model from your AWS Lambda function on AWS DeepLens
 
 - Perform model inference and bird species identification on AWS DeepLens
+- If you want to deploy an ML model to a platform other than the specific platform that you trained it for, you must first optimize the model using Sagemaker Neo. 
 
