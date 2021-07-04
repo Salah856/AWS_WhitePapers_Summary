@@ -18,5 +18,10 @@
 - The ML Frameworks and Infrastructure level is intended for expert machine learning practitioners.
 
 
+- Building and operating a typical ML workload is an iterative process, and consists of multiple phases, like in the following figure.
+
+
+![crisp-dm](https://user-images.githubusercontent.com/23625821/124374931-72457f00-dc9f-11eb-894d-fc75d3d8b5f8.png)
+
 
 
