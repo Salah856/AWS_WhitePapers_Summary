@@ -58,3 +58,15 @@
 3. You can run feature extraction and transformation jobs using ETL services, such as AWS Glue or Amazon. 
 4. You need to remove redundant and irrelevant features (to reduce the noise in the data and reduce correlations). 
 
+
+- Model Training phase: 
+
+1. Amazon SageMaker provides several popular built-in algorithms that can be trained data. 
+2. After you select the algorithm, you can start training on Amazon SageMaker with an API call.
+3. Amazon SageMaker also enables automatic model tuning through hyperparameter tuning jobs.
+
+4. Amazon SageMaker Debugger provides visibility into the ML training process by monitoring, recording. 
+5. Amazon SageMaker Autopilot simplifies the ML training process by handling the data preprocessing. 
+6. Closely monitor your training metrics, because model performance may degrade over time. 
+
+
