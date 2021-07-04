@@ -37,5 +37,3 @@
 1. You have to establish an observable and quantifiable performance metric for the project, such as accuracy. 
 2. You need to formulate the ML question in terms of inputs, desired outputs, and the performance metric to be. 
 
-
-
