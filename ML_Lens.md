@@ -69,4 +69,13 @@
 5. Amazon SageMaker Autopilot simplifies the ML training process by handling the data preprocessing. 
 6. Closely monitor your training metrics, because model performance may degrade over time. 
 
+- Model and Business Evaluation phase: 
 
+1. After the model has been trained, evaluate it to determine its performance and accuracy against the business expectations for the project.
+2.  Plan and execute Production Deployment (Model Deployment and Model Inference). 
+
+3.  After a model is trained, tuned, and tested, you can deploy the model into production, and make inferences (predictions) against the model. 
+4. Amazon SageMaker Neo enables ML models to be trained once and then run anywhere in the cloud and compiled model. 
+
+
+- 
