@@ -37,3 +37,24 @@
 1. You have to establish an observable and quantifiable performance metric for the project, such as accuracy. 
 2. You need to formulate the ML question in terms of inputs, desired outputs, and the performance metric to be. 
 
+- Data Preparation phase: 
+
+1. AWS provides several services that you can use to annotate your data, extract, transfer, and load (ETL) and prepare your data, choose an algorithm, train it, tune and optimize it for deployment, and make ETL jobs on a fully managed, scale-out Apache Spark environment to load your data to its destination. 
+
+2. Amazon SageMaker Inference Pipeline deploys pipelines so that you can pass raw input data and through the data preparation steps. 
+
+- Data Visualization phase: 
+
+1. AWS provides several services that you can use to visualize and analyze data at scale. 
+2. Amazon Athena is a fully managed interactive query service that you can use to query data in Amazon. 
+3. Amazon Kinesis Data Analytics provides real-time analytic capabilities by analyzing streaming data. 
+
+
+- Feature Engineering phase: 
+
+1. Feature engineering is a process to select and transform variables when creating a predictive model. 
+2. Feature extraction is the process of creating new features from existing features. 
+
+3. You can run feature extraction and transformation jobs using ETL services, such as AWS Glue or Amazon. 
+4. You need to remove redundant and irrelevant features (to reduce the noise in the data and reduce correlations). 
+
