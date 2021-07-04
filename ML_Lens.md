@@ -23,5 +23,19 @@
 
 ![crisp-dm](https://user-images.githubusercontent.com/23625821/124374931-72457f00-dc9f-11eb-894d-fc75d3d8b5f8.png)
 
+- In Business Goal Identification phase: 
+
+1. You will want to validate that ML is the appropriate approach to deliver your business goal.
+2. You will need training data to train and benchmark your ML model, but you also need data from the business to evaluate the value of an ML solution.
+
+3. Understand business requirements
+4. Determine a project’s ML feasibility and data requirements
+5. Evaluate the cost of data acquisition, training, inference, and wrong predictions
+
+- In ML Problem Framing Phase: 
+
+1. You have to establish an observable and quantifiable performance metric for the project, such as accuracy. 
+2. You need to formulate the ML question in terms of inputs, desired outputs, and the performance metric to be. 
+
 
 
