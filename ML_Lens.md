@@ -78,4 +78,14 @@
 4. Amazon SageMaker Neo enables ML models to be trained once and then run anywhere in the cloud and compiled model. 
 
 
-- 
+
+
+- General Design Principles 
+ 
+1. Decouple model training and evaluation from model hosting. 
+2. Select resources that best align with specific phases in the data science lifecycle by separating model training, model evaluation, and model hosting resources.
+
+3. Detect data drift over time, continuously measure the accuracy of inference after the model is in
+4. Automate training and evaluation pipeline
+
+
