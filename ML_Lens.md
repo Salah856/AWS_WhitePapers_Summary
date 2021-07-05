@@ -201,7 +201,6 @@ ProductionVariants=[
  2. Ensure Data Governance / Regularatory Compliance 
  3. Enforce Data Lineage
  
- 
 ## Reliability Pillar
 - It includes the ability of a system to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues.
 
@@ -209,7 +208,23 @@ ProductionVariants=[
  1. Manage changes to model input using automation 
  2. Train once and deploy across environments 
  
+## Performance Efficiency Pillar
+- It r focuses on the efficient use of computing resources to meet requirements and how to maintain that efficiency as demand changes and technologies evolve.
+
+### Design Principles 
+ 1. Optimize compute for your ML workload ( GPUs )
+ 2. Define latency and network bandwidth performance requirements for your models 
+ 3. Continuously monitor and measure system performance (memory, compute, netework, etc)
  
+ 
+ ## Cost Optimization Pillar
+ - Itincludes the continual process of refinement and improvement of a system over its entire lifecycle. 
+ 
+ ### Design Principles
+  1. Use managed services to reduce cost of ownership
+  2. Experiment with small datasets
+  3. Right size training and model hosting instances
+  4. Account for inference architecture based on consumption patterns
+  5. Define overall ROI and opportunity cost 
 
 
- 
