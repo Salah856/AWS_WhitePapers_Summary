@@ -227,5 +227,6 @@ ProductionVariants=[
 
 
 ## Security Pillar
+- It includes the ability to protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies.
 
 
