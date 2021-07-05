@@ -188,3 +188,41 @@ ProductionVariants=[{
 3. If success, then the live traffic is switched to the green environment.
 
 
+- Canary Deployment 
+
+1. You can validate a new release with minimal risk by first deploying to a small group of your users. 
+2. Other users continue to use the previous version until you’re satisfied with the new release. 
+3. Then, you can gradually roll the new release out to all users.
+
+
+- A/B Testing 
+
+1. A/B testing is similar to canary testing, but has larger user groups and a longer time scale, typically days or even weeks. 
+2. To begin, configure the settings for both models to balance traffic between the models equally (50/50) and make sure that both models have identical instance configurations. 
+ 
+3. After you have monitored the performance of both models with the initial setting of equal weights, you can either gradually change the traffic weights to put the models out of balance (60/40, 80/20, etc.). 
+
+The following is a sample production variant configuration for A/B testing. 
+
+```py
+
+ProductionVariants=[
+ {
+ 'InstanceType':'ml.m4.xlarge',
+ 'InitialInstanceCount':1,
+ 'ModelName':'model_name_a',
+ 'VariantName':'Model-A',
+ 'InitialVariantWeight':1
+ },
+ {
+ 'InstanceType':'ml.m4.xlarge',
+ 'InitialInstanceCount':1,
+ 'ModelName':'model_name_b',
+ 'VariantName':'Model-B',
+ 'InitialVariantWeight':1
+ }
+])
+
+```
+
+
