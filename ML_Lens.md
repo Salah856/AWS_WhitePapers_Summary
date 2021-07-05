@@ -165,3 +165,26 @@
 - Specify the name of one or more models in production variants, and the ML compute instances
 - Amazon SageMaker launches the ML compute instances and deploys the model, or models, as model can then use the endpoint to make inferences.
 
+
+- Standard Deployment
+
+The following is a sample production variant configuration for a standard deployment. 
+
+```py
+
+ProductionVariants=[{
+ 'InstanceType':'ml.m4.xlarge',
+ 'InitialInstanceCount':1,
+ 'ModelName':model_name,
+ 'VariantName':'AllTraffic'
+}])
+
+```
+
+- Blue/Green Deployments 
+
+1. A live production environment (blue) that runs version n. 
+2. While the blue environment (version n) is processing the live traffic, you test the next release (version n + 1)  
+3. If success, then the live traffic is switched to the green environment.
+
+
