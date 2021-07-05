@@ -196,3 +196,20 @@ ProductionVariants=[
 ## Security Pillar
 - It includes the ability to protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies.
 
+### Design Principles in Security
+ 1. Restrict Access to ML systems (using AWS IAM, Macie, etc)
+ 2. Ensure Data Governance / Regularatory Compliance 
+ 3. Enforce Data Lineage
+ 
+ 
+## Reliability Pillar
+- It includes the ability of a system to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues.
+
+### Design Principles in Reliability
+ 1. Manage changes to model input using automation 
+ 2. Train once and deploy across environments 
+ 
+ 
+
+
+ 
