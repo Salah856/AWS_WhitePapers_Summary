@@ -40,6 +40,12 @@
 -  All CodeGuru Profiler endpoints are secured with SHA-256 certificates. 
 
 
+### Customer Configurable Security in CodeGuru Profiler
+- The profiling agent will operate within your compute instances - such as Amazon Elastic Compute Cloud (Amazon EC2) instances, containers running in Amazon Elastic Container Service (Amazon ECS) or Amazon Elastic Kubernetes Service (Amazon EKS), or serverless functions in AWS Lambda.
+
+- You should ensure that appropriate network security controls are implemented to meet your specific security requirements that relate to how the agents can communicate with the CodeGuru service.
+
+- These could include controls such as the use of VPC endpoints, firewalls or security groups, and other such mechanisms specific to your use cases and network configuration. 
 
 
 
