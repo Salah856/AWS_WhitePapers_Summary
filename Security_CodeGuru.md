@@ -29,4 +29,9 @@
 - It detects anomalies to recommend improvements in code quality. 
 
 #### Heap summary (JVM only) 
-- 
+- Heap memory is allocated to JVM and is shared by all threads in the application.
+- The profiling agent can collect information about objects in the heap over time and securely share this with the service for analysis.
+- Heap summary offers a consolidated view of memory use per object type (e.g. String, int, char[]), and custom types, during a given time frame (usually five minutes). 
+- The data is sampled approximately in line with when a full garbage collection is done, and is sent to the CodeGuru Profiler service every 5 minutes. 
+
+
