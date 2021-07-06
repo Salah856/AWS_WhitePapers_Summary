@@ -9,7 +9,12 @@
 
 - Continuously monitor application performance in production. 
 - It uses machine learning to identify critical issues, security vulnerabilities, and hard-to-find bugs during application development to improve code quality.
+
 - It applies the Shared Responsibilty Principle in Security. 
+- AWS is responsible for managing CodeGuru patching and maintenance of the underlying compute functions. 
+
+- Also, managing service availability, and data encryption in transit and at rest.
+
 
 ### Profiler high-level flow is:
  1. The profiler agent is instantiated (either within your application or via the CLI)
