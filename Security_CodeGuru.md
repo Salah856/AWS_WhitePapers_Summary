@@ -35,3 +35,10 @@
 - The data is sampled approximately in line with when a full garbage collection is done, and is sent to the CodeGuru Profiler service every 5 minutes. 
 
 
+### Encryption of Data at Rest
+- 
+
+
+
+
+
