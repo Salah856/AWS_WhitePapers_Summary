@@ -15,3 +15,12 @@
  2. The agent begins sampling data to send to the service at five-minute intervals
  3. CodeGuru profiler analyzes this data to generate visualizations and actionable recommendations
 
+
+### Data Captured 
+- The CodeGuru Profiler agent is responsible for collecting data from a local instance, and sending it to the service endpoint for analysis.
+- It does this by using language appropriate mechanisms in either the Java Virtual Machine (JVM), or through Python interfaces.
+- The profiler agent does not collect or store your applications source code in any way.
+-There are only two types of data the tool collects to send to the profiler service – stack traces and heap summaries.
+
+#### Stack Traces
+- 
