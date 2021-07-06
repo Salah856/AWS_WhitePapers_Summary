@@ -48,4 +48,5 @@
 - These could include controls such as the use of VPC endpoints, firewalls or security groups, and other such mechanisms specific to your use cases and network configuration. 
 
 
-
+### Considerations for using the profiler agent on-premises
+- 
