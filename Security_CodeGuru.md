@@ -23,4 +23,6 @@
 -There are only two types of data the tool collects to send to the profiler service – stack traces and heap summaries.
 
 #### Stack Traces
-- 
+- A stack trace is a sequence of function or method names in execution. 
+- It does not have access to the names or values of function parameters, or the values of variables or application data.
+- It sends only method names, and profiling statistics such as CPU, memory, etc. 
