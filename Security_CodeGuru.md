@@ -9,7 +9,7 @@
 
 - Continuously monitor application performance in production. 
 - It uses machine learning to identify critical issues, security vulnerabilities, and hard-to-find bugs during application development to improve code quality.
-
+- It applies the Shared Responsibilty Principle in Security. 
 
 ### Profiler high-level flow is:
  1. The profiler agent is instantiated (either within your application or via the CLI)
