@@ -9,4 +9,9 @@
 
 - Continuously monitor application performance in production. 
 - It uses machine learning to identify critical issues, security vulnerabilities, and hard-to-find bugs during application development to improve code quality.
-- 
+
+
+### Profiler high-level flow is:
+ 1. The profiler agent is instantiated (either within your application or via the CLI)
+ 2. The agent begins sampling data to send to the service at five-minute intervals
+ 3. CodeGuru profiler analyzes this data to generate visualizations and actionable recommendations
