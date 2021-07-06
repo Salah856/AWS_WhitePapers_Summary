@@ -26,3 +26,7 @@
 - A stack trace is a sequence of function or method names in execution. 
 - It does not have access to the names or values of function parameters, or the values of variables or application data.
 - It sends only method names, and profiling statistics such as CPU, memory, etc. 
+- It detects anomalies to recommend improvements in code quality. 
+
+#### Heap summary (JVM only) 
+- 
