@@ -51,5 +51,11 @@
 ### Considerations for using the profiler agent on-premises
 - Customers can choose to enable the CodeGuru Profiler service to instrument applications running outside of their AWS accounts. 
 - Agent will run in your on-premises servers and will continue to post data to the AWS account where your CodeGuru profiling group exists. 
-- You should consider networking between your application servers and AWS and authentication credentials.
+- You should consider networking between your application servers and AWS and authentication credentials through direct internet access, VPN and AWS Direct Connect. 
+
+### Using AWS Config for Security 
+- AWS Config is a service that enables you to assess, audit, and evaluate the configurations of your AWS resources.
+- It monitors and records your AWS resource configurations and provides you with the ability to define rules for provisioning & configuring resources
+- Currently there are no AWS Config Managed Rules for events related to CodeGuru, but you can use Rule Development Kit (RDK) to develop a rule for tracking and alerting in CodeGuru Profiler. 
+
 
