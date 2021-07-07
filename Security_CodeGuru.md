@@ -68,5 +68,11 @@
   1. AmazonCodeGuruProfilerReadOnlyAccess
   2. AmazonCodeGuruProfilerFullAccess
   
--   
+### Policy Best Practices
+- Get started using AWS managed policies 
+- Grant least privilege
+- Enable MFA for sensitive operations
+- Use policy conditions for extra security 
+
+
 
