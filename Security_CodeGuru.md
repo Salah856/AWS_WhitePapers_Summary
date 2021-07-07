@@ -79,4 +79,15 @@
    1. codeguru-profiler:ConfigureAgent
    2. codeguru-profiler:PostAgentProfile 
   
+```py
+{  "Statement": [{"Effect": "Allow",
+   "Action": [
+     "codeguru-profiler:ConfigureAgent",
+     "codeguru-profiler:PostAgentProfile"
+   ],
+   "Resource": "arn:aws:codeguru-profiler:<region>:<accountID>:profilingGroup/profilingGroupName"
+  }]
+}
+
+```
 
