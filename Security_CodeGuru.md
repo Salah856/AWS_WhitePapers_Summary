@@ -109,3 +109,19 @@
 }
 ```
 
+#### Service-linked roles for CodeGuru Profiler
+- CodeGuru Profiler uses AWS Identity and Access Management (IAM) service-linked roles. 
+- Service-linked roles are predefined by CodeGuru and include all the permissions that the service requires to call other AWS services on your behalf.
+
+```py
+{ "Version": "2012-10-17",
+  "Statement": [{
+     "Sid": "AllowSNSPublishToSendNotifications",
+     "Effect": "Allow",
+     "Action": [ "sns:Publish" ],
+     "Resource": "*"
+  }]
+}
+
+```
+
