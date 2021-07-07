@@ -125,3 +125,12 @@
 
 ```
 
+### Logging
+- CodeGuru Profiler is integrated with AWS CloudTrail.
+- By enabling CloudTrail in the AWS Management Console, you can receive a history of CodeGuru API calls made on your account.
+
+### Monitoring
+- You can use Amazon CloudWatch to monitor the number of recommendations created for your source code for an associated profiling group.
+- You can set a CloudWatch alarm that notifies you when the number of recommendations exceeds a threshold you set.
+- You can specify that an Amazon SNS notification is sent when more than 25 recommendations are generated for a branch in a repository within an hour. 
+
