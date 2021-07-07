@@ -58,4 +58,15 @@
 - It monitors and records your AWS resource configurations and provides you with the ability to define rules for provisioning & configuring resources
 - Currently there are no AWS Config Managed Rules for events related to CodeGuru, but you can use Rule Development Kit (RDK) to develop a rule for tracking and alerting in CodeGuru Profiler. 
 
+### Access management
+- CodeGuru Profiler service is integrated with IAM to allow for permissions control of CodeGuru Profiler resources.
+- IAM provides two policy types for resource access authorization:
+  1. Resource policies
+  2. Identity-based policies
+
+- CodeGuru Profiler provides two managed policies:
+  1. AmazonCodeGuruProfilerReadOnlyAccess
+  2. AmazonCodeGuruProfilerFullAccess
+  
+-   
 
