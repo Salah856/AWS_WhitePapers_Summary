@@ -134,3 +134,4 @@
 - You can set a CloudWatch alarm that notifies you when the number of recommendations exceeds a threshold you set.
 - You can specify that an Amazon SNS notification is sent when more than 25 recommendations are generated for a branch in a repository within an hour. 
 
+
