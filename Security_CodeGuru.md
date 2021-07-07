@@ -49,4 +49,7 @@
 
 
 ### Considerations for using the profiler agent on-premises
-- 
+- Customers can choose to enable the CodeGuru Profiler service to instrument applications running outside of their AWS accounts. 
+- Agent will run in your on-premises servers and will continue to post data to the AWS account where your CodeGuru profiling group exists. 
+- You should consider networking between your application servers and AWS and authentication credentials.
+
