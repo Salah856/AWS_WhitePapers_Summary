@@ -92,3 +92,20 @@
 
 ```
 
+#### Permissions required to access CodeGuru Profiler data 
+- Data collected and submitted to CodeGuru Profiler by an agent is used to create application profiles for visualizations: 
+   1. codeguru-profiler:GetProfile
+   2. codeguru-profiler:DescribeProfilingGroup 
+ 
+```py
+{"Statement": [{
+    "Effect": "Allow",
+    "Action": [
+      "codeguru-profiler:GetProfile",
+      "codeguru-profiler:DescribeProfilingGroup"
+    ],
+    "Resource": "arn:aws:codeguru-profiler:<region>:<accountID>:profilingGroup/profilingGroupName"
+ }]
+}
+```
+
