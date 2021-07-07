@@ -74,5 +74,9 @@
 - Enable MFA for sensitive operations
 - Use policy conditions for extra security 
 
-
+#### Permissions required by the CodeGuru Profiler profiling agent 
+- The following permissions are required to submit data to CodeGuru Profiler:  
+   1. codeguru-profiler:ConfigureAgent
+   2. codeguru-profiler:PostAgentProfile 
+  
 
