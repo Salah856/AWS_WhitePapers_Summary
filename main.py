@@ -30,3 +30,5 @@ def main():
     with open(pickle_full_path, "wb") as file:
          pickle.dump(model, file)
          print("Model is saved as {}".format(pickle_full_path))
+
+        
