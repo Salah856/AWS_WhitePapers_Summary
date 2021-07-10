@@ -46,4 +46,6 @@
     2. You can have a shadow model deployed side by side with the current one to monitor its performance before promoting it.
     3. You can have competing models being actively used by different segments of the user base.
     4. Or you can have online learning models that are continuously improving with the arrival of new data.
-    
+
+- Elastic cloud infrastructure is a key enabler for implementing these different deployment scenarios while minimizing any potential downtime, allowing you to scale the infrastructure up and down on-demand, as they are rolled out.
+
