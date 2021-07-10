@@ -16,3 +16,6 @@
    3. Machine learning engineers or developers then have to worry about how to integrate that model and release it to production.
    4. When these groups work in separate siloes, there is a high risk of creating friction in the process and delivering suboptimal results.
 
+
+## Continuous Delivery for Machine Learning (CD4ML) 
+- 
