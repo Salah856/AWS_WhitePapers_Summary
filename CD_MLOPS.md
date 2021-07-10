@@ -25,4 +25,25 @@
 
 ![1](https://user-images.githubusercontent.com/23625821/125156449-bb954300-e165-11eb-947c-e9bce2502e84.png)
 
+#### Model Building 
+- Once the need for a machine learning system is found, data scientists will research and experiment to develop the best model, by trying different combinations of algorithms, and tuning their parameters and hyperparameters.
 
+#### Model Evaluation
+- As the data science process is very research-oriented, it is common that there will be multiple experiments running in parallel, and many of them will never make their way to production.
+- Your CD4ML architecture will need to support tracking, visualizing, comparing results from different runs, as well as to support the graduation and promotion of models that prove to be useful.
+
+#### Productionize the Model
+- There will always be an implicit contract (API) between the model and how it is consumed.
+
+#### Testing & Quality
+- While you cannot write a deterministic test to assert the model score from a given training run, the CD4ML process can automate the collection of such metrics and track their trend over time.
+- This allows you to introduce quality gates that fail when they cross a configurable threshold and to ensure that models don’t degrade against known performance baselines.
+
+#### Deployment
+- Once a good candidate model is found, it must be deployed to production.
+-  There are different approaches to do that with minimal disruption: 
+    1. You can have multiple models performing the same task for different partitions of the problem.
+    2. You can have a shadow model deployed side by side with the current one to monitor its performance before promoting it.
+    3. You can have competing models being actively used by different segments of the user base.
+    4. Or you can have online learning models that are continuously improving with the arrival of new data.
+    
