@@ -60,3 +60,11 @@
 ![2](https://user-images.githubusercontent.com/23625821/125157024-dddc9000-e168-11eb-9742-9e69e6498bac.png)
 
 
+- This whitepaper showcases MLOps solutions from AWS and the following AWS Partner Network (APN) companies that can deliver on the previously mentioned requirements:
+  - Alteryx
+  - Dataiku
+  - Domino Data Lab
+  - KNIME
+
+- These solutions offer a broad spectrum of experiences that cater to builders and those who desire no-to-low-code experiences. AWS and the APN provide you with choices and the ability to tailor solutions that best fit your organization.
+
