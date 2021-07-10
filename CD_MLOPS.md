@@ -8,6 +8,6 @@
 - This happens because there are a higher number of: 
   1. changing artifacts to be managed. 
   2. In addition to the software code, such as the datasets, the machine learning models, and the parameters and hyperparameters used by such models.
-  3.And the size and portability of such artifacts can be orders of magnitude higher than the software code.
+  3. And the size and portability of such artifacts can be orders of magnitude higher than the software code.
   
   
