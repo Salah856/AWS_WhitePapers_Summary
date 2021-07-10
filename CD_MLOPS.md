@@ -49,3 +49,14 @@
 
 - Elastic cloud infrastructure is a key enabler for implementing these different deployment scenarios while minimizing any potential downtime, allowing you to scale the infrastructure up and down on-demand, as they are rolled out.
 
+#### Monitoring and observability and closing the feedback loop 
+- Once the model is live, you will need the monitoring and observability infrastructure to understand how it is performing in production against real data.
+- By capturing this data, you can close the data feedback loop. A human in the loop can analyze the new data captured from production, curate, and label it to create new training datasets for improving future models. 
+- This enables models to adapt and creates a process of continuous improvement.
+
+
+### CD4ML Technical Components 
+
+![2](https://user-images.githubusercontent.com/23625821/125157024-dddc9000-e168-11eb-9742-9e69e6498bac.png)
+
+
