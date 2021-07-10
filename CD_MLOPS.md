@@ -6,12 +6,13 @@
 - Creating a process to operationalize ML systems enables organizations to leverage the new and endless opportunities of machine learning to optimize processes and products. 
 - Using ML models in software development makes it difficult to achieve versioning, quality control, reliability, reproducibility, explainability, and audibility in that process.
 - This happens because there are a higher number of: 
-  1. changing artifacts to be managed. 
-  2. In addition to the software code, such as the datasets, the machine learning models, and the parameters and hyperparameters used by such models.
-  3. And the size and portability of such artifacts can be orders of magnitude higher than the software code.
+   1. changing artifacts to be managed. 
+   2. In addition to the software code, such as the datasets, the machine learning models, and the parameters and hyperparameters used by such models.
+   3. And the size and portability of such artifacts can be orders of magnitude higher than the software code.
   
 - There are also organizational challenges.
- 1. Different teams might own different parts of the process and have their own ways of working.
- 2. Data engineers might be building pipelines to make data accessible, while data scientists can be researching and exploring better models.
- 3. Machine learning engineers or developers then have to worry about how to integrate that model and release it to production.
- 4. When these groups work in separate siloes, there is a high risk of creating friction in the process and delivering suboptimal results.
+   1. Different teams might own different parts of the process and have their own ways of working.
+   2. Data engineers might be building pipelines to make data accessible, while data scientists can be researching and exploring better models.
+   3. Machine learning engineers or developers then have to worry about how to integrate that model and release it to production.
+   4. When these groups work in separate siloes, there is a high risk of creating friction in the process and delivering suboptimal results.
+
