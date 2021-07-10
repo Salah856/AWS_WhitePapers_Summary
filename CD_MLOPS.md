@@ -66,5 +66,6 @@
   - Domino Data Lab
   - KNIME
 
-- These solutions offer a broad spectrum of experiences that cater to builders and those who desire no-to-low-code experiences. AWS and the APN provide you with choices and the ability to tailor solutions that best fit your organization.
+- These solutions offer a broad spectrum of experiences that cater to builders and those who desire no-to-low-code experiences.
+- AWS and the APN provide you with choices and the ability to tailor solutions that best fit your organization.
 
