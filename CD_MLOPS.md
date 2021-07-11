@@ -76,3 +76,7 @@
 - Alteryx Server – an analytical hub that allows users to scale their analytic capabilities in the cloud or on premises on enterprise hardware
 - Alteryx Promote – a deployable, containerized solution that enables the easy deployment of machine learning models as highly available REST APIs
 
+![1](https://user-images.githubusercontent.com/23625821/125181648-3d897880-e207-11eb-8d21-defccf3741e1.png)
+
+
+
