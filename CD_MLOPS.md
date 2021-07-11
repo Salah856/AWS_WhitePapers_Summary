@@ -69,3 +69,10 @@
 - These solutions offer a broad spectrum of experiences that cater to builders and those who desire no-to-low-code experiences.
 - AWS and the APN provide you with choices and the ability to tailor solutions that best fit your organization.
 
+#### Alteryx
+- Alteryx Connect – a collaborative data cataloging tool
+- Alteryx Designer – desktop software that enables the assembly of code-free analytic workflows and apps
+
+- Alteryx Server – an analytical hub that allows users to scale their analytic capabilities in the cloud or on premises on enterprise hardware
+- Alteryx Promote – a deployable, containerized solution that enables the easy deployment of machine learning models as highly available REST APIs
+
