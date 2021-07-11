@@ -1,8 +1,5 @@
-
 # MLOps: Operationalizing ML on AWS 
-
 - In modern software development, continuous delivery (CD) principles have significantly improved the throughput of delivering software to production in a safe, continuous, and reliable way and helped to avoid big, disruptive, and error prone deployments. 
-
 - Creating a process to operationalize ML systems enables organizations to leverage the new and endless opportunities of machine learning to optimize processes and products. 
 - Using ML models in software development makes it difficult to achieve versioning, quality control, reliability, reproducibility, explainability, and audibility in that process.
 - This happens because there are a higher number of: 
@@ -16,13 +13,11 @@
    3. Machine learning engineers or developers then have to worry about how to integrate that model and release it to production.
    4. When these groups work in separate siloes, there is a high risk of creating friction in the process and delivering suboptimal results.
 
-
 ## Continuous Delivery for Machine Learning (CD4ML) 
 - CD4ML is a software engineering approach in which a cross-functional team produces machine learning applications based on code, data, and models in small and safe increments that can be reproduced and reliably released at any time, in short adaptation cycles. 
 - it requires a feedback loop: The real- world data is continuously changing and the models in productions are continuously monitored, leading to adaptations and improvements by re-training of the models and the re-iteration of the whole process. 
 
 ### CD4ML Process Steps
-
 ![1](https://user-images.githubusercontent.com/23625821/125156449-bb954300-e165-11eb-947c-e9bce2502e84.png)
 
 #### Model Building 
@@ -54,11 +49,9 @@
 - By capturing this data, you can close the data feedback loop. A human in the loop can analyze the new data captured from production, curate, and label it to create new training datasets for improving future models. 
 - This enables models to adapt and creates a process of continuous improvement.
 
-
 ### CD4ML Technical Components 
 
 ![2](https://user-images.githubusercontent.com/23625821/125157024-dddc9000-e168-11eb-9742-9e69e6498bac.png)
-
 
 - This whitepaper showcases MLOps solutions from AWS and the following AWS Partner Network (APN) companies that can deliver on the previously mentioned requirements:
   - Alteryx
@@ -78,5 +71,9 @@
 
 ![1](https://user-images.githubusercontent.com/23625821/125181648-3d897880-e207-11eb-8d21-defccf3741e1.png)
 
+#### Dataiku 
+- Dataiku is one of the world’s leading AI and machine learning platforms, supporting agility in organizations’ data efforts via collaborative, elastic, and responsible AI, all at enterprise scale.
+- Dataiku provides a unified user interface (UI) to orchestrate the entire machine learning lifecycle, from data connectivity, preparation, and exploration to machine learning model building, deployment, monitoring, and everything in between.
 
+![2](https://user-images.githubusercontent.com/23625821/125205365-1f149300-e282-11eb-975e-0ad3c305bb8e.png)
 
