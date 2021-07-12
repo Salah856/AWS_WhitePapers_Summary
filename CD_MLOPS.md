@@ -77,3 +77,16 @@
 
 ![2](https://user-images.githubusercontent.com/23625821/125205365-1f149300-e282-11eb-975e-0ad3c305bb8e.png)
 
+#### Domino Data Lab 
+- It was founded to accelerate the work of code-first data scientists & help organizations run core components of their business on the models they develop. 
+- It pioneered the Data Science Platforms category, and today powers data science research at over 20% of Fortune 100 companies.
+
+- Domino brings order to the chaos of enterprise data science through:
+  - Instant access to compute – IT-approved, self-service, elastic
+  - Data, code, environment, and model management – automatically versioned, searchable, shareable, and always accessible
+  - Openness – open source and proprietary IDEs and analytical software, all containerized under one platform and deployed on premises or in the cloud
+  - Full reproducibility of research – central knowledge management framework, with all units of work tied together
+  - Collaboration – for teams and for enterprises, with access to comprehensive search capabilities to share all key assets and collaborate on projects
+  - Easy deployment – models, web apps, other data products
+  - Platform and project management – best-in-class governance and security for IT and data science leaders
+
