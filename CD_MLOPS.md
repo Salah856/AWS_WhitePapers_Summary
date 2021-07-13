@@ -26,7 +26,7 @@
 
 #### Model Building 
 - Once the need for a machine learning system is found, data scientists will research and experiment to develop the best model, by trying different combinations of algorithms, and tuning their parameters and hyperparameters.
-
+- 
 #### Model Evaluation
 - As the data science process is very research-oriented, it is common that there will be multiple experiments running in parallel, and many of them will never make their way to production.
 - Your CD4ML architecture will need to support tracking, visualizing, comparing results from different runs, as well as to support the graduation and promotion of models that prove to be useful.
