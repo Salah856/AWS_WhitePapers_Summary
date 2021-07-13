@@ -101,3 +101,5 @@
 - KNIME on AWS: 
   - Both KNIME Analytics Platform and KNIME Server are offered in various forms in the <a href="https://docs.knime.com/2019-06/aws_marketplace_server_guide/index.html#introduction"> AWS Marketplace </a>. 
    
+### AWS Reference Architecture
+- 
