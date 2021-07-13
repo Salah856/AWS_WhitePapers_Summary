@@ -105,3 +105,13 @@
 
 ![1](https://user-images.githubusercontent.com/23625821/125401941-1cb25600-e3b4-11eb-8dfb-cc67db76ac41.png)
 
+### Conclusion
+- The APN ML community provides customers with a choice of outstanding solutions for MLOps.
+- The following links can help you facilitate the next steps.
+  - AWS – Connect with vetted MLOps consultants and try Amazon SageMaker for free.
+  - Alteryx – Get started with the Alteryx Intelligence Suite Starter Kit.
+  - Dataiku – Launch a free-trial of Dataiku DSS from the AWS Marketplace.
+  - Domino Data Lab – Launch a free-trial of Domino Data Lab’s managed offering.
+  - KNIME – Launch a free-trial of the KNIME Server from the AWS Marketplace.
+  - ThoughtWorks – Learn more about ThoughtWorks’ CD4ML.
+  
