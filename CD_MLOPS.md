@@ -102,4 +102,6 @@
   - Both KNIME Analytics Platform and KNIME Server are offered in various forms in the <a href="https://docs.knime.com/2019-06/aws_marketplace_server_guide/index.html#introduction"> AWS Marketplace </a>. 
    
 ### AWS Reference Architecture
-- 
+
+![1](https://user-images.githubusercontent.com/23625821/125401941-1cb25600-e3b4-11eb-8dfb-cc67db76ac41.png)
+
