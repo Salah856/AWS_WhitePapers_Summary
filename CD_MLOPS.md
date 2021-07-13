@@ -1,4 +1,8 @@
+
 # MLOps: Operationalizing ML on AWS 
+
+  ## AWS_WhitePaper_Summary 
+
 - In modern software development, continuous delivery (CD) principles have significantly improved the throughput of delivering software to production in a safe, continuous, and reliable way and helped to avoid big, disruptive, and error prone deployments. 
 - Creating a process to operationalize ML systems enables organizations to leverage the new and endless opportunities of machine learning to optimize processes and products. 
 - Using ML models in software development makes it difficult to achieve versioning, quality control, reliability, reproducibility, explainability, and audibility in that process.
