@@ -91,4 +91,7 @@
   - Platform and project management – best-in-class governance and security for IT and data science leaders
 
 #### KNIME
+- KNIME is software used to create and productionize data science in one easy and intuitive environment.
+- This enables every stakeholder in the data science process to focus on what they do best.
+- KNIME supports the data science lifecycle from data discovery to production model deployment, all with a single workflow paradigm.
 - 
