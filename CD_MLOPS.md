@@ -90,3 +90,5 @@
   - Easy deployment – models, web apps, other data products
   - Platform and project management – best-in-class governance and security for IT and data science leaders
 
+#### KNIME
+- 
