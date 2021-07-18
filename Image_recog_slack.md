@@ -29,7 +29,10 @@
 
 ### Create Amazon AppFlow Integration with your Slack workspace
 - First you have to create a Slack app, <a href="https://api.slack.com/authentication/basics"> for more details </a> . 
-- 
+- Now follow these steps to conﬁgure the Amazon AppFlow integration: 
+   1. Navigate to the Amazon AppFlow console and choose Create ﬂow.
+   2. In Step 1 (Specify ﬂow details) of the creation process, enter a Flow name, and optionally, a description. For the purposes of this demo, leave the Data     encryption setting as it is. Optionally, enter any tags you’d like for the ﬂow.
+   3. Choose Next.
 
 
 
