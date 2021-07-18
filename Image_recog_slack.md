@@ -15,9 +15,11 @@
 -  Such as Explicit Nudity, Suggestive, Violence, and Visually Disturbing.
 -  You can now detect six new categories: Drugs, Tobacco, Alcohol, Gambling, Rude Gestures, and Hate Symbols.
 
+- Amazon AppFlow is a fully managed integration service that enables you to securely transfer data between Software-as-a-Service (SaaS) applications like Salesforce, Marketo, Slack, and ServiceNow, and AWS services like S3, Redshift, in just a few clicks.
+-  This solution leverages Amazon AppFlow to capture the content posted in Slack channels for analysis using Amazon Rekognition.
 
-
-
+- It's supposed that reader of this document has an account/workspace on AWS and Slack, also S3 bucket accessibility. 
+- 
 
 
 ### References
