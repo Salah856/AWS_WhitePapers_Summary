@@ -10,7 +10,10 @@
      - medical
      - private
 
-
+- Amazon Rekognition content moderation is a deep learning-based service that can detect inappropriate, or oﬀensive images & videos, making it easier to ﬁnd and remove such content at scale.
+- It provides a detailed taxonomy of moderation categories. 
+-  Such as Explicit Nudity, Suggestive, Violence, and Visually Disturbing.
+-  You can now detect six new categories: Drugs, Tobacco, Alcohol, Gambling, Rude Gestures, and Hate Symbols.
 
 
 
