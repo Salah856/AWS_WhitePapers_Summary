@@ -18,7 +18,8 @@
 - Amazon AppFlow is a fully managed integration service that enables you to securely transfer data between Software-as-a-Service (SaaS) applications like Salesforce, Marketo, Slack, and ServiceNow, and AWS services like S3, Redshift, in just a few clicks.
 -  This solution leverages Amazon AppFlow to capture the content posted in Slack channels for analysis using Amazon Rekognition.
 
-- It's supposed that reader of this document has an account/workspace on AWS and Slack, also S3 bucket accessibility. 
+- It's supposed that reader of this document has an account/workspace on AWS and Slack, also S3 bucket accessibility.
+- Also, client credetials for this services will be used.  
 - This solution doesn't require any prior machine learning (ML) expertise, or development of your own custom ML models.
 
 ## Architecture overview
