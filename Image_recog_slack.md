@@ -56,9 +56,9 @@
    
    ![6](https://user-images.githubusercontent.com/23625821/126064515-dfbdbdcf-4ae2-4925-93ad-f48d08e7bb4d.png)
    
-   14. With the Slack workspace connected, and the channel for moderation selected, you can move on to conﬁguring the Destination details. First, choose Amazon S3     from the Destination name dropdown list.
+   14. With the Slack workspace connected, and the channel for moderation selected, you can move on to conﬁguring the Destination details. First, choose Amazon S3 from the Destination name dropdown list.
     
-    ![7](https://user-images.githubusercontent.com/23625821/126064535-32d96be2-af4f-46b7-85f4-79dd2e178748.png)
+  ![7](https://user-images.githubusercontent.com/23625821/126064535-32d96be2-af4f-46b7-85f4-79dd2e178748.png)
     
     
 
