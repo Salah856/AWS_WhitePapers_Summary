@@ -43,8 +43,10 @@
   ![3](https://user-images.githubusercontent.com/23625821/126064279-d5b32388-de1a-4216-b1c2-27d485cfaf3f.png) 
    7. A Choose Slack connection dropdown list appears. From this list, choose Create new connection:
    ![4](https://user-images.githubusercontent.com/23625821/126064307-fdc5e466-2301-4358-89c1-9a69d651ec10.png)
-
-
+   8. Enter your Slack workspace address (for example, testingslackdevgroup.slack.com), and Client ID and Client Secret generated when created the Slack App.
+   9. Give your connection a name on the Connect to Slack popup window.
+   10. Choose Continue.
+   11. 
 
 
 ### References
