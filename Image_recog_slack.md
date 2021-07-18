@@ -51,6 +51,21 @@
    ![5](https://user-images.githubusercontent.com/23625821/126064352-d3841ee3-5111-485a-bf60-40e9a4785111.png)
    
    11. A window pops up with a conﬁrmation prompt to allow permissions. Choose Allow.
+   12. Your new connection is conﬁgured & displayed in the Choose Slack connection dropdown list, and a new Choose Slack object dropdown list appears directly below it. Choose Conversations.
+   13. A new dropdown appears directly below Choose Slack channel. From this list, choose the Slack channel that you would like to perform content moderation on.
+   
+   ![6](https://user-images.githubusercontent.com/23625821/126064515-dfbdbdcf-4ae2-4925-93ad-f48d08e7bb4d.png)
+   
+   14. With the Slack workspace connected, and the channel for moderation selected, you can move on to conﬁguring the Destination details. First, choose Amazon S3     from the Destination name dropdown list.
+    
+    ![7](https://user-images.githubusercontent.com/23625821/126064535-32d96be2-af4f-46b7-85f4-79dd2e178748.png)
+    
+    
+
+
+
+   
+
 
 
 
