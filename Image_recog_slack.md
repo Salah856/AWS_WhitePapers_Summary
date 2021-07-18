@@ -19,7 +19,19 @@
 -  This solution leverages Amazon AppFlow to capture the content posted in Slack channels for analysis using Amazon Rekognition.
 
 - It's supposed that reader of this document has an account/workspace on AWS and Slack, also S3 bucket accessibility. 
-- 
+- This solution doesn't require any prior machine learning (ML) expertise, or development of your own custom ML models.
+
+## Architecture overview
+- This solution uses serverless technologies and managed services to be scalable and cost-eﬀective.
+-  By using an event-driven architecture that incorporates AWS Lambda and SQS, you can decouple image detection and image processing without provisioning or managing any servers.
+
+![1](https://user-images.githubusercontent.com/23625821/126063940-44fdd366-c750-4643-9dd7-ccf5bfd0ca69.png)
+
+
+
+
+
+
 
 
 ### References
