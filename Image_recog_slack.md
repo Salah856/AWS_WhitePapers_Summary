@@ -37,7 +37,12 @@
    5. Choose Next.
 
 ![2](https://user-images.githubusercontent.com/23625821/126064238-b2f9535e-6989-4941-b5e0-f2dfbe7d13eb.png)
+   
+   6. In Step 2 (Conﬁgure ﬂow), choose the Source name dropdown list and choose Slack from the list of options:
 
+  ![3](https://user-images.githubusercontent.com/23625821/126064279-d5b32388-de1a-4216-b1c2-27d485cfaf3f.png) 
+   7. A Choose Slack connection dropdown list appears. From this list, choose Create new connection:
+   ![4](https://user-images.githubusercontent.com/23625821/126064307-fdc5e466-2301-4358-89c1-9a69d651ec10.png)
 
 
 
