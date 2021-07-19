@@ -71,7 +71,38 @@
 
 ### Create a Lambda function to process ﬁles in the S3 bucket that contain new Slack messages
 - Because the Lambda function needs to store the image URLs it ﬁnds into a new SQS queue, ﬁrst create that queue by following the steps outlined in <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-getting-started.html"> Getting started with Amazon SQS </a> . Name this queue new-image-findings.
-- 
+- Navigate to the Lambda console. Choose Create Function and choose the option to Use a blueprint, then provide a ﬁlter called hello. This displays the hello-world-python blueprint in the results at the bottom.
+- Choose configure button. 
+![1](https://user-images.githubusercontent.com/23625821/126112592-817babf5-ac06-454d-b011-a9461f09c8da.png)
+
+- On the next screen, provide a name for your new function called process-new-messages, and create a new IAM role called process-new-messages-lambda-role using the available “Amazon S3 object read-only permissions” template. This role will need to be customized in a later step.
+![1](https://user-images.githubusercontent.com/23625821/126112771-428e2b13-8607-41d0-95bd-d260feb831e8.png)
+
+- After the function has been created, choose the Permissions tab. 
+- Choose the role name to open a second window where you can view the two policies applied to this role.
+![1](https://user-images.githubusercontent.com/23625821/126113013-01ef6b4c-2c16-4a9b-a380-00545db4f01f.png)
+
+- Expand each policy to view the permissions details. The policy named AWSLambdaBasicExecutionRole-* grants the necessary permissions for the function to log
+information in CloudWatch. The policy named AWSLambdaS3ExecutionRole-* provides S3 permissions and needs to be modiﬁed. To modify the policy, choose Edit Policy and switch to the JSON view to customize this policy. The ﬁnal permissions statement should appear as follows:
+
+```json 
+"Statement": [
+{
+"Action": [
+"s3:GetObject*",
+"s3:GetBucket*",
+"s3:List*"
+],
+"Resource": [
+"arn:aws:s3:::slack-moderation-output",
+"arn:aws:s3:::slack-moderation-output/*"
+],
+"Effect": "Allow"
+}
+]
+```
+
+
 
 
    
