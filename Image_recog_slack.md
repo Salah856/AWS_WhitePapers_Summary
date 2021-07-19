@@ -86,20 +86,18 @@
 information in CloudWatch. The policy named AWSLambdaS3ExecutionRole-* provides S3 permissions and needs to be modiﬁed. To modify the policy, choose Edit Policy and switch to the JSON view to customize this policy. The ﬁnal permissions statement should appear as follows:
 
 ```json 
-"Statement": [
-{
-"Action": [
-"s3:GetObject*",
-"s3:GetBucket*",
-"s3:List*"
-],
-"Resource": [
-"arn:aws:s3:::slack-moderation-output",
-"arn:aws:s3:::slack-moderation-output/*"
-],
-"Effect": "Allow"
-}
-]
+"Statement": [{
+  "Action": [
+   "s3:GetObject*",
+   "s3:GetBucket*",
+   "s3:List*"
+ ],
+  "Resource": [
+     "arn:aws:s3:::slack-moderation-output",
+     "arn:aws:s3:::slack-moderation-output/*"
+ ],
+  "Effect": "Allow"
+}]
 ```
 
 
