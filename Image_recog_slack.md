@@ -59,9 +59,19 @@
    14. With the Slack workspace connected, and the channel for moderation selected, you can move on to conﬁguring the Destination details. First, choose Amazon S3 from the Destination name dropdown list. Select S3. 
     
   ![7](https://user-images.githubusercontent.com/23625821/126064535-32d96be2-af4f-46b7-85f4-79dd2e178748.png)
-    
-    
+  15. A new section titled Flow trigger appears with two options: Run on demand or Run ﬂow on schedule. Choose the second option, and conﬁgure the schedule to run every one (1) minute.
+  16. When you choose this option, the Incremental Transfer option is auto-selected. Enter a value for Starting at and Start date.
+  17. In Step 3 (Map data ﬁelds), you have the option to perform transformations on the data ﬁelds. Choose Manually map ﬁelds.
+  18. From the Source ﬁeld name dropdown, select Map all ﬁelds directly. This creates a mapping of all the ﬁelds without any transformations.
+  19. Choose Next.
+  20. In Step 4 (Add ﬁlters), you have the option to perform ﬁltering on the data. Do not add any ﬁlters here, simply choose Next to continue.
+  21. On the Review and Create screen, a summary of all your selections from previous steps is shown. Review these for accuracy, then scroll to the bottom of page and choose Create ﬂow.
+  22.After the ﬂow has been created, on the following screen, choose the Activate ﬂow button.
+ 
 
+### Create a Lambda function to process ﬁles in the S3 bucket that contain new Slack messages
+- Because the Lambda function needs to store the image URLs it ﬁnds into a new SQS queue, ﬁrst create that queue by following the steps outlined in <a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-getting-started.html"> Getting started with Amazon SQS </a> . Name this queue new-image-findings.
+- 
 
 
    
