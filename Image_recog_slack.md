@@ -248,6 +248,18 @@ Note that the following Resource elements need to be updated with the correct AR
 
 ```
 
+12. Choose Review policy.
+13. Enter a name for this policy and choose Create policy.
+14. With the permissions conﬁgured, switch back to the Conﬁguration tab in the Lambda function window, and paste the following code into the Function code section:
+
+```py
+
+
+
+
+```
+
+
 
 
 ### References
