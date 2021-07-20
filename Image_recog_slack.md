@@ -339,16 +339,83 @@ def lambda_handler(event, context):
         if disallowed_word.lower() in detected_text.lower():
             found_words.append(disallowed_word)
             print("WORD VIOLATION: " + disallowed_word.lower() + " found in " + detected_text.lower())
-            
-      
-   
-   
-   
-   
-   
-   
-   
-   
+        
+        violating_words = ", ".join(found_words)
+        if not violating_words == "":
+          attributes_json = {}
+          attributes_json["slack_msg_id"] = slack_msg_id
+          attributes_json["image_url"] = image_url
+          sendToSqS(violating_words, attributes_json, violations)
+        
+        detected_themes = analyze_themes(file_name)
+        print("Detected Themes: " + ", ".join(detected_themes))
+        
+        found_themes = []
+        for disallowed_theme in disallowed_themes:
+          if disallowed_theme in detected_themes:
+              found_themes.append(disallowed_theme)
+              print("THEME VIOLATION: " + disallowed_theme + " found in image")
+          
+        violating_themes = ", ".join(found_themes)
+          if not violating_themes == "":
+              attributes_json = {}
+              attributes_json["slack_msg_id"] = slack_msg_id
+              attributes_json["image_url"] = image_url
+              
+              sendToSqS(violating_themes, attributes_json, violations)
+              
+```
+
+- After you have pasted the code, update the violations variable in the function handler with the correct ARN for the new-violation-findings SQS queue which  contains your actual account number.
+
+- Choose Deploy.
+
+To ensure that your SQS queues cannot be accessed by resources outside the account, SQS permissions policies can be applied to each of the queues.
+
+To apply permissions policies:
+
+1. Navigate to the SQS console and choose the new-violation-ﬁndings queue.
+2. Choose the Access policy tab.
+3. Choose the Edit button and paste in the following policy.
+
+
+Note that the following Resource elements need to be updated with the correct ARN for the new-violation-findings SQS queues respectively, which contain your actual account number.
+
+
+```json 
+{
+}
+"Version": "2012-10-17",
+"Statement": [
+{
+"Sid": "QueueOwnerOnlyAccess",
+"Effect": "Allow",
+"Principal": {
+"AWS": "arn:aws:iam:: 111111111111:root"
+},
+"Action": [
+"sqs:DeleteMessage",
+"sqs:ReceiveMessage",
+"sqs:SendMessage",
+"sqs:GetQueueAttributes",
+"sqs:RemovePermission",
+"sqs:AddPermission",
+"sqs:SetQueueAttributes"
+],
+"Resource": "arn:aws:sqs:us-east-1: 111111111111:new-violation-findings"
+},
+{
+"Sid": "HttpsOnly",
+"Effect": "Deny",
+"Principal": "*",
+"Action": "SQS:*",
+"Resource": "arn:aws:sqs:us-east-1: 111111111111:new-violation-findings",
+"Condition": {
+"Bool": {
+"aws:SecureTransport": "false"
+  }}}]
+}
+
 ```
 
 
