@@ -306,6 +306,15 @@ def sendToSqS(words, attributes, queueurl):
 
 
 
+def lambda_handler(event, context):
+   violations = "https://queue.amazonaws.com/111111111111/new-violation-findings"
+   
+   
+   
+   
+   
+   
+   
 ```
 
 
