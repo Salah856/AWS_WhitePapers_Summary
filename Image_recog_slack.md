@@ -193,12 +193,60 @@ Conﬁgure event notiﬁcations on your S3 bucket by following the steps outline
 - In Step 5 of the conﬁguration, choose the All object create events option.
 - In Step 6, choose your Lambda function named process-new-messages.
 
+![1](https://user-images.githubusercontent.com/23625821/126266685-b67660a1-96df-465c-893e-4025db311e80.png)
+
+### Create a Lambda function to process messages where image references were found (via SQS queue)
+
+Your ﬁrst Lambda function (process-new-messages) is now being invoked, and any image references found in Slack messages have been stored in the new-image-findings SQS queue.
+
+The next step is to create and invoke another Lambda function (process-new-images) that will use Amazon Rekognition to determine if there are any policy violations in the content.
+
+To conﬁgure the SQS / Lambda / Amazon Rekognition Integration:
+1. Because the Lambda function you are about to create needs to store any content violations found into a new SQS queue, ﬁrst create that queue by following the steps outlined in Getting started with Amazon SQS.
+2. Name this queue new-violation-findings.
+3. Navigate to the Lambda console and choose Create Function.
+4. Choose the Use a blueprint option and provide a ﬁlter called hello. This will display the hello-world-python blueprint in the results at the bottom.
+5. Choose the Conﬁgure button. Name the new Lambda function process-new-images.
+6. Create a new execution role with basic Lambda permissions.
+7. After the function has been created, choose the Permissions tab.
+8. Choose IAM Role to open a second window where you can view the policy attached to this role.
+9. Choose Attach Policies.
+10. Search for AmazonRekognitionReadOnlyAccess and choose Attach Policy to complete the action. This allows your Lambda function permissions to call Amazon Rekognition.
+11. he function also needs permissions to read from the new-image-findings queue and write new messages to the new-violation-findings queue. Choose Add inline policy and switch to the JSON view to create the following permissions.
 
 
+Note that the following Resource elements need to be updated with the correct ARNs for the new-image-findings and new-violation-findings SQS queues respectively, which contain your actual account number:
+
+```json
+{
+"Version": "2012-10-17",
+"Statement": [
+{
+"Action": [
+"sqs:ReceiveMessage",
+"sqs:ChangeMessageVisibility",
+"sqs:GetQueueUrl",
+"sqs:DeleteMessage",
+"sqs:GetQueueAttributes"
+],
+"Resource": "arn:aws:sqs:us-east-1:111111111111:new-image-findings",
+"Effect": "Allow"
+},
+{
+"Action": [
+"sqs:SendMessage",
+"sqs:GetQueueAttributes",
+"sqs:GetQueueUrl"
+],
+"Resource": "arn:aws:sqs:us-east-1:111111111111:new-violation-findings",
+"Effect": "Allow"
 
 
+ }]
 
+}
 
+```
 
 
 
