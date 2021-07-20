@@ -308,6 +308,12 @@ def sendToSqS(words, attributes, queueurl):
 
 def lambda_handler(event, context):
    violations = "https://queue.amazonaws.com/111111111111/new-violation-findings"
+   disallowed_words = ["medical", "private"]
+   disallowed_themes = ["Tobacco", "Alcohol"] # Case Sensitive 
+   file_name = "/tmp/image.jpg"
+   
+   ## to do for loop over records 
+   
    
    
    
