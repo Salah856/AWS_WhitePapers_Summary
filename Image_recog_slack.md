@@ -418,6 +418,39 @@ Note that the following Resource elements need to be updated with the correct AR
 
 ```
 
+Repeat the preceding steps for the new-image-findings queue. Remember to use the new-image-findings ARN in the policy.
+
+You can now conﬁgure our SQS queue to trigger your Lambda function.
+
+To conﬁgure your SQS queue:
+
+1. In the SQS Console, choose the new-image-findings queue from the Lambda triggers tab.
+2. Choose Conﬁgure Trigger for Lambda Function.
+3. From the dropdown list, choose the function you just created.
+
+![1](https://user-images.githubusercontent.com/23625821/126373428-ee705b0c-4735-4839-936d-ecd21e6930cd.png)
+
+Trigger the Lambda function you created. 
+
+
+### Test the solution
+
+You can now post some messages to your moderated Slack channel for testing. You can easily change the content violation policies in the Python code by modifying the disallowed_words and disallowed_themes variables.
+
+
+#### To test the solution:
+
+1. Post sample images that will be used to trigger violations for the current conﬁgured policies:
+  - Post this image which contains the disallowed word "private": https://i.imgur.com/662ptww.png
+  - Post this image which contains a "Tobacco" theme: https://i.imgur.com/XgAtyWU.png
+
+2. After creating those posts, wait 2-3 minutes and then navigate to the SQS Console. View the queues and choose the new-violation-findings queue.
+3. Choose the Send and receive messages button.
+4. At the bottom of the screen, choose the Poll for messages button.
+
+5. After a few seconds you should see two messages pop up. You can choose each message to interrogate the contents.
+6. Choose the Message ID. The body of the message contains information about what violation was triggered. The Attributes show the image URL and “slack_msg_id” for the oﬀending item.
+
 
 
 
