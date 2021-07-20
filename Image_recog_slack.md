@@ -335,6 +335,11 @@ def lambda_handler(event, context):
       
       print("Detected Text: " + detected_text)
       found_words = []
+      for disallowed_word in disallowed_words:
+        if disallowed_word.lower() in detected_text.lower():
+            found_words.append(disallowed_word)
+            print("WORD VIOLATION: " + disallowed_word.lower() + " found in " + detected_text.lower())
+            
       
    
    
