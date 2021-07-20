@@ -287,6 +287,25 @@ def analyze_text(file):
     return found_text
 
 
+
+def sendToSqS(words, attributes, queueurl):
+   sqs.sendMessage(
+      QueueUrl=queueurl,
+      MessageBody='Image with "' + words + '" found',
+      MessageAttributes={
+        "url": {
+          "StringValue": attributes["image_url"],
+          "DataType": 'String'
+        },
+        "slack_msg_id": {
+          "StringValue": attributes["slack_msg_id"],
+          "DataType": 'String'
+        }
+      }
+   )
+
+
+
 ```
 
 
