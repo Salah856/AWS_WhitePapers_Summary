@@ -100,8 +100,34 @@ information in CloudWatch. The policy named AWSLambdaS3ExecutionRole-* provides 
 }]
 ```
 
+The preceding statement follows the principle of least privilege, and limits the permissions of this
+Lambda function to only the bucket you created for this exercise. Save the change you’ve made to this
+policy.
 
+For this function to write messages to the new-image-findings SQS queue, an additional minimally
+scoped IAM policy needs to be added to this role.
+To add the IAM policy:
 
+1. Choose Add inline policy and switch to the JSON view to create the following permissions. Note that
+the following Resource element needs to be updated with the correct Amazon Resource Name (ARN)
+for the new-image-findings SQS queue which contains your actual account number.
+
+```json
+{
+"Version": "2012-10-17",
+ "Statement": [{
+  "Action": [
+   "sqs:SendMessage",
+   "sqs:GetQueueAttributes",
+   "sqs:GetQueueUrl"
+ ], 
+  "Resource": "arn:aws:sqs:us-east-1:111111111111:new-image-findings",
+  "Effect": "Allow"
+ }]
+
+}
+
+```
 
    
 
