@@ -100,17 +100,13 @@ information in CloudWatch. The policy named AWSLambdaS3ExecutionRole-* provides 
 }]
 ```
 
-The preceding statement follows the principle of least privilege, and limits the permissions of this
-Lambda function to only the bucket you created for this exercise. Save the change you’ve made to this
-policy.
+The preceding statement follows the principle of least privilege, and limits the permissions of this Lambda function to only the bucket you created for this exercise. Save the change you’ve made to this policy.
 
-For this function to write messages to the new-image-findings SQS queue, an additional minimally
-scoped IAM policy needs to be added to this role.
+For this function to write messages to the new-image-findings SQS queue, an additional minimally scoped IAM policy needs to be added to this role.
+
 To add the IAM policy:
 
-1. Choose Add inline policy and switch to the JSON view to create the following permissions. Note that
-the following Resource element needs to be updated with the correct Amazon Resource Name (ARN)
-for the new-image-findings SQS queue which contains your actual account number.
+1. Choose Add inline policy and switch to the JSON view to create the following permissions. Note that the following Resource element needs to be updated with the correct Amazon Resource Name (ARN) for the new-image-findings SQS queue which contains your actual account number.
 
 ```json
 {
@@ -128,10 +124,61 @@ for the new-image-findings SQS queue which contains your actual account number.
 }
 
 ```
+2. Choose Review policy, then enter a name for this policy and choose Create policy.
+3. With the permissions properly conﬁgured, switch back to the Conﬁguration tab in the Lambda function window, and paste the following code into the Function code section:
 
-   
+```py
+import boto3
+from urllib.parse import unquote_plus
+import json
+s3_client = boto3.client('s3')
+s3 = boto3.resource('s3')
+sqs = boto3.client('sqs')
 
 
+def sendToSqS(attributes, queueurl):
+  sqs = boto3.client('sqs')
+  sqs.send_message(
+    QueueUrl=queueurl,
+    MessageBody='Image to Check',
+    MessageAttributes={ "url": { "StringValue": attributes["image_url"], "DataType": 'String'
+}, "slack_msg_id": { "StringValue": attributes["client_msg_id"], "DataType": 'String' } } )
+
+
+def lambda_handler(event, context):
+
+  image_processing_queueurl = "https://queue.amazonaws.com/111111111111/new-image-findings”
+
+  for record in event['Records']:
+    bucket = record['s3']['bucket']['name']
+    key = unquote_plus(record['s3']['object']['key'])
+    file_lines = s3.Object(bucket, key).get()
+    ['Body'].read().decode('utf-8').splitlines()
+    attachment_list = []
+    for line in file_lines:
+        if line: # Check for blank lines
+        jsonline = json.loads(line)
+            if "attachments" in jsonline.keys(): # Check for lines with attachements
+            for attachment in jsonline["attachments"]:
+            if "image_url" in attachment.keys():
+            if "client_msg_id" in jsonline.keys():
+            thisdict = {
+            "image_url": attachment["image_url"],
+            "client_msg_id": jsonline["client_msg_id"]
+            }
+            attachment_list.append(thisdict.copy())
+        else:
+        thisdict = {
+        "image_url": attachment["image_url"],
+        "client_msg_id": "None Found"
+        }
+        attachment_list.append(thisdict.copy())
+        for item in attachment_list:
+        sendToSqS(item, image_processing_queueurl)
+
+
+
+```
 
 
 ### References
