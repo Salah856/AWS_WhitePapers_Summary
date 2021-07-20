@@ -253,8 +253,38 @@ Note that the following Resource elements need to be updated with the correct AR
 14. With the permissions conﬁgured, switch back to the Conﬁguration tab in the Lambda function window, and paste the following code into the Function code section:
 
 ```py
+import urllib.request
+import boto3
+
+sqs = boto3.client('sqs')
+rekognition = boto3.client('rekognition')
+
+def analyze_themes(file, min_confidence=80):
+  with open(file, 'rb') as document:
+    imageBytes = bytearray(document.read())
+    response = rekognition.detect_moderation_labels(Image={'Bytes': imageBytes}, MinConfidence=min_confidence)
+
+  found_high_confidence_labels = []
+  
+  for label in response['ModerationLabels']:
+    found_high_confidence_labels.append(str(label['Name']))
+  
+  return found_high_confidence_labels
 
 
+def analyze_text(file):
+  with open(file, 'rb') as document:
+    imageBytes = bytearray(document.read())
+    
+    response = rekognition.detect_text(Image={'Bytes': imageBytes})
+    
+    textDetections = response['TextDetections']
+    found_text = ""
+    
+    for text in textDetections:
+      found_text += text['DetectedText']
+    
+    return found_text
 
 
 ```
