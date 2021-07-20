@@ -179,6 +179,27 @@ def lambda_handler(event, context):
 
 
 ```
+4. After you have pasted the code, update the image_processing_queueurl variable in the function handler with the correct ARN for the new-image-findings SQS queue which contains your actual account number.
+5. Choose Deploy to deploy the updated code.
+
+### Conﬁgure the Lambda function to be invoked when new objects are added to your S3 bucket
+
+With your Lambda function (process-new-messages) created, the next step is to conﬁgure bucket notiﬁcations on your S3 bucket, and subscribe this Lambda function to the notiﬁcations.
+
+To create the S3 / Lambda event integration:
+
+Conﬁgure event notiﬁcations on your S3 bucket by following the steps outlined in this <a href="https://docs.aws.amazon.com/AmazonS3/latest/user-guide/enable-event-notifications.html"> User Guide </a> .
+
+- In Step 5 of the conﬁguration, choose the All object create events option.
+- In Step 6, choose your Lambda function named process-new-messages.
+
+
+
+
+
+
+
+
 
 
 ### References
