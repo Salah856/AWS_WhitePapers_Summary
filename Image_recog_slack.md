@@ -330,6 +330,11 @@ def lambda_handler(event, context):
           ReceiptHandle=receiptHandle
       )
       
+      urllib.request.urlretrieve(image_url, file_name)
+      detected_text = analyze_text(file_name)
+      
+      print("Detected Text: " + detected_text)
+      found_words = []
       
    
    
