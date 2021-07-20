@@ -1,6 +1,6 @@
+# Moderating Image Content in Slack with Amazon Rekognition and Amazon AppFlow
 
-
-# #AWS_WhitePaper_Summary
+## #AWS_WhitePaper_Summary
 
 - This document shows you how to use Amazon Rekognition and Amazon AppFlow to build a fully serverless content moderation pipeline for messages posted in a Slack channel. 
 
