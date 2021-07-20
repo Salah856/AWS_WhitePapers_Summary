@@ -320,6 +320,17 @@ def lambda_handler(event, context):
       eventSourceARN = record["eventSourceARN"]
       arn_elements = eventSourceARN.split(':')
       
+      img_queue_url = sqs.get_queue_url(
+          QueueName=arn_elements[5],
+          QueueOwnerAWSAccountId=arn_elements[4]
+      )
+      
+      sqs.delete_message(
+          QueueUrl=img_queue_url["QueueUrl"],
+          ReceiptHandle=receiptHandle
+      )
+      
+      
    
    
    
