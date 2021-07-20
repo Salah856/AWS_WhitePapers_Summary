@@ -312,7 +312,14 @@ def lambda_handler(event, context):
    disallowed_themes = ["Tobacco", "Alcohol"] # Case Sensitive 
    file_name = "/tmp/image.jpg"
    
-   ## to do for loop over records 
+   for record in event['Records']:
+      print(record)
+      receiptHandle = record["receiptHandle"]
+      image_url = record["messageAttributes"]["url"]["stringValue"]
+      slack_msg_id = record["messageAttributes"]["slack_msg_id"]["stringValue"]
+      eventSourceARN = record["eventSourceARN"]
+      arn_elements = eventSourceARN.split(':')
+      
    
    
    
