@@ -26,4 +26,9 @@ In this article we will explore how to get started combining these powerful tool
 
 ![in](https://user-images.githubusercontent.com/23625821/126863890-5b7ff0af-0ed6-43dd-9c5d-3f36d7b91d6e.png)
 
-5. 
+5. Select Open JupyterLab, to launch a console of your notebook instance
+
+![in](https://user-images.githubusercontent.com/23625821/126863913-57c5d043-b79b-4b58-af91-717a04d7d845.png)
+
+
+
