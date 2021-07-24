@@ -31,4 +31,10 @@ In this article we will explore how to get started combining these powerful tool
 ![in](https://user-images.githubusercontent.com/23625821/126863913-57c5d043-b79b-4b58-af91-717a04d7d845.png)
 
 ### Creating a Julia Environment
+Use the following procedure to create Julia environment in the JupyterLab console.
+
+1. In the JupyterLab console, navigate to the Launcher tab if visible, scroll to the bottom of the tab, and select Terminal.
+
+![in](https://user-images.githubusercontent.com/23625821/126863992-60b529cc-9fe2-4bec-82dc-7bafb1ba8fd0.png)
+
 
