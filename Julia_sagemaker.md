@@ -30,5 +30,5 @@ In this article we will explore how to get started combining these powerful tool
 
 ![in](https://user-images.githubusercontent.com/23625821/126863913-57c5d043-b79b-4b58-af91-717a04d7d845.png)
 
-
+### Creating a Julia Environment
 
