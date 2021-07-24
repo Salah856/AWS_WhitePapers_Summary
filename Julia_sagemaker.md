@@ -15,3 +15,15 @@ In this article we will explore how to get started combining these powerful tool
   - An AWS account with the capability to create new instances in the Amazon SageMaker console.
   - A basic understanding of machine learning or data processing.
 
+
+## Setting Up Your Environment
+
+### Creating an Amazon SageMaker Notebook Instance
+1. Sign in to Amazon SageMaker console, and open the Amazon SageMaker Dashboard.
+2. Select Notebook instances. Alternatively, on the left menu panel, select Notebook instances in the Notebook section.
+3. Select Create notebook instance.
+4. For Notebook instance name enter the name, and for the Notebook instance type select the instance type for your workload and budget.
+
+![in](https://user-images.githubusercontent.com/23625821/126863890-5b7ff0af-0ed6-43dd-9c5d-3f36d7b91d6e.png)
+
+5. 
