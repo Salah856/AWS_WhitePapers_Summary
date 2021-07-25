@@ -166,3 +166,16 @@ histogram(df.Y, bins=:scott, weights=repeat(1:5, outer=200))
 
 ```
 
+### Deleting Your Instance
+When your notebook instance is no longer in use, we recommend deleting the instance. Use the following procedure to stop and delete your notebook instance.
+
+1. Navigate to your Notebook instance list, and choose the instance that you want to delete.
+2. To stop your instance, select Actions menu, Stop menu. The process of stopping an instance may take several minutes. When it is completed, the status column in your Notebook instance list will show as Stopped.
+
+3. Select the instance that was stopped previously, and select Actions menu, then Delete menu.
+
+
+#### References 
+
+
+<a href="https://d1.awsstatic.com/whitepapers/julia-on-sagemaker.pdf?did=wp_card&trk=wp_card"> Original White Paper </a>
