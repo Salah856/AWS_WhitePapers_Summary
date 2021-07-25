@@ -143,3 +143,17 @@ B = [randn(Float64) for i in A]
 last(A)
 ```
 
+3. To create a DataFrame object from the two previously created arrays, run the following command.
+
+```julia 
+using DataFrames
+df = DataFrame(X = A, Y = B)
+sort!(df, [:X])
+last(df, 5)
+```
+
+A DataFrame (df ) object is created, where column X contains the values from array A, and column Y contains the values from array B. Then, object df is sorted by the values in column X, and the last five rows are reported as shown below.
+
+![1](https://user-images.githubusercontent.com/23625821/126891795-dac9cee3-9a25-47cf-9622-7d951dfcb866.png)
+
+
