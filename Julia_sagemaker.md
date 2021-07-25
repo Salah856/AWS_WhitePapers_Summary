@@ -131,3 +131,6 @@ Pkg.add("DataFrames")
 
 You will employ Pkg, a built-in package manager, to install Plots and DataFrames, and any required dependent packages will be resolved and installed automatically by Pkg. You should see the following results.
 
+![1](https://user-images.githubusercontent.com/23625821/126891716-b524461a-78d2-4fc6-9f2d-d832fec0a45d.png)
+
+
