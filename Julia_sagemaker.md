@@ -73,3 +73,32 @@ conda install --yes -c conda-forge Julia=1.0.3
 julia -v
 
 ```
+
+7. To verify that Julia is successfully installed, run the following command to launch a Julia REPL console.
+
+```sh
+#!/bin/sh
+
+julia
+
+```
+
+You now have successfully set up Julia REPL, and have the full capabilities and features of a Julia runtime environment.
+
+![1](https://user-images.githubusercontent.com/23625821/126891556-d926140a-e844-4adb-b55a-2b8095cddf90.png)
+
+
+### Installing IJulia and running a Julia Notebook
+
+Use the following procedure to install the Julia kernel (IJulia package) for Jupyter. This will make JupyterLab aware of Julia’s existence, and configure the necessary settings, such as new options for the Julia notebook and kernel.
+
+1. To install IJulia and activate the Julia kernel for JupyterLab, run the following command on the Julia REPL console.
+
+```sh
+using Pkg
+Pkg.add("IJulia")
+using IJulia
+jupyterlab(detached=true)
+
+```
+
