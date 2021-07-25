@@ -61,6 +61,15 @@ conda env list
 
 ```
 
+The expected result is shown below. An environment named julia is marked with an asterisk (*) to indicate that it is currently active.
 
+![1](https://user-images.githubusercontent.com/23625821/126891517-22eb11dc-8f8f-4a71-8e00-62597d3c7c57.png)
 
+6. To install the Julia language package and to verify that installation is complete, run the following command.
+```sh
 
+#!/bin/sh
+conda install --yes -c conda-forge Julia=1.0.3
+julia -v
+
+```
