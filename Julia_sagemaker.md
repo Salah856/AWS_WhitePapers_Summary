@@ -156,4 +156,10 @@ A DataFrame (df ) object is created, where column X contains the values from arr
 
 ![1](https://user-images.githubusercontent.com/23625821/126891795-dac9cee3-9a25-47cf-9622-7d951dfcb866.png)
 
+4. To plot the data as a scatterplot, run the following command.
+
+```julia 
+using Plots
+scatter(df.X, df.Y, w=3)
+```
 
