@@ -53,6 +53,13 @@ source activate
 conda create --yes -n julia
 conda activate julia
 ```
+5. To verify your current environment, run the following command.
+
+```sh
+#!/bin/sh
+conda env list
+
+```
 
 
 
