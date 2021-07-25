@@ -160,6 +160,9 @@ A DataFrame (df ) object is created, where column X contains the values from arr
 
 ```julia 
 using Plots
+
 scatter(df.X, df.Y, w=3)
+histogram(df.Y, bins=:scott, weights=repeat(1:5, outer=200))
+
 ```
 
