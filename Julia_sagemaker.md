@@ -134,3 +134,12 @@ You will employ Pkg, a built-in package manager, to install Plots and DataFrames
 ![1](https://user-images.githubusercontent.com/23625821/126891716-b524461a-78d2-4fc6-9f2d-d832fec0a45d.png)
 
 
+2. To generate a sequence of integers and a sequence of random float values, run the following command.
+
+```julia 
+using Random
+A = [1:1000...]
+B = [randn(Float64) for i in A]
+last(A)
+```
+
