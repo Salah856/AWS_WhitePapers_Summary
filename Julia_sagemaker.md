@@ -37,4 +37,23 @@ Use the following procedure to create Julia environment in the JupyterLab consol
 
 ![in](https://user-images.githubusercontent.com/23625821/126863992-60b529cc-9fe2-4bec-82dc-7bafb1ba8fd0.png)
 
+2. If the Launcher tab is not visible in the JupyterLab console, navigate to the menu bar, and select File, New, Terminal.
+
+![1](https://user-images.githubusercontent.com/23625821/126891474-88fbf608-a884-4375-a55e-ccf807558385.png)
+
+3. A new tab, with a Linux shell console attached, will open.
+
+![1](https://user-images.githubusercontent.com/23625821/126891480-c05fcfb4-edb0-4c79-91ed-ec654e99b96e.png)
+
+4. To create a new julia conda environment for Julia, and to switch into it, run the following command.
+
+```sh
+#!/bin/sh
+source activate
+conda create --yes -n julia
+conda activate julia
+```
+
+
+
 
