@@ -116,4 +116,18 @@ versioninfo()
 
 ![1](https://user-images.githubusercontent.com/23625821/126891670-d2386a23-28ab-400f-83b0-62a497bc8ac4.png)
 
+### Julia Notebook Examples
+Use the following procedure to experiment further with how Julia enables you to visualize data.
+
+1. To install the packages Plots and DataFrames, enter the following in to the Julia notebook cells.
+
+```julia
+
+import Pkg
+Pkg.add("Plots")
+Pkg.add("DataFrames")
+```
+
+
+You will employ Pkg, a built-in package manager, to install Plots and DataFrames, and any required dependent packages will be resolved and installed automatically by Pkg. You should see the following results.
 
