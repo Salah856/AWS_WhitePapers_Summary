@@ -102,3 +102,15 @@ jupyterlab(detached=true)
 
 ```
 
+2. To launch your first Julia notebook in Amazon SageMaker, on the Launcher tab, choose Julia 1.0.3.
+
+![1](https://user-images.githubusercontent.com/23625821/126891647-f40eff9a-e736-421c-976b-58c90edd70ea.png)
+
+3. To test native Julia code, enter the following snippets into code cells on the newly created Julia notebook.
+
+```julia
+versioninfo()
+∑(x,y) = x + y
+∑(2, 3)
+```
+
