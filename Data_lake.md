@@ -31,3 +31,12 @@
   - Increased operating income by $2.6 million with enhanced customer experience
   - Return on investment (ROI) of 241%
 
+- Using Amazon Connect’s extensive set of published APIs, you can programmatically integrate with other AWS services and third-party systems, including customer relationship management (CRM) solutions and anti-fraud solutions. 
+
+- The following ﬁgure shows a high-level Amazon Connect contact center architecture.
+![3](https://user-images.githubusercontent.com/23625821/127284304-c4ecad5a-83f0-47a3-8000-dd8fe37ec640.png)
+
+
+-  Amazon Connect provides a uniﬁed and seamless customer experience across multiple channels.
+-  Along with voice and webchat, Amazon Connect integrates with Amazon Pinpoint and Amazon Simple Email Service (Amazon SES) to expand the contact center’s capability on text messages and email delivery.
+-  Amazon Connect integrates with Apple Business Chat for Apple device users.
