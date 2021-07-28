@@ -40,3 +40,11 @@
 -  Amazon Connect provides a uniﬁed and seamless customer experience across multiple channels.
 -  Along with voice and webchat, Amazon Connect integrates with Amazon Pinpoint and Amazon Simple Email Service (Amazon SES) to expand the contact center’s capability on text messages and email delivery.
 -  Amazon Connect integrates with Apple Business Chat for Apple device users.
+
+
+
+
+### References
+
+<a href="https://docs.aws.amazon.com/whitepapers/latest/amazon-connect-data-lake-best-practices/amazon-connect-data-lake-best-practices.pdf#amazon-connect-data-lake-best-practices"> Original White Paper </a>
+
