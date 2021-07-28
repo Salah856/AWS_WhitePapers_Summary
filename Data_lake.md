@@ -13,4 +13,6 @@
 - The following ﬁgure shows a strategic approach to simplifying complex traditional contact center data spans across infrastructure, licensing, and maintenance environments into Amazon Connect.
 ![2](https://user-images.githubusercontent.com/23625821/127283239-4a78f25a-774a-4c98-8949-254a5e27a5af.png)
 
-
+- A data lake is a centralized, curated, and secured repository that stores and governs all your structured and unstructured data in its native or transformed formats for analysis.
+- AWS delivers the breadth and depth of services to build a secure, scalable, comprehensive, and cost-eﬀective data lake solution.
+-  You can use the AWS services to ingest, store, ﬁnd, process, and analyze data from a wide variety of sources.
