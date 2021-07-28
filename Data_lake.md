@@ -22,4 +22,12 @@
 - You can get started with a fully managed cloud-based and artiﬁcial intelligence (AI) enabled contact center within minutes.
 - With the pay-as-you-go model, you pay only when the service is in use.
 - There is no infrastructure to manage or upfront costs.
-- 
+
+- Forrester Research Consulting conducted a Total Economic Impact (TEI) study on Amazon Connect and concluded a three-year ﬁnancial impact on how Amazon Connect helps customers with signiﬁcant cost savings, increased revenue, and improved agent productivity. Key ﬁndings include:
+  
+  - Reduction in cloud technology costs of $4.3 million
+  - Subscription cost savings of 31%
+  - Agent labor savings from reduced call volume of $4.6 million
+  - Increased operating income by $2.6 million with enhanced customer experience
+  - Return on investment (ROI) of 241%
+
