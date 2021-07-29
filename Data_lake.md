@@ -58,6 +58,12 @@
 - You can stream CTRs to Amazon Kinesis for extended retention and advanced analysis.
 - The CTR data model describes various event types available in CTRs.
 
+## Contact ﬂow logs
+- It captures real-time events and metrics about how your customers interact with contact ﬂows.
+- AWS CloudWatch creates a log group for each AWS Connect instance when you enable contact ﬂow logging and include a set logging behavior block for contact ﬂows.
+- Contact ﬂow logs contain the contact ﬂow ID, the customer’s contact ID, and the block’s actions.
+- Using contact ﬂow logs, you can compare customer’s interactions with diﬀerent contact ﬂow versions or trace their interactions through each contact ﬂow. 
+- Contact ﬂow logs help you debug and roll back contact ﬂows to previous versions should any issues arise.
 
 
 
