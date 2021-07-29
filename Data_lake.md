@@ -48,7 +48,11 @@
 - How do your users view, search, and run queries on multiple data repositories today?
 - How do you derive future insights using historical data patterns and past scenarios?
 
+## Customer proﬁles
+- Amazon Connect Customer Proﬁles enables agents to deliver eﬃcient and personalized customer service by importing customer information from various applications into a uniﬁed customer proﬁle.
+- You can ingest customer data from homegrown or third-party applications such as Salesforce, ServiceNow, Zendesk, and Marketo into your Amazon Simple Storage Service (Amazon S3) data lake using pre-built connectors. 
 
+## 
 
 ### References
 
