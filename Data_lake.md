@@ -52,7 +52,15 @@
 - Amazon Connect Customer Proﬁles enables agents to deliver eﬃcient and personalized customer service by importing customer information from various applications into a uniﬁed customer proﬁle.
 - You can ingest customer data from homegrown or third-party applications such as Salesforce, ServiceNow, Zendesk, and Marketo into your Amazon Simple Storage Service (Amazon S3) data lake using pre-built connectors. 
 
-## 
+## Contact trace record
+- It captures transactional metrics such as hold time, wait time, and agent interaction time in JavaScript Object Notation (JSON) format.
+- Amazon Connect aggregates CTR data to create metrics reporting. Data retention for CTR is 24 months upon contact initiation.
+- You can stream CTRs to Amazon Kinesis for extended retention and advanced analysis.
+- The CTR data model describes various event types available in CTRs.
+
+
+
+
 
 ### References
 
