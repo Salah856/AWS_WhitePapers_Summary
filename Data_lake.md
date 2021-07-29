@@ -41,6 +41,12 @@
 -  Along with voice and webchat, Amazon Connect integrates with Amazon Pinpoint and Amazon Simple Email Service (Amazon SES) to expand the contact center’s capability on text messages and email delivery.
 -  Amazon Connect integrates with Apple Business Chat for Apple device users.
 
+## Data lake design principles 
+- How do you collect, store, and analyze high-velocity data across various data types, including structured, unstructured, and semi-structured?
+- How do you store and share petabytes of data on-demand globally and cost-eﬀectively?
+- How do you scale IT resources to support a high number of concurrent queries against your data and scale down automatically for cost savings?
+- How do your users view, search, and run queries on multiple data repositories today?
+- How do you derive future insights using historical data patterns and past scenarios?
 
 
 
