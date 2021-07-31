@@ -93,6 +93,10 @@ Building a data lake typically involves ﬁve stages:
 
 ![1](https://user-images.githubusercontent.com/23625821/127730043-119f55b3-aadf-40ff-bc75-10beebd7507d.png)
 
+- AWS provides a comprehensive data transfer services portfolio to move your existing data into a centralized data lake. 
+- Amazon Storage Gateway and AWS Direct Connect can address hybrid cloud storage needs. 
+- For online data transfer, consider using AWS DataSync and Amazon Kinesis.
+- Use the AWS Snow Family for oﬄine data transfer.
 
 
 
