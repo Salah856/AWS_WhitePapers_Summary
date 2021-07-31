@@ -91,6 +91,9 @@ Building a data lake typically involves ﬁve stages:
  - Conﬁguring security policies
  - Making data available for consumption
 
+![1](https://user-images.githubusercontent.com/23625821/127730043-119f55b3-aadf-40ff-bc75-10beebd7507d.png)
+
+
 
 
 ### References
