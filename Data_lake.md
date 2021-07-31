@@ -79,7 +79,18 @@
 - Amazon Connect records a conversation only when a customer connects to an agent. When the contact disconnects, the call recordings are available in your S3 bucket, or accessible in the customer's contact trace record (CTR).
 - Amazon Connect redacts, encrypts, and stores voice and chat conversations between the agent and the contact in your S3 bucket for advanced analytics.
 
-## 
+## Third-party integration
+- When using AWS Partners or other third-party solutions with Amazon Connect, you can consolidate logs and external data sources in Amazon S3.
+
+## Data lake lifecycle
+
+Building a data lake typically involves ﬁve stages:
+ - Setting up storage
+ - Moving data
+ - Preparing and cataloging data
+ - Conﬁguring security policies
+ - Making data available for consumption
+
 
 
 ### References
