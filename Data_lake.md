@@ -65,7 +65,21 @@
 - Using contact ﬂow logs, you can compare customer’s interactions with diﬀerent contact ﬂow versions or trace their interactions through each contact ﬂow. 
 - Contact ﬂow logs help you debug and roll back contact ﬂows to previous versions should any issues arise.
 
+## Contact Lens output ﬁles
+- Using natural language processing (NLP) and speech-to-text analytics, Contact Lens for Amazon Connect provides insights to analyze customer sentiment, identify conversations trends for product feedback, and compliance audits for standard greetings and sign-oﬀs.
+- With advanced conversational search, you can perform a fast full-text search for relevant calls by sentiment scores and non-talk time to identify common utterances that result in positive or negative customer sentiment. Contact Lens automatically redacts sensitive personally identiﬁable information (PII) for data privacy.
+- Contact Lens stores metadata for call transcript, sentiment analysis, non-talk time, talk speed, interruptions, and categorization labels in Amazon S3. You can create custom visualization or machine learning (ML) models using data from Contact Lens and CTR stored in S3.
 
+## Agent events streams
+- It captures and store agent activity in S3 via Amazon Kinesis Data Streams. 
+- You can create dashboards for near real-time agent reporting such as agent login, agent logout, agent connects with a contact and agent status change.
+- You can integrate agent event streams into workforce management (WFM) solutions for agent staﬃng management or conﬁgure alerts on speciﬁc agent activity.
+
+## Voice and chat recordings
+- Amazon Connect records a conversation only when a customer connects to an agent. When the contact disconnects, the call recordings are available in your S3 bucket, or accessible in the customer's contact trace record (CTR).
+- Amazon Connect redacts, encrypts, and stores voice and chat conversations between the agent and the contact in your S3 bucket for advanced analytics.
+
+## 
 
 
 ### References
