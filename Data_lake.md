@@ -110,7 +110,18 @@ Building a data lake typically involves ﬁve stages:
 - We recommend identity-based policies for most data lake environments to simplify resource access management and service permission for your data lake users.
 
 ## Monitoring
-- 
+- Amazon Connect sends the instance’s usage data as Amazon CloudWatch metrics at a one-minute interval.
+- Data retention is about 2 weeks. 
+
+## Analytics
+- A contact center data lake built on a descriptive, predictive, and real-time analytics portfolio helps you extract meaningful insights and respond to critical business questions.
+- For a highly scalable data warehousing solution, you can enable data streaming in Amazon Connect to stream CTRs into Amazon Redshift via Amazon Kinesis.
+
+## Machine learning
+- Building a data lake brings a new paradigm to contact center architecture, empowering your business to deliver enhanced and personalized customer service using machine learning (ML) capabilities.
+- Amazon Connect provides call attributes from telephony carriers, such as voice equipment’s geographic location to show where the call originated, phone device types such as landline or mobile, number of network segments the call traversed, and other call origination information.
+- Amazon Fraud Detector, you can create a ML model to identify potentially fraudulent activity by combining your datasets with Amazon Connect call attributes.
+
 
 ### References
 
