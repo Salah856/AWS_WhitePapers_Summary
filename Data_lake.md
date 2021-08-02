@@ -98,7 +98,19 @@ Building a data lake typically involves ﬁve stages:
 - For online data transfer, consider using AWS DataSync and Amazon Kinesis.
 - Use the AWS Snow Family for oﬄine data transfer.
 
+## Cataloging
+- AWS Lake Formation can manage data ingestion via AWS Glue by automatically classifying data and storing deﬁnitions, schema, and metadata in a central data catalog. 
+- For faster analytics, Lake Formation converts data into Apache Parquet and ORC before storing it in your S3 data lake. 
+- AWS Glue DataBrew, a visual data preparation tool, allows data owners, subject matter experts, or users of all skill sets to participate in the data preparation process.
 
+
+## Security
+- Amazon Connect encrypts personally identiﬁable information (PII) contact data and customer proﬁles at rest using a time-limited key speciﬁc to your Amazon Connect instance. 
+- All data exchanged between Amazon Connect and other AWS services, or external applications is always encrypted in transit using industry-standard transport layer security (TLS) encryption.
+- We recommend identity-based policies for most data lake environments to simplify resource access management and service permission for your data lake users.
+
+## Monitoring
+- 
 
 ### References
 
