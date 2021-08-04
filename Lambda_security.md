@@ -19,3 +19,10 @@
 - You can also control the entire lifecycle of your functions and layers through Lambda's control plane APIs. 
 - For example, you can choose to delete your function by calling DeleteFunction, or revoke permissions from another account by calling RemovePermission.
 
+## Lambda Invoke Modes
+- The Invoke API can be called in two modes: event mode and request-response mode. 
+  - Event mode queues the payload for an asynchronous invocation.
+  - Request-response mode synchronously invokes the function with the provided payload and returns a response immediately.
+  - In both cases, the function execution is always performed in a Lambda execution environment, but the payload takes diﬀerent paths.
+  
+ 
