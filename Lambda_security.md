@@ -27,4 +27,17 @@
   
  
 ![image](https://user-images.githubusercontent.com/23625821/128178489-e7c349a8-64e0-48c9-a18e-9588dbeb7729.png)
-
+  
+  - Eventinvocation mode payloads are always queued for processing before invocation.
+  - All payloads are queued for processing in an Amazon Simple Queue Service (Amazon SQS) queue. 
+  - Queued events are always secured in-transit with TLS 1.2+, but they are not currently encrypted at-rest.
+  - Queued events are retrieved in batches by Lambda’s poller ﬂeet. 
+  - The poller ﬂeet is a group of EC2 instances whose purpose is to process queued event invocations which have not yet been processed.
+  
+  - If the invocation cannot be performed, the poller ﬂeet will temporarily store the event, in-memory, on the host until it is either able to successfully              complete the execution, or until the number of run retry attempts have been exceeded.
+  
+## Lambda Executions
+- a
+- b
+- c 
+   
