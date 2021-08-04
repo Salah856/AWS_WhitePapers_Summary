@@ -37,7 +37,7 @@
   - If the invocation cannot be performed, the poller ﬂeet will temporarily store the event, in-memory, on the host until it is either able to successfully              complete the execution, or until the number of run retry attempts have been exceeded.
   
 ## Lambda Executions
-- a
+<!-- - a
 - b
-- c 
+- c  -->
    
