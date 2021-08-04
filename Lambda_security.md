@@ -26,3 +26,5 @@
   - In both cases, the function execution is always performed in a Lambda execution environment, but the payload takes diﬀerent paths.
   
  
+![image](https://user-images.githubusercontent.com/23625821/128178489-e7c349a8-64e0-48c9-a18e-9588dbeb7729.png)
+
