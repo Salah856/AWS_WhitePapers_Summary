@@ -55,4 +55,13 @@
 - Each Lambda function must also be conﬁgured with an execution role, which is an IAM role that is assumed by the Lambda service when performing control plane and data plane operations related to the function.
 
 ### Lambda MicroVMs and Workers
-- 
+- Lambda will create its execution environments on a ﬂeet of Amazon EC2 instances called AWS Lambda Workers. 
+- Workers are bare metalEC2 Nitro instances which are launched and managed by Lambda in a separate isolated AWS account which is not visible to customers.
+- Workers have one or more hardware-virtualized Micro Virtual Machines (MVM) created by Firecracker. 
+- Firecracker is an open-source Virtual Machine Monitor (VMM) that uses Linux’s Kernel-based Virtual Machine (KVM) to create and manage MVMs. 
+- It is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models.
+- As a part of the shared responsibility model, Lambda is responsible for maintaining the security conﬁguration, controls, and patching level of the Workers. 
+- The Lambda team uses Amazon Inspector to discover known potential security issues, as well as other custom security issue notiﬁcation mechanisms and pre-disclosure lists, so that customers don’t need to manage the underlying security posture of their execution environment.
+
+![image](https://user-images.githubusercontent.com/23625821/128300028-bb770510-8453-41b0-9220-22946dadd39e.png)
+
