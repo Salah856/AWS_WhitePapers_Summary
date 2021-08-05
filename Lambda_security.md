@@ -37,7 +37,11 @@
   - If the invocation cannot be performed, the poller ﬂeet will temporarily store the event, in-memory, on the host until it is either able to successfully              complete the execution, or until the number of run retry attempts have been exceeded.
   
 ## Lambda Executions
-<!-- - a
-- b
-- c  -->
-   
+- The Lambda service is split into the control plane and the data plane. 
+- Each plane serves a distinct purpose in the service. 
+- The control plane provides the management APIs (for example, CreateFunction, UpdateFunctionCode, PublishLayerVersion, and so on), and manages integrations with all AWS services. 
+- Communications to Lambda's control plane are protected in-transit by TLS. 
+- All customer data stored within Lambda's control plane is encrypted at-rest through the use of AWS KMS, which is designed to protect it from unauthorized disclosure or tampering.
+- The data plane is Lambda's Invoke API that triggers the invocation of Lambda functions. 
+- When a Lambda function is invoked, the data plane allocates an execution environmenton an AWS Lambda Worker (or simply Worker, a type of Amazon EC2 instance) to that function version, or chooses an existing execution environment that has already been set up for that function version, which it then uses to complete the invocation.
+
