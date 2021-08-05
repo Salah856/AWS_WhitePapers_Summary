@@ -45,3 +45,14 @@
 - The data plane is Lambda's Invoke API that triggers the invocation of Lambda functions. 
 - When a Lambda function is invoked, the data plane allocates an execution environmenton an AWS Lambda Worker (or simply Worker, a type of Amazon EC2 instance) to that function version, or chooses an existing execution environment that has already been set up for that function version, which it then uses to complete the invocation.
 
+### Lambda execution environments
+- Each invocation is routed by Lambda's invoke service to an execution environment on a Worker that is able to service the request. 
+- Other than through data plane, customers and other users cannot directly initiate inbound/ingress network communications with an execution environment. 
+- This helps to ensure that communications to your execution environment are authenticated and authorized.
+- Each execution environment may only be used for one concurrent invocation at a time, and they may be reused across multiple invocations of the same function version for performance reasons.
+
+### Execution role
+- Each Lambda function must also be conﬁgured with an execution role, which is an IAM role that is assumed by the Lambda service when performing control plane and data plane operations related to the function.
+
+### Lambda MicroVMs and Workers
+- 
