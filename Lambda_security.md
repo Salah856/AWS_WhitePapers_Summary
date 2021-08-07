@@ -79,5 +79,10 @@
 - But a single environment can be reused between invocations of the same function version.
 - Customers that want to persist data to the ﬁle system outside of the execution environment should consider using Lambda’s integration with Amazon EFS.
 
+### Runtime Maintenance in Lambda
+- Lambda tests and deploys the runtime updates without any involvement from customers.
+- Typically, no action is required to pick up the latest patches for supported Lambda runtimes, but sometimes action might be required to test patches before they are deployed (for example, known incompatible runtime patches).
+- The Lambda team uses Amazon Inspector to discover known security issues. 
+
 
 
