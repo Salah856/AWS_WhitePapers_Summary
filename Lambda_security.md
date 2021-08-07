@@ -74,3 +74,10 @@
    - A writeable /tmp directory
    - A minimal Linux user space based on Amazon Linux 2
 
+### Storage and state
+- Execution environments are never reused across diﬀerent function versions or customers. 
+- But a single environment can be reused between invocations of the same function version.
+- Customers that want to persist data to the ﬁle system outside of the execution environment should consider using Lambda’s integration with Amazon EFS.
+
+
+
