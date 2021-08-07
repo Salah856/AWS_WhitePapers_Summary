@@ -65,3 +65,11 @@
 
 ![image](https://user-images.githubusercontent.com/23625821/128300028-bb770510-8453-41b0-9220-22946dadd39e.png)
 
+### Lambda Isolation Technologies
+- Lambda uses a variety of open-source and proprietary isolation technologies to protect Workers and execution environments. Each execution environment contains a dedicated copy of the following items:
+   - The code of the particular function version
+   - Any AWS Lambda Layers selected for your function version
+   - The chosen function runtime (for example, Java 11, NodeJS 12, Python 3.8, and so on) or the function's custom runtime
+   - A writeable /tmp directory
+   - A minimal Linux user space based on Amazon Linux 2
+
