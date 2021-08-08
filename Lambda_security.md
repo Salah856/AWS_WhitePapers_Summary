@@ -105,3 +105,10 @@
 - You can contact AWS experts (such as Solution Architects, domain experts, technical account managers and other human resources) for assistance.
 
 
+### Lambda Event Sources
+- Lambda integrates with more than 140 AWS services via direct integration and the Amazon EventBridge event bus.
+
+
+## References
+
+- <a href="https://docs.aws.amazon.com/whitepapers/latest/security-overview-aws-lambda/security-overview-aws-lambda.pdf"> Original White Paper </a>
