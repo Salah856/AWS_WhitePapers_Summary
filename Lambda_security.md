@@ -84,5 +84,18 @@
 - Typically, no action is required to pick up the latest patches for supported Lambda runtimes, but sometimes action might be required to test patches before they are deployed (for example, known incompatible runtime patches).
 - The Lambda team uses Amazon Inspector to discover known security issues. 
 
-
-
+### Monitoring and Auditing Lambda Functions
+ - Cloudwatch 
+ - X-Ray
+ - Cloudtrail
+ - Config 
+ 
+### Architecting and Operating Lambda Functions
+- This section relates to the best practices of well designing and architecting Lambda Functions according to the 5 principles of Well-Architecting Framework. 
+   - Operational Excellence Pillar 
+   - Security Pillar 
+   - Reliability Pillar  
+   - Performance Eﬃciency Pillar 
+   - Cost Optimization Pillar 
+   
+   
