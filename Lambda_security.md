@@ -98,4 +98,10 @@
    - Performance Eﬃciency Pillar 
    - Cost Optimization Pillar 
    
-   
+
+### Lambda and Compliance
+- You are responsible for determining which compliance regime applies to your data. 
+- After you have determined your compliance regime needs, you can use the various Lambda features to match those controls.
+- You can contact AWS experts (such as Solution Architects, domain experts, technical account managers and other human resources) for assistance.
+
+
