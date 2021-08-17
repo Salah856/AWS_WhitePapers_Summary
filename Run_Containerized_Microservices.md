@@ -53,5 +53,8 @@
 - Developers, operations teams, and IT leaders should agree on base images that have the security and tooling proﬁle that they want. These images can then be shared throughout the organization as the initial building block. 
 - Replacing or upgrading these base images is as simple as updating the FROM ﬁeld in a Dockerﬁle and rebuilding, usually through a Continuous Integration/Continuous Delivery (CI/CD) pipeline.
 
-
+- Here are the key factors from the twelve-factor app pattern methodology that play a role in componentization:
+  - Dependencies (explicitly declare and isolate dependencies) – Dependencies are self-contained within the container and not shared with other services.
+  - Disposability (maximize robustness with fast startup and graceful shutdown) – Disposability is leveraged and satisﬁed by containers that are easily pulled from a repository and discarded when they stop running.
+  - Concurrency (scale out via the process model) – Concurrency consists of tasks or pods (made of containers working together) that can be auto scaled in a memory- and CPU-eﬃcient manner.
 
