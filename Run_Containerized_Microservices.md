@@ -12,5 +12,14 @@
 - Microservices architectures make applications easier to scale and faster to develop.
 - This enables innovation and accelerates time-to-market for new features. Containers also provide isolation and packaging for software, and help you achieve more deployment velocity and resource density.
 
-
+- As proposed by Martin Fowler, the characteristics of a microservices architecture include the following:
+  - Componentization via services
+  - Organized around business capabilities
+  - Products not projects
+  - Smart endpoints and dumb pipes
+  - Decentralized governance
+  - Decentralized data management
+  - Infrastructure automation
+  - Design for failure
+  - Evolutionary design
 
