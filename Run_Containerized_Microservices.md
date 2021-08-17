@@ -38,3 +38,20 @@
  11. Logs - Treat logs as event streams
  12. Admin processes - Run admin/management tasks as one-oﬀ processes
 
+
+## Componentization Via Services
+
+- In a microservices architecture, software is composed of small independent services that communicate over well-deﬁned APIs.
+- An analogy can be drawn to the Walkman portable audio cassette players that were popular in the 1980s: batteries bring power, audio tapes are the medium, headphones deliver output, while the main tape player takes input through key presses. Using them together plays music.
+- Similarly, microservices need to be decoupled, and each should focus on one functionality. Additionally, a microservices architecture allows for replacement or upgrade. 
+
+- Using the Walkman analogy, if the headphones are worn out, you can replace them without replacing the tape player. 
+- Through modularization, microservices oﬀer developers the freedom to design each feature as a black box. That is, microservices hide the details of their complexity from other components. 
+- Any communication between services happens by using well-deﬁned APIs to prevent implicit and hidden dependencies.
+- Container images allow for modularity in services. 
+- They are constructed by building functionality onto a base image. 
+- Developers, operations teams, and IT leaders should agree on base images that have the security and tooling proﬁle that they want. These images can then be shared throughout the organization as the initial building block. 
+- Replacing or upgrading these base images is as simple as updating the FROM ﬁeld in a Dockerﬁle and rebuilding, usually through a Continuous Integration/Continuous Delivery (CI/CD) pipeline.
+
+
+
