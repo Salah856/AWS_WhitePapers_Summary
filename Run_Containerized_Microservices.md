@@ -64,4 +64,14 @@
 - In a microservices-based approach, as a best practice, each development team owns the lifecycle of its service all the way to the customer. 
 - For example, a recommendations team might own development, deployment, production support, and collection of customer feedback.
 - Organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations. "Conway's Law"
-- 
+- When architecture and capabilities are organized around atomic business functions, dependencies between components are loosely coupled. As long as there is a communication contract between services and teams, each team can run at its own speed. 
+- With this approach, the stack can be polyglot, meaning that developers are free to use the programming languages that are optimal for their component.
+- For example, the user interface can be written in JavaScript or HTML5, the backend in Java, and data processing can be done in Python.
+
+- The following are key factors from the twelve-factor app pattern methodology that play a role in organizing around capabilities:
+   - Codebase (one codebase tracked in revision control, many deploys) –Each microservice owns its own codebase in a separate repository and throughout the lifecycle of the code change.
+   - Build, release, run (strictly separate build and run stages) – Each microservice has its own deployment pipeline and deployment frequency. This allows the development teams to run microservices at varying speeds so they can be responsive to customer needs.
+   - Processes (execute the app as one or more stateless processes) – Each microservice does one thing and does that one thing really well. The microservice is designed to solve the problem at hand in the best possible manner.
+   - Admin processes (run admin/management tasks as one-oﬀ processes) – Each microservice has its own administrative or management tasks so that it functions as designed. 
+
+
