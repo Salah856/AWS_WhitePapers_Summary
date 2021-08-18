@@ -58,3 +58,10 @@
   - Disposability (maximize robustness with fast startup and graceful shutdown) – Disposability is leveraged and satisﬁed by containers that are easily pulled from a repository and discarded when they stop running.
   - Concurrency (scale out via the process model) – Concurrency consists of tasks or pods (made of containers working together) that can be auto scaled in a memory- and CPU-eﬃcient manner.
 
+
+## Organized Around Business Capabilities
+- Before microservices, system architecture would be organized around technological capabilities such as user interface, database, and server-side logic. 
+- In a microservices-based approach, as a best practice, each development team owns the lifecycle of its service all the way to the customer. 
+- For example, a recommendations team might own development, deployment, production support, and collection of customer feedback.
+- Organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations. "Conway's Law"
+- 
