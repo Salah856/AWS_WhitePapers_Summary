@@ -74,4 +74,13 @@
    - Processes (execute the app as one or more stateless processes) – Each microservice does one thing and does that one thing really well. The microservice is designed to solve the problem at hand in the best possible manner.
    - Admin processes (run admin/management tasks as one-oﬀ processes) – Each microservice has its own administrative or management tasks so that it functions as designed. 
 
+- To achieve a microservices architecture that is organized around business capabilities, use popular microservices design patterns. 
+- A design pattern is a general, reusable solution to a commonly occurring problem within a giving context.
+
+- Popular miscroservice design patterns include:
+   - Aggregator Pattern – A basic service which invokes other services to gather the required information or achieve the required functionality. This is beneﬁcial when you need an output by combining data from multiple microservices.
+   - API Gateway Design Pattern – API Gateway also acts as the entry point for all the microservices and creates ﬁne-grained APIs for diﬀerent types of clients. It can fan out the same request to multiple microservices and similarly aggregate the results from multiple microservices.
+   - Chained or Chain of Responsibility Pattern – Chained or Chain of Responsibility Design Patterns produces a single output which is a combination of multiple chained outputs. object.
+   - Asynchronous Messaging Design Pattern – In this type of microservices design pattern, all the services can communicate with each other, but they do not have to communicate with each other sequentially and they usually communicate asynchronously.
+
 
