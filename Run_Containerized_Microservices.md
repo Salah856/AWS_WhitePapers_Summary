@@ -83,4 +83,24 @@
    - Chained or Chain of Responsibility Pattern – Chained or Chain of Responsibility Design Patterns produces a single output which is a combination of multiple chained outputs. object.
    - Asynchronous Messaging Design Pattern – In this type of microservices design pattern, all the services can communicate with each other, but they do not have to communicate with each other sequentially and they usually communicate asynchronously.
 
+   - Database or Shared Data Pattern – This design pattern will enable you to use a database per service and a shared database per service to solve various problems. These problems can include duplication of data and inconsistency, diﬀerent services have diﬀerent kinds of storage requirements, few business transactions can query the data, and with multiple services and de-normalization of data.
+   - Event Sourcing Design Pattern – This design pattern helps you to create events according to change of your application state.
+   - Command Query Responsibility Segregator (CQRS) Design Pattern – This design pattern enables you to divide the command and query. Using the common CQRS pattern, where the command part will handle all the requests related to CREATE, UPDATE, DELETE while the query part will take care of the materialized views.
+   - Circuit Breaker Pattern – This design pattern enables you to stop the process of the request and response when the service is not working. For example, when you need to redirect the request to a diﬀerent service after certain number of failed request intents.
+   - Decomposition Design Pattern – This design pattern enables you to decompose an application based on business capability or on based on the sub-domains.
+
+
+## Products Not Projects 
+- Companies that have mature applications with successful software adoption and who want to maintain and expand their user base will likely be more successful if they focus on the experience for their customers and end users.
+- To stay healthy, simplify operations, and increase eﬃciency, your engineering organization should treat software components as products that can be iteratively improved and that are constantly evolving.
+- When software architecture is broken into small microservices, it becomes possible for each microservice to be an individual product. 
+- For internal microservices, the end user of the product is another team or service. 
+- For an external microservice, the end user is the customer.
+- The core beneﬁt of treating software as a product is improved end-user experience. 
+- When your organization treats its software as an always-improving product rather than a one-oﬀ project, it will produce code that is better architected for future work.
+- The following are key factors from the twelve-factor app pattern methodology that play a role in adopting a product mindset for delivering software:
+   - Build, release, run – Engineers adopt a devops culture that allows them to optimize all three stages.
+   - Conﬁg – Engineers build better conﬁguration management for software due to their involvement with how that software is used by the customer.
+   - Dev/prod parity – Software treated as a product can be iteratively developed in smaller pieces that take less time to complete and deploy than long-running projects, which enables development and production to be closer in parity.
+
 
