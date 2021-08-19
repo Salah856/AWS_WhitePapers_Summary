@@ -118,5 +118,7 @@
    - Backing services – Dumb pipes allow a background microservice to be attached to another microservice in the same way that you attach a database.
    - Concurrency – A properly designed communication pipeline between microservices allows multiple microservices to work concurrently. For example, several observer microservices may respond and begin work in parallel in response to a single event produced by another microservice.
 
+## Decentralized Governance
+
 
 
