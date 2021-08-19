@@ -105,4 +105,7 @@
 
 ## Smart Endpoints and Dumb Pipes
 
-
+- There are two primary forms of communication between services:
+    - Request/Response – One service explicitly invokes another service by making a request to either store data in it or retrieve data from it. For example, when a new user creates an account, the user service makes a request to the billing service to pass oﬀ the billing address from the user’s proﬁle so that that billing service can store it.
+    - Publish/Subscribe – Event-based architecture where one service implicitly invokes another service that was watching for an event. For example, when a new user creates an account, the user service publishes this new user signup event and the email service that was watching for it is triggered to email the user asking them to verify their email.
+   
