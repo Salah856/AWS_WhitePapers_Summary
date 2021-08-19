@@ -124,5 +124,9 @@
 - Decentralized governance helps remove potential bottlenecks that would prevent engineers from being able to develop the best code to solve business problems.
 - Decentralized governance means that each team can use its expertise to choose the best tools to solve their speciﬁc problem. 
 - Forcing all teams to use the same database, or the same runtime language, isn’t reasonable because the problems they’re solving aren’t uniform.
-- 
+- The following are the key factors from the twelve-factor app pattern methodology that play a role in enabling decentralized governance:
+   
+   - Dependencies – Decentralized governance allows teams to choose their own dependencies, so dependency isolation is critical to make this work properly.
+   - Build, release, run – Decentralized governance should allow teams with diﬀerent build processes to use their own toolchains, yet should allow releasing and running the code to be seamless, even with diﬀering underlying build tools.
+   - Backing services – If each consumed resource is treated as if it was a third-party service, then decentralized governance allows the microservice resources to be refactored or developed in diﬀerent ways, as long as they obey an external contract for communication with other services.
 
