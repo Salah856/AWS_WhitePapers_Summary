@@ -112,7 +112,6 @@
 - The core beneﬁt of building smart endpoints and dumb pipes is the ability to decentralize the architecture, particularly when it comes to how endpoints are maintained, updated, and extended.
 - One goal of microservices is to enable parallel work on diﬀerent edges of the architecture that will not conﬂict with each other. 
 - Building dumb pipes enables each microservice to encapsulate its own logic for formatting its outgoing responses or supplementing its incoming requests.
-
 - The following are the key factors from the twelve-factor app pattern methodology that play a role in building smart endpoints and dumb pipes:
    - Port Binding – Services bind to a port to watch for incoming requests and send requests to the port of another service. The pipe in between is just a dumb network protocol such as HTTP.
    - Backing services – Dumb pipes allow a background microservice to be attached to another microservice in the same way that you attach a database.
