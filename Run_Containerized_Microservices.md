@@ -121,4 +121,8 @@
 - Decentralized governance is an approach that works well alongside microservices to enable engineering organizations to tackle this challenge. 
 - Traﬃc lights are a great example of decentralized governance. 
 - City traﬃc lights may be timed individually or in small groups, or they may react to sensors in the pavement.
+- Decentralized governance helps remove potential bottlenecks that would prevent engineers from being able to develop the best code to solve business problems.
+- Decentralized governance means that each team can use its expertise to choose the best tools to solve their speciﬁc problem. 
+- Forcing all teams to use the same database, or the same runtime language, isn’t reasonable because the problems they’re solving aren’t uniform.
+- 
 
