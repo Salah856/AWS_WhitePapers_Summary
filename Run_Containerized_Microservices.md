@@ -103,4 +103,6 @@
    - Conﬁg – Engineers build better conﬁguration management for software due to their involvement with how that software is used by the customer.
    - Dev/prod parity – Software treated as a product can be iteratively developed in smaller pieces that take less time to complete and deploy than long-running projects, which enables development and production to be closer in parity.
 
+## Smart Endpoints and Dumb Pipes
+
 
