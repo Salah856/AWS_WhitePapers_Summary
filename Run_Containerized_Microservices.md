@@ -118,6 +118,7 @@
    - Concurrency – A properly designed communication pipeline between microservices allows multiple microservices to work concurrently. For example, several observer microservices may respond and begin work in parallel in response to a single event produced by another microservice.
 
 ## Decentralized Governance
-
-
+- Decentralized governance is an approach that works well alongside microservices to enable engineering organizations to tackle this challenge. 
+- Traﬃc lights are a great example of decentralized governance. 
+- City traﬃc lights may be timed individually or in small groups, or they may react to sensors in the pavement.
 
