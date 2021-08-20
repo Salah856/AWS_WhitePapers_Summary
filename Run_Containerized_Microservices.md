@@ -130,6 +130,10 @@
    - Build, release, run – Decentralized governance should allow teams with diﬀerent build processes to use their own toolchains, yet should allow releasing and running the code to be seamless, even with diﬀering underlying build tools.
    - Backing services – If each consumed resource is treated as if it was a third-party service, then decentralized governance allows the microservice resources to be refactored or developed in diﬀerent ways, as long as they obey an external contract for communication with other services.
 
+## Decentralized Data Management
+
+
+
 
 
 
