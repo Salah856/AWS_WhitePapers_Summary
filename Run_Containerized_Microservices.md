@@ -180,6 +180,37 @@
 - Container monitoring covers basic metrics like memory utilization, CPU usage, CPU limit and memory limit. 
 - Container monitoring also oﬀers the real-time streaming logs, tracing and observability that containers need.
 
+## Evolutionary Design
+- The following are the key factors from the twelve-factor app pattern methodology that play a role in evolutionary design:
+  • Codebase (one codebase tracked in revision control, many deploys) – Helps evolve features faster since new feedback can be quickly incorporated.
+  • Dependencies (explicitly declare and isolate dependencies) – Enables quick iterations of the design since features are tightly coupled with externalities.
+  • Conﬁguration (store conﬁgurations in the environment) – Everything that is likely to vary between deploys (staging, production, developer environments, etc.). Conﬁg varies substantially across deploys, code does not. With conﬁgurations stored outside code, the design can evolve irrespective of the environment.
+  • Build, release, run (strictly separate build and run stages) – Help roll out new features using various deployment techniques. Each release has a speciﬁc ID and can be used to gain design eﬃciency and user feedback.
+
+- The following software design patterns can be used to achieve an evolutionary design:
+  • Sidecar extends and enhances the main service.
+  • Ambassador creates helper services that send network requests on behalf of a consumer service or application.
+  • Chain provides a deﬁned order of starting and stopping containers.
+  • Proxy provides a surrogate or placeholder for another object to control access to it.
+  • Strategy deﬁnes a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from the clients that use it.
+  • Iterator provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+  • Service Mesh is a dedicated infrastructure layer for facilitating service-to-service communications between microservices, using a proxy. 
+
+- Deployment strategies such as a Canary release provide added agility to evolve design based on user feedback. 
+- Canary release is a technique that’s used to reduce the risk inherent in a new software version release. 
+- In a canary release, the new software is slowly rolled out to a small subset of users before it’s rolled out to the entire infrastructure and made available to everybody. 
+
+- In the diagram that follows, a canary release can easily be implemented with containers using AWS primitives. 
+- As a container announces its health via a health check API, the canary directs more traﬃc to it. 
+- The state of the canary and the execution is maintained -using Amazon DynamoDB, Amazon Route 53 , Amazon CloudWatch, Amazon Elastic Container Service (Amazon ECS), and AWS Step Functions.
+
+![1](https://user-images.githubusercontent.com/23625821/130248884-5e1cda6e-134c-4871-aec7-83f00a90c31e.png)
+
+## Conclusion
+- Microservices can be designed using the twelve-factor app pattern methodology and software design patterns enable you to achieve this easily. These software design patterns are well known. 
+
+- If applied in the right context, they can enable the design beneﬁts of microservices. AWS provides a wide range of primitives that can be used to enable containerized microservices.
+
 
 
 ### References 
