@@ -156,7 +156,15 @@
   - Build, release, run (strictly separate build and run stages) – One environment for each purpose.
   - Disposability (maximize robustness with fast startup and graceful shutdown) – This factor transcends the process layer and bleeds into such downstream layers as containers, virtual machines, and virtual private cloud.
   - Dev/prod parity – Keep development, staging, and production as similar as possible.
-  - 
+  
+- Ultimately, the goal is to enable developers to push code updates and have the updated application sent to multiple environments in minutes. 
+- There are many ways to successfully deploy in phases, including the blue/green and canary methods. With the blue/green deployment, two environments live side by side, with one of them running a newer version of the application. 
+- Traﬃc is sent to the older version until a switch happens that routes all traﬃc to the new environment.
+
+
+
+![image](https://user-images.githubusercontent.com/23625821/130197899-91a39937-5abb-4024-b795-fd0a434edfea.png)
+
 
 
 ### References 
