@@ -165,6 +165,9 @@
 
 ![image](https://user-images.githubusercontent.com/23625821/130197899-91a39937-5abb-4024-b795-fd0a434edfea.png)
 
+## Design for Failure
+
+
 
 
 ### References 
