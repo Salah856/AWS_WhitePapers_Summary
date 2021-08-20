@@ -172,6 +172,15 @@
   - Logs (treat logs as event streams) – If part of a system fails, troubleshooting is necessary. Ensure that material for forensics exists.
   - Dev/prod parity – Keep development, staging, and production as similar as possible.
 
+- Modern container management services allow developers to retrieve near real-time, event-driven updates on the state of containers. Docker supports multiple logging drivers. 
+
+![1](https://user-images.githubusercontent.com/23625821/130248108-20e52ba1-76e3-4fb1-a2e1-adcd57534097.png)
+
+- Container monitoring solutions use metric capture, analytics, transaction tracing and visualization.
+- Container monitoring covers basic metrics like memory utilization, CPU usage, CPU limit and memory limit. 
+- Container monitoring also oﬀers the real-time streaming logs, tracing and observability that containers need.
+
+
 
 ### References 
 
