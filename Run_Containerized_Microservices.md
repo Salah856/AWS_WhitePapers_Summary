@@ -132,7 +132,13 @@
 
 ## Decentralized Data Management
 
+- All data-bound communication should be enabled via services that encompass the data. As a result, each service team chooses the most optimal data store type and schema for their application.
+- Decentralized data management enhances application design by allowing the best data store for the job to be used.
 
+- The following are the key factors from the twelve-factor app pattern methodology that play a role in organizing around capabilities:
+    - Disposability (maximize robustness with fast startup and graceful shutdown) – The services should be robust and not dependent on externalities. This principle further allows for the services to run in a limited capacity if one or more components fail.
+    - Backing services (treat backing services as attached resources) – A backing service is any service that the app consumes over the network such as data stores, messaging systems, etc. Typically, backing services are managed by operations. The app should make no distinction between a local and an external service.
+    - Admin processes (run admin/management tasks as one-oﬀ processes) – The processes required to do the app’s regular business, for example, running database migrations. Admin processes should be run in a similar manner, irrespective of environments.
 
 
 
