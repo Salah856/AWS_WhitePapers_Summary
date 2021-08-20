@@ -160,8 +160,8 @@
 - Ultimately, the goal is to enable developers to push code updates and have the updated application sent to multiple environments in minutes. 
 - There are many ways to successfully deploy in phases, including the blue/green and canary methods. With the blue/green deployment, two environments live side by side, with one of them running a newer version of the application. 
 - Traﬃc is sent to the older version until a switch happens that routes all traﬃc to the new environment.
-
-
+- In this case, we use a switch of target groups behind a load balancer in order to redirect traﬃc from the old to the new resources. 
+- Another way to achieve this is to use services fronted by two load balancers and operate the switch at the DNS level.
 
 ![image](https://user-images.githubusercontent.com/23625821/130197899-91a39937-5abb-4024-b795-fd0a434edfea.png)
 
