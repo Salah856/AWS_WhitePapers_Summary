@@ -166,8 +166,11 @@
 ![image](https://user-images.githubusercontent.com/23625821/130197899-91a39937-5abb-4024-b795-fd0a434edfea.png)
 
 ## Design for Failure
-
-
+- Everything fails all the time
+- Here are the key factors from the twelve-factor app pattern methodology that play a role in designing for failure:
+  - Disposability (maximize robustness with fast startup and graceful shutdown) – Produce lean container images and strive for processes that can start and stop in a matter of seconds.
+  - Logs (treat logs as event streams) – If part of a system fails, troubleshooting is necessary. Ensure that material for forensics exists.
+  - Dev/prod parity – Keep development, staging, and production as similar as possible.
 
 
 ### References 
