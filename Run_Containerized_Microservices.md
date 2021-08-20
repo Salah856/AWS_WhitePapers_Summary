@@ -212,7 +212,6 @@
 - If applied in the right context, they can enable the design beneﬁts of microservices. AWS provides a wide range of primitives that can be used to enable containerized microservices.
 
 
-
 ### References 
 
 <a href="https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/running-containerized-microservices.pdf#welcome"> Original paper </a>
