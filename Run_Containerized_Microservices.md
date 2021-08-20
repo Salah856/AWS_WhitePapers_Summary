@@ -150,7 +150,13 @@
   - Memento – Helps capture and externalize an object's internal state so that the object can be returned to this state later.
   
 ## Infrastructure Automation
-
+- The following are the key factors from the twelve-factor app pattern methodology that play a role in evolutionary design:
+  - Codebase (one codebase tracked in revision control, many deploys) – Because the infrastructure can be described as code, treat all code similarly and keep it in the service repository.
+  - Conﬁg (store conﬁgurations in the environment) – The environment should hold and share its ow speciﬁcities.
+  - Build, release, run (strictly separate build and run stages) – One environment for each purpose.
+  - Disposability (maximize robustness with fast startup and graceful shutdown) – This factor transcends the process layer and bleeds into such downstream layers as containers, virtual machines, and virtual private cloud.
+  - Dev/prod parity – Keep development, staging, and production as similar as possible.
+  - 
 
 
 ### References 
