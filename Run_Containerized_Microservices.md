@@ -140,7 +140,16 @@
     - Backing services (treat backing services as attached resources) – A backing service is any service that the app consumes over the network such as data stores, messaging systems, etc. Typically, backing services are managed by operations. The app should make no distinction between a local and an external service.
     - Admin processes (run admin/management tasks as one-oﬀ processes) – The processes required to do the app’s regular business, for example, running database migrations. Admin processes should be run in a similar manner, irrespective of environments.
 
-
+- To achieve a microservices architecture with decoupled data management, the following software design patterns can be used:
+  - Controller – Helps direct the request to the appropriate data store using the appropriate mechanism.
+  - Proxy – Helps provide a surrogate or placeholder for another object to control access to it.
+  - Visitor – Helps represent an operation to be performed on the elements of an object structure.
+  - Interpreter – Helps map a service to data store semantics.
+  - Observer – Helps deﬁne a one-to-many dependency between objects so that when one object changes state, all of its dependents are notiﬁed and updated automatically.
+  - Decorator – Helps attach additional responsibilities to an object dynamically. Decorators provide a ﬂexible alternative to sub-classing for extending functionality.
+  - Memento – Helps capture and externalize an object's internal state so that the object can be returned to this state later.
+  
+## 
 
 
 
