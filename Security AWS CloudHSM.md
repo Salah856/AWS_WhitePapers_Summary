@@ -5,3 +5,5 @@
 - This whitepaper provides details on thecryptographic mechanisms supporting backup and restore functionality, and the security mechanisms protecting the Amazon Web Services (AWS)-managed backups.
 - It also provides in-depth information on how backups are protected in all three phases of the CloudHSM backup lifecycle process: Creation, Archive, and Restore.
 - For the purposes of this whitepaper, it is assumed that you have a basic understanding of AWS CloudHSM and cluster architecture.
+- AWS offers two options for securing cryptographic keys in the AWS Cloud: AWS Key Management Service (AWS KMS) and AWS CloudHSM.
+
