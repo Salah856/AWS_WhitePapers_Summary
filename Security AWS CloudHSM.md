@@ -6,4 +6,6 @@
 - It also provides in-depth information on how backups are protected in all three phases of the CloudHSM backup lifecycle process: Creation, Archive, and Restore.
 - For the purposes of this whitepaper, it is assumed that you have a basic understanding of AWS CloudHSM and cluster architecture.
 - AWS offers two options for securing cryptographic keys in the AWS Cloud: AWS Key Management Service (AWS KMS) and AWS CloudHSM.
-
+- AWS KMS is a managed service that uses hardware security modules (HSMs) to protect the security of your encryption keys. 
+- AWS CloudHSM delivers fully managed HSMs in the AWS Cloud, which allows you to add secure, validated key storage and high-performance crypto acceleration to your AWS applications.
+- 
