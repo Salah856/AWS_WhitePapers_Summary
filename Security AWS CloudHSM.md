@@ -16,4 +16,8 @@
 - This paper takes an in-depth look at the security mechanisms in place around this feature.
 
 ## AWS CloudHSM: Managed by AWS, controlled by you
-- 
+- AWS CloudHSM provides HSMs in a cluster. A cluster is a collection of individual HSMs that AWS CloudHSM keeps in sync. 
+- You can think of a cluster as one logical HSM. When you perform a key generation task or operation on one HSM in a cluster, the other HSMs in that cluster are automatically kept up to date. 
+- Each HSM in a cluster is a single-tenant HSM under your control. 
+- At the hardware level, each HSM includes hardware-enforced isolation of crypto operations and key storage. 
+- Each HSM runs on dedicated cryptographic cores.
