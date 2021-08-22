@@ -15,4 +15,5 @@
 - The backup and restore functionality of CloudHSM is what enables scalability, reliability, and high availability in CloudHSM. A key aspect of the backup and restore feature is a secure backup protocol that CloudHSM uses to back up your cluster. 
 - This paper takes an in-depth look at the security mechanisms in place around this feature.
 
-
+## AWS CloudHSM: Managed by AWS, controlled by you
+- 
