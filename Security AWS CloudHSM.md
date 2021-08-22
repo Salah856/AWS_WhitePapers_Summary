@@ -8,4 +8,5 @@
 - AWS offers two options for securing cryptographic keys in the AWS Cloud: AWS Key Management Service (AWS KMS) and AWS CloudHSM.
 - AWS KMS is a managed service that uses hardware security modules (HSMs) to protect the security of your encryption keys. 
 - AWS CloudHSM delivers fully managed HSMs in the AWS Cloud, which allows you to add secure, validated key storage and high-performance crypto acceleration to your AWS applications.
-- 
+- CloudHSM offers you the option of single-tenant access and control over your HSMs.
+- CloudHSM is based on Federal Information Processing Standards (FIPS) 140-2 Level 3 validated hardware.
