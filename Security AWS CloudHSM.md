@@ -23,4 +23,5 @@
 - Each HSM runs on dedicated cryptographic cores.
 - Each HSM appears as a network resource in your virtual private cloud (VPC).
 - AWS manages the HSM on your behalf, performing functions such as health checks, backups, and synchronization of HSMs within a cluster
+- However, you alone control the user accounts, passwords, login policies, key rotation procedures, and all aspects of configuring and using the HSMs.
 - 
