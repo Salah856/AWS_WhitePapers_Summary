@@ -10,3 +10,5 @@
 - AWS CloudHSM delivers fully managed HSMs in the AWS Cloud, which allows you to add secure, validated key storage and high-performance crypto acceleration to your AWS applications.
 - CloudHSM offers you the option of single-tenant access and control over your HSMs.
 - CloudHSM is based on Federal Information Processing Standards (FIPS) 140-2 Level 3 validated hardware.
+- CloudHSM delivers fully managed HSMs in the AWS Cloud. CloudHSM delivers all the benefits of traditional HSMs including secure generation, storage, and management of cryptographic keys used for data encryption that are controlled and accessible only by you.
+- 
