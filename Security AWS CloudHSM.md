@@ -11,4 +11,8 @@
 - CloudHSM offers you the option of single-tenant access and control over your HSMs.
 - CloudHSM is based on Federal Information Processing Standards (FIPS) 140-2 Level 3 validated hardware.
 - CloudHSM delivers fully managed HSMs in the AWS Cloud. CloudHSM delivers all the benefits of traditional HSMs including secure generation, storage, and management of cryptographic keys used for data encryption that are controlled and accessible only by you.
-- 
+- HSM capacity can be scaled quickly by adding and removing HSMs from your cluster on demand. 
+- The backup and restore functionality of CloudHSM is what enables scalability, reliability, and high availability in CloudHSM. A key aspect of the backup and restore feature is a secure backup protocol that CloudHSM uses to back up your cluster. 
+- This paper takes an in-depth look at the security mechanisms in place around this feature.
+
+
