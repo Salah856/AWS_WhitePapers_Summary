@@ -21,3 +21,6 @@
 - Each HSM in a cluster is a single-tenant HSM under your control. 
 - At the hardware level, each HSM includes hardware-enforced isolation of crypto operations and key storage. 
 - Each HSM runs on dedicated cryptographic cores.
+- Each HSM appears as a network resource in your virtual private cloud (VPC).
+- AWS manages the HSM on your behalf, performing functions such as health checks, backups, and synchronization of HSMs within a cluster
+- 
