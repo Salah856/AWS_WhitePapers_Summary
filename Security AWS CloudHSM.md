@@ -29,3 +29,6 @@
 - You interact with the HSMs in a cluster via the AWS CloudHSM client.
 - Communication occurs over an end-to-end encrypted channel. 
 - AWS does not have visibility into your communication with your HSM, which occurs within this end-to-end encrypted channel.
+
+## High availability
+
