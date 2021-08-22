@@ -24,4 +24,8 @@
 - Each HSM appears as a network resource in your virtual private cloud (VPC).
 - AWS manages the HSM on your behalf, performing functions such as health checks, backups, and synchronization of HSMs within a cluster
 - However, you alone control the user accounts, passwords, login policies, key rotation procedures, and all aspects of configuring and using the HSMs.
-- 
+- The implication of this control is that your cryptographic data is secure from external compromise. 
+- This is important to financial applications subject to PCI regulations, healthcare applications subject to HIPAA regulations, and streaming video solutions subject to contractual DRM requirements.
+- You interact with the HSMs in a cluster via the AWS CloudHSM client.
+- Communication occurs over an end-to-end encrypted channel. 
+- AWS does not have visibility into your communication with your HSM, which occurs within this end-to-end encrypted channel.
