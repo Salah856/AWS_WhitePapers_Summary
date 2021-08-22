@@ -31,4 +31,7 @@
 - AWS does not have visibility into your communication with your HSM, which occurs within this end-to-end encrypted channel.
 
 ## High availability
+- CloudHSM makes scalability and high availability simple without compromising security.
+
+
 
