@@ -32,6 +32,8 @@
 
 ## High availability
 - CloudHSM makes scalability and high availability simple without compromising security.
-
-
+- When you use CloudHSM you begin by creating a cluster in a particular AWS Region. 
+- A cluster can contain multiple individual HSMs. For idle workloads, you can delete all HSMs and simply retain the empty cluster. 
+- For production workloads, you should have at least two HSMs spread across multiple Availability Zones. 
+- CloudHSM automatically synchronizes and load balances the HSMs within a cluster.
 
