@@ -36,4 +36,5 @@
 - A cluster can contain multiple individual HSMs. For idle workloads, you can delete all HSMs and simply retain the empty cluster. 
 - For production workloads, you should have at least two HSMs spread across multiple Availability Zones. 
 - CloudHSM automatically synchronizes and load balances the HSMs within a cluster.
-
+- The CloudHSM client load-balances cryptographic operations across all HSMs in the cluster based on the capacity of each HSM for additional processing. 
+- If a cluster requires additional throughput, you can expand your cluster by adding more HSMs through a single API call or a click in the CloudHSM console.
