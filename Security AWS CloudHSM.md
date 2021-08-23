@@ -5,6 +5,7 @@
 - This whitepaper provides details on thecryptographic mechanisms supporting backup and restore functionality, and the security mechanisms protecting the Amazon Web Services (AWS)-managed backups.
 - It also provides in-depth information on how backups are protected in all three phases of the CloudHSM backup lifecycle process: Creation, Archive, and Restore.
 - For the purposes of this whitepaper, it is assumed that you have a basic understanding of AWS CloudHSM and cluster architecture.
+
 - AWS offers two options for securing cryptographic keys in the AWS Cloud: AWS Key Management Service (AWS KMS) and AWS CloudHSM.
 - AWS KMS is a managed service that uses hardware security modules (HSMs) to protect the security of your encryption keys. 
 - AWS CloudHSM delivers fully managed HSMs in the AWS Cloud, which allows you to add secure, validated key storage and high-performance crypto acceleration to your AWS applications.
@@ -22,10 +23,12 @@
 - At the hardware level, each HSM includes hardware-enforced isolation of crypto operations and key storage. 
 - Each HSM runs on dedicated cryptographic cores.
 - Each HSM appears as a network resource in your virtual private cloud (VPC).
+
 - AWS manages the HSM on your behalf, performing functions such as health checks, backups, and synchronization of HSMs within a cluster
 - However, you alone control the user accounts, passwords, login policies, key rotation procedures, and all aspects of configuring and using the HSMs.
 - The implication of this control is that your cryptographic data is secure from external compromise. 
 - This is important to financial applications subject to PCI regulations, healthcare applications subject to HIPAA regulations, and streaming video solutions subject to contractual DRM requirements.
+
 - You interact with the HSMs in a cluster via the AWS CloudHSM client.
 - Communication occurs over an end-to-end encrypted channel. 
 - AWS does not have visibility into your communication with your HSM, which occurs within this end-to-end encrypted channel.
