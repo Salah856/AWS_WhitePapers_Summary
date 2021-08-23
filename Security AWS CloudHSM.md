@@ -47,3 +47,5 @@
 - This HSM is restored from a backup of another HSMs in the cluster if available. 
 - Otherwise, the new HSM is restored from the last available backup taken for the cluster.
 
+## CloudHSM cluster backups
+- 
