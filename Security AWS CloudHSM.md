@@ -38,3 +38,12 @@
 - CloudHSM automatically synchronizes and load balances the HSMs within a cluster.
 - The CloudHSM client load-balances cryptographic operations across all HSMs in the cluster based on the capacity of each HSM for additional processing. 
 - If a cluster requires additional throughput, you can expand your cluster by adding more HSMs through a single API call or a click in the CloudHSM console.
+
+- When you expand a cluster, CloudHSM automatically provisions a new HSM as a clone of the other HSMs in the cluster. 
+- This is done by taking a backup of an existing HSM and restoring it to the newly added HSM. When you delete an HSM from a cluster, a backup is automatically taken. 
+
+- This way, when you create a new HSM later, you can pick up where you left off. 
+- Should an HSM fail for any reason, the service will automatically replace it with a new, healthy HSM. 
+- This HSM is restored from a backup of another HSMs in the cluster if available. 
+- Otherwise, the new HSM is restored from the last available backup taken for the cluster.
+
