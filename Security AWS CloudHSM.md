@@ -56,6 +56,7 @@
 - A backup is a complete, encrypted snapshot of the HSM.
 - Each AWS-managed backup contains the entire contents of the HSM, including keys, certificates, users, policies, quorum settings, and configuration options.
 - This includes:
+
     • Certificates on the HSM, including the cluster certificate.  
     • All HSM users (COs, CUs, and AU).  
     • All key material on the HSM.  
