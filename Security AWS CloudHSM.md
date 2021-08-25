@@ -86,5 +86,8 @@
 - This ensures other parties cannot forge the firmware.
 
 #### Key hierarchy
+- A backup is encrypted within the HSM before it is provided to CloudHSM for archival. The backup is encrypted using a backup encryption key, described in the following section.
 
+![image](https://user-images.githubusercontent.com/23625821/130733652-3c935b13-782f-4ae2-bee7-1549153de7d7.png)
 
+#### Manufacturer’s key backup key (MKBK)
