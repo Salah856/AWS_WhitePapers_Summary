@@ -84,4 +84,7 @@
 - A backup taken by an HSM configured in FIPS-mode cannot be restored to an HSM that is not also in FIPS-mode.
 - An HSM in FIPS-mode is running production firmware provided by the manufacturer and signed with a FIPS production key.
 - This ensures other parties cannot forge the firmware.
-- 
+
+#### Key hierarchy
+
+
