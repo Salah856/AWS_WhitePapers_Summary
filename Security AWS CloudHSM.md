@@ -103,8 +103,12 @@
 
 
 #### Backup Encryption Key (BEK) 
-- 
-
+- The backup of the HSM is encrypted using a backup encryption key (BEK). 
+- The BEK is an AES-256 key that is generated within the HSM when a backup is requested. 
+- The HSM uses the BEK to encrypt its backup. 
+- The encrypted backup includes a wrapped copy of the BEK.
+- The BEK is wrapped with an AES 256-bit wrapping key using a FIPS-approved
+AES key wrapping method.
 
 
 ### Refernces
