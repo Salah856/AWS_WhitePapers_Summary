@@ -63,4 +63,14 @@
     • HSM configurations and policies.  
 
 ### Archiving a backup 
+- CloudHSM stores the cluster backups in a service-controlled Amazon S3 location in the same AWS Region as your cluster.
 
+![image](https://user-images.githubusercontent.com/23625821/130732655-561b5e18-acf2-496b-a00e-0650b2eacee8.png)
+
+### Restoring a backup
+- Backups are used in two scenarios: 
+   - When you provision a new cluster using an existing backup.
+   - When a second (or subsequent) HSM is added to a cluster, or when CloudHSM automatically replaces an unhealthy HSM.
+
+- In both scenarios, the backup is restored to a newly created HSM.
+- 
