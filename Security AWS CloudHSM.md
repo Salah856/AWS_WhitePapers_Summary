@@ -79,3 +79,4 @@
 - Note that while CloudHSM manages backups, the service does not have any access to the data, cryptographic material, user information, and the keys encapsulated within the backup. 
 - Specifically, AWS has no way to recover your keys if you lose your access credentials to log in to the HSM.
 
+### Security of backups
