@@ -97,7 +97,9 @@
 
 
 #### AWS key backup key (AKBK)
-- 
+- The AWS key backup key (AKBK) is securely installed by the CloudHSM service when the hardware is placed into operation within the CloudHSM fleet.
+- This key is unique to hardware installed by AWS within our CloudHSM infrastructure.
+- The AKBK is generated securely within an offline FIPS-compliant hardware security module, and loaded under two-person control into newly commissioned CloudHSM hardware.
 
 
 #### Backup Encryption Key (BEK) 
