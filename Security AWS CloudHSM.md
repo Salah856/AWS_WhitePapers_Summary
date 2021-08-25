@@ -81,3 +81,5 @@
 
 ### Security of backups
 - The CloudHSM backup mechanism has been validated under <a href="https://csrc.nist.gov/csrc/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2850.pdf"> FIPS 140-2 Level 3 </a> .
+- A backup taken by an HSM configured in FIPS-mode cannot be restored to an HSM that is not also in FIPS-mode.
+- 
