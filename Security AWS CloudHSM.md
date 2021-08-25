@@ -91,3 +91,18 @@
 ![image](https://user-images.githubusercontent.com/23625821/130733652-3c935b13-782f-4ae2-bee7-1549153de7d7.png)
 
 #### Manufacturer’s key backup key (MKBK)
+- 
+
+
+#### AWS key backup key (AKBK)
+- 
+
+
+#### Backup Encryption Key (BEK) 
+- 
+
+
+
+### Refernces
+
+<a href="https://d1.awsstatic.com/whitepapers/Security/security-of-aws-cloudhsm-backups.pdf"> Original paper </a>
