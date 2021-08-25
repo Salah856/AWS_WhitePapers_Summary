@@ -80,3 +80,4 @@
 - Specifically, AWS has no way to recover your keys if you lose your access credentials to log in to the HSM.
 
 ### Security of backups
+- The CloudHSM backup mechanism has been validated under <a href="https://csrc.nist.gov/csrc/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2850.pdf"> FIPS 140-2 Level 3 </a> .
