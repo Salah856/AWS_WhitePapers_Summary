@@ -91,7 +91,9 @@
 ![image](https://user-images.githubusercontent.com/23625821/130733652-3c935b13-782f-4ae2-bee7-1549153de7d7.png)
 
 #### Manufacturer’s key backup key (MKBK)
-- 
+- The manufacturer’s key backup key (MKBK) exists in the HSM hardware provided by the manufacturer.
+- The MKBK cannot be accessed or used by any user or for any purpose other than the generation of the backup encryption key.
+- Specifically, AWS does not have access to or visibility into the MKBK.
 
 
 #### AWS key backup key (AKBK)
