@@ -8,7 +8,10 @@
 
 - Gartner predicts that by 2022, more than 75% of global organizations will be running containerized applications in production, up from less than 30% in 2020. 
 - An IDC survey found that 45% of respondents’ application portfolio is running in containers today, and that is expected to increase to 60% in three years
+
 - This paper walks through this use case of modernizing a .NET Framework application running on Windows VMs to .NET 5, and Linux containers running on Amazon Elastic Container Service (Amazon ECS) and AWS Fargate.
+- This guide uses AWS Fargate for ECS to deploy containerized .NET Framework applications on AWS.
+
 
 ## Choosing container orchestration
 
