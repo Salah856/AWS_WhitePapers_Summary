@@ -12,4 +12,4 @@
 
 ## Choosing container orchestration
 
-
+- When choosing your container orchestration option, you should start with the question, “How much of the container infrastructure do I want to manage?” The following options are available to you:
