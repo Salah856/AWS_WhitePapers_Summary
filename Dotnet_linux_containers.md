@@ -21,3 +21,8 @@
 - Amazon Elastic Container Service 
 - Amazon Elastic Kubernetes Service 
 - AWS Fargate
+
+## Cost considerations
+
+### Cloud Computing 
+
