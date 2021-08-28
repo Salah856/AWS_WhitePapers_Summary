@@ -17,4 +17,4 @@
 - Self-Managed Containers on Amazon Elastic Compute Cloud (Amazon EC2)
 - Amazon Elastic Container Service 
 - Amazon Elastic Kubernetes Service 
-
+- AWS Fargate
