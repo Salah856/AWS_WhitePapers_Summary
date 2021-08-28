@@ -10,5 +10,6 @@
 - An IDC survey found that 45% of respondents’ application portfolio is running in containers today, and that is expected to increase to 60% in three years
 - This paper walks through this use case of modernizing a .NET Framework application running on Windows VMs to .NET 5, and Linux containers running on Amazon Elastic Container Service (Amazon ECS) and AWS Fargate.
 
+## Choosing container orchestration
 
 
