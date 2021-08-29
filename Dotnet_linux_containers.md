@@ -30,4 +30,5 @@
 
 ### AWS pricing model
 - AWS offers a simple, consistent, pay-as-you-go pricing model, so you are charged only for the resources you consume.
-- 
+- With this model, there are no upfront fees, no minimum commitments, and no long-term contracts required.
+- There is also flexibility to choose the pricing model that best fits your needs if the pay-as-you-go model is not optimal for your use case.
