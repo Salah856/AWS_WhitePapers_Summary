@@ -27,4 +27,6 @@
 ### Cloud Computing 
 - Cloud computing helps businesses reduce costs and complexity, adjust capacity on-demand, accelerate time-to-market, increase opportunities for innovation, and enhance security.
 - Weighing the financial considerations of operating an on-premises data center versus using cloud infrastructure is not as simple as comparing hardware, storage, and compute costs.
+
+### AWS pricing model
 - 
