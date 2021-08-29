@@ -51,3 +51,9 @@
 ![1](https://user-images.githubusercontent.com/23625821/131245526-e43511a1-117b-4443-8db2-38ef235b0a07.png)
 
 - You can find more details <a href="https://calculator.aws/#/"> here </a> : 
+
+#### AWS Fargate pricing
+- Windows containers are not supported to run on AWS Fargate at this time.
+
+![1](https://user-images.githubusercontent.com/23625821/131245653-0d54e740-469a-486e-8da6-39b6967bf7d8.png)
+
