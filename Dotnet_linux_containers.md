@@ -25,4 +25,5 @@
 ## Cost considerations
 
 ### Cloud Computing 
-
+- Cloud computing helps businesses reduce costs and complexity, adjust capacity on-demand, accelerate time-to-market, increase opportunities for innovation, and enhance security.
+- 
