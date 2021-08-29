@@ -42,3 +42,6 @@
     - Instances are charged the Spot Price, which is set by Amazon EC2 and fluctuates, depending on supply and demand. 
 
 ![image](https://user-images.githubusercontent.com/23625821/131245382-1b1f9bc9-c7c2-4e7d-9b4c-2118a4209939.png)
+
+### Summary by service and operating system
+- 
