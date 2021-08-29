@@ -45,4 +45,5 @@
 
 ### Summary by service and operating system
 - The following table represents the summary of running the preceding application on each service, and compares the monthly cost of running on Windows versus Linux.
-- 
+- These figures include the cost of compute, the Amazon VPC, and ELB. 
+- Running on Linux costs less than running on Windows for each service.
