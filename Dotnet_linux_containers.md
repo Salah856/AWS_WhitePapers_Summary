@@ -44,4 +44,5 @@
 ![image](https://user-images.githubusercontent.com/23625821/131245382-1b1f9bc9-c7c2-4e7d-9b4c-2118a4209939.png)
 
 ### Summary by service and operating system
+- The following table represents the summary of running the preceding application on each service, and compares the monthly cost of running on Windows versus Linux.
 - 
