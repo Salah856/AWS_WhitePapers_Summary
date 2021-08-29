@@ -49,3 +49,5 @@
 - Running on Linux costs less than running on Windows for each service.
 
 ![1](https://user-images.githubusercontent.com/23625821/131245526-e43511a1-117b-4443-8db2-38ef235b0a07.png)
+
+- You can find more details <a href="https://calculator.aws/#/"> here </a> : 
