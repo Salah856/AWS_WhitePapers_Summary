@@ -33,7 +33,11 @@
 - With this model, there are no upfront fees, no minimum commitments, and no long-term contracts required.
 - There is also flexibility to choose the pricing model that best fits your needs if the pay-as-you-go model is not optimal for your use case.
 - Short descriptions of all of these pricing models are found below.
+    
     - On-Demand Instance — With On-Demand Instances, you pay for compute capacity by the hour, with no minimum commitments required.
     - Reserved Instance — For longer-term savings, you can purchase in advance. 
+    
     - In addition to providing a significant discount (up to 60 percent) compared to On-Demand Instance pricing, Reserved Instances allow you to reserve capacity.
+    - Spot Instance — You can request unused Amazon Elastic Compute Cloud (Amazon EC2) capacity. 
+    - Instances are charged the Spot Price, which is set by Amazon EC2 and fluctuates, depending on supply and demand. 
 
