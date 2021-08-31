@@ -59,4 +59,3 @@
 
 ## Architecture overview
 
-- 
