@@ -106,3 +106,19 @@ ENTRYPOINT ["dotnet", "MvcMusicStore.dll"]
 docker build . -t music-store
 
 ```
+
+Run the docker images command from the command line. You should see a newly created mvcmusicstore Docker image in the output:
+
+```sh
+REPOSITORY
+music-store
+TAG
+latest
+IMAGE ID
+19fa5c6fb0c3
+CREATED
+2 minutes ago
+SIZE
+233MB
+
+```
