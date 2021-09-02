@@ -68,4 +68,7 @@
 
 ## Replatforming from Windows VMs to Linux containers
 
-- 
+- Prerequisites
+    - Install Docker. See Docker Desktop.
+    - Install the AWS CDK. See AWS CDK Toolkit ( cdk command).
+    - Install the AWS CLI. See AWS Command Line Interface.
