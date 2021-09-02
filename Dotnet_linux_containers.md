@@ -130,4 +130,6 @@ SIZE
 
 
 ### Create the CI/CD pipeline
-- 
+- One of the advantages of containerizing your applications is to automate software delivery, reducing the total time-to-market. 
+- In the following section you will create a continuous integration and continuous delivery (CI/CD) pipeline. 
+- These steps include initiating automatic builds, pushing the container image to Amazon ECR, and updating the Fargate service when there is a code change.
