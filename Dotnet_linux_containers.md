@@ -129,4 +129,3 @@ SIZE
 - AWS CDK is an open-source software development framework to define your cloud application resources using familiar programming languages. 
 - In the following section of the guide, you will use AWS CDK for .NET to create AWS Cloud infrastructure as code and provision it through CloudFormation.
 
-![image](https://user-images.githubusercontent.com/23625821/131796887-f233f3d4-28ba-43ce-8900-4bb50e81170d.png)
