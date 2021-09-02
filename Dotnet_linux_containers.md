@@ -98,3 +98,11 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "MvcMusicStore.dll"]
 
 ```
+
+- Ensure Docker is started locally, and from the command line, set the working directory to the folder containing the above Dockerfile.
+- Run the following command to ensure that the application container image builds successfully.
+
+```sh
+docker build . -t music-store
+
+```
