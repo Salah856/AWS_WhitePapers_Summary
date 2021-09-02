@@ -127,5 +127,7 @@ SIZE
 
 - There are various ways to create a Fargate service, such as using AWS Management Console, AWS CLI , AWS CloudFormation template, and AWS Cloud Development Kit (AWS CDK). 
 - AWS CDK is an open-source software development framework to define your cloud application resources using familiar programming languages. 
-- In the following section of the guide, you will use AWS CDK for .NET to create AWS Cloud infrastructure as code and provision it through CloudFormation.
 
+
+### Create the CI/CD pipeline
+- 
