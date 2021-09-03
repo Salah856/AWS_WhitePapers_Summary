@@ -129,6 +129,10 @@ SIZE
 - AWS CDK is an open-source software development framework to define your cloud application resources using familiar programming languages. 
 
 ### Logging and monitoring
+
 - Monitoring is an important part of maintaining the reliability, availability, and performance of your applications running on Amazon ECS. 
 - You should collect monitoring data from all of the parts of your AWS stack so that you can more easily debug a multi-point failure if one occurs. 
 - AWS provides several tools for monitoring your Amazon ECS resources and responding for potential incidents.
+
+![1](https://user-images.githubusercontent.com/23625821/131959081-7e0fa10b-e0ee-4bd9-9b88-dfc09522423a.png)
+
