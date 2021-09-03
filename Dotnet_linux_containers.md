@@ -128,15 +128,5 @@ SIZE
 - There are various ways to create a Fargate service, such as using AWS Management Console, AWS CLI , AWS CloudFormation template, and AWS Cloud Development Kit (AWS CDK). 
 - AWS CDK is an open-source software development framework to define your cloud application resources using familiar programming languages. 
 
+### Logging and monitoring
 
-<!-- ### Create the CI/CD pipeline
-- One of the advantages of containerizing your applications is to automate software delivery, reducing the total time-to-market. 
-- In the following section you will create a continuous integration and continuous delivery (CI/CD) pipeline. 
-- These steps include initiating automatic builds, pushing the container image to Amazon ECR, and updating the Fargate service when there is a code change.
-
-- Run the following command to create a new AWS CDK application in that folder.
-
-```sh
-cdk init app --language csharp
-
-``` -->
