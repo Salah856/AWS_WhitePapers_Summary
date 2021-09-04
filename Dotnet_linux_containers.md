@@ -154,3 +154,5 @@ SIZE
 - The best practice is to use a separate Amazon ECS task as a ticket renewal “sidecar,” which stores the Kerberos ticket in Fargate task storage for the application, which reads the ticket from Fargate task storage and connects to the database using Windows Authentication. 
 
 ![image](https://user-images.githubusercontent.com/23625821/132082682-b9fc9ff0-2c39-443b-a274-105ea51f3a4b.png)
+
+##### SQL Server Authentication
