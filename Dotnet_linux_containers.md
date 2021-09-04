@@ -137,4 +137,4 @@ SIZE
 ![1](https://user-images.githubusercontent.com/23625821/131959081-7e0fa10b-e0ee-4bd9-9b88-dfc09522423a.png)
 
 ### Security
-
+- Shared responsibility model with the customer: AWS manages and controls the components from the host operating system and virtualization layer down to the physical security of the facilities in which the services operate, and AWS customers are responsible for building secure applications.
