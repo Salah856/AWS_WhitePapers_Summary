@@ -150,4 +150,5 @@ SIZE
 - Amazon RDS supports both Windows and SQL Server authentication modes when connecting an application to the database.
 
 ##### Windows Authentication
-
+- Windows (or Integrated) Authentication is the common mechanism for clients and applications to connect to SQL Server databases.
+- The best practice is to use a separate Amazon ECS task as a ticket renewal “sidecar,” which stores the Kerberos ticket in Fargate task storage for the application, which reads the ticket from Fargate task storage and connects to the database using Windows Authentication. 
