@@ -145,3 +145,9 @@ SIZE
     - User authentication through an identity provider (IdP) that is OpenID Connect (OICD) compliant
     - User authentication through well-known IdPs such as Amazon, Facebook, and Google through Amazon Cognito user pools
     - User authentication through corporate identities using SAML, LDAP, or Microsoft Active Directory through Amazon Cognito user pools
+
+#### Application to database authentication and authorization
+- Amazon RDS supports both Windows and SQL Server authentication modes when connecting an application to the database.
+
+##### Windows Authentication
+
