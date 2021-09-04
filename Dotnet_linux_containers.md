@@ -138,3 +138,10 @@ SIZE
 
 ### Security
 - Shared responsibility model with the customer: AWS manages and controls the components from the host operating system and virtualization layer down to the physical security of the facilities in which the services operate, and AWS customers are responsible for building secure applications.
+
+#### User to application authentication and authorization
+- Amazon also provides an ASP.NET Core Identity Provider for Amazon Cognito, which allows ASP.NET Core applications to easily integrate with Amazon Cognito in their web applications for user authentication and authorization.
+- The following integrations are also supported:
+    - User authentication through an identity provider (IdP) that is OpenID Connect (OICD) compliant
+    - User authentication through well-known IdPs such as Amazon, Facebook, and Google through Amazon Cognito user pools
+    - User authentication through corporate identities using SAML, LDAP, or Microsoft Active Directory through Amazon Cognito user pools
