@@ -155,4 +155,28 @@ SIZE
 
 ![image](https://user-images.githubusercontent.com/23625821/132082682-b9fc9ff0-2c39-443b-a274-105ea51f3a4b.png)
 
-##### SQL Server Authentication
+### Identity and access management for Amazon ECS
+
+![image](https://user-images.githubusercontent.com/23625821/132116549-2e140581-eba4-4505-8ce1-d270d5e59a84.png)
+
+#### Service-linked role
+
+- There are multiple activities that the Amazon ECS service runs as it orchestrates your container workloads. 
+
+- Amazon ECS uses a service-linked role for the permissions it requires to call other AWS services on your behalf. 
+
+- These include services like Amazon EC2 to manage elastic network interfaces, ELB to manage targets, and Amazon Route 53 for creating health checks, amongst others
+
+
+![image](https://user-images.githubusercontent.com/23625821/132116576-b1c2ff77-a407-429f-b954-62ac7a5d7381.png)
+
+#### Container Instance role
+
+![image](https://user-images.githubusercontent.com/23625821/132116585-6e6a920e-4730-4173-a332-7078fb3242b9.png)
+
+#### Task execution role
+- The task execution role grants the Amazon ECS container agent permission to make AWS API calls on your behalf when an Amazon ECS task is started.
+
+![image](https://user-images.githubusercontent.com/23625821/132116596-b91f328c-2d78-425d-a7cd-eecef7d88ae7.png)
+
+
