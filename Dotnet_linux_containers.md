@@ -179,4 +179,7 @@ SIZE
 
 ![image](https://user-images.githubusercontent.com/23625821/132116596-b91f328c-2d78-425d-a7cd-eecef7d88ae7.png)
 
+#### Task role
+
+![image](https://user-images.githubusercontent.com/23625821/132116616-8e8da03e-d5d5-47ba-b161-1b13774a53ce.png)
 
