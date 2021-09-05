@@ -183,3 +183,5 @@ SIZE
 
 ![image](https://user-images.githubusercontent.com/23625821/132116616-8e8da03e-d5d5-47ba-b161-1b13774a53ce.png)
 
+
+<a href="https://d1.awsstatic.com/whitepapers/modernize-dotnet-apps-with-linux-containers.pdf?did=wp_card&trk=wp_card"> Original paper </a>
