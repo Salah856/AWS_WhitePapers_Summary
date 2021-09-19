@@ -22,7 +22,7 @@
 
 ## The Infrastructure Resource Lifecycle
 
-
+![image](https://user-images.githubusercontent.com/23625821/133917214-9c20040a-f476-4857-8aa8-2ca9fec2e7f9.png)
 
 
 
