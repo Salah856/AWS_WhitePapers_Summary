@@ -20,8 +20,7 @@
      - Difficulty in attaining and maintaining compliance to corporate or industry standards due to the absence of repeatable processes.
 
 
-
-
+## The Infrastructure Resource Lifecycle
 
 
 
