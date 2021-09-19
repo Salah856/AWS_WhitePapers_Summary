@@ -1,5 +1,9 @@
 # Infrastructure as code
 
+- Infrastructure as Code has emerged as a best practice for automating the provisioning of infrastructure services. 
+- This paper describes the benefits of Infrastructure as Code.
+- And how to leverage the capabilities of AWS in this realm to support DevOps initiatives.
+
 
 
 
