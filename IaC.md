@@ -24,6 +24,13 @@
 
 ![image](https://user-images.githubusercontent.com/23625821/133917214-9c20040a-f476-4857-8aa8-2ca9fec2e7f9.png)
 
+1. Resource provisioning. Administrators provision the resources according to the specifications they want.
+2. Configuration management. The resources become components of a configuration management system that supports activities such as tuning and patching.
+
+3. Monitoring and performance. Monitoring and performance tools validate the operational status of the resources by examining items such as metrics, synthetic transactions, and log files.
+4. Compliance and governance. Compliance and governance frameworks drive additional validation to ensure alignment with corporate and industry standards, as well as regulatory requirements.
+
+
 
 
 
