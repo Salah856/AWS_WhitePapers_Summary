@@ -30,6 +30,7 @@
 3. Monitoring and performance. Monitoring and performance tools validate the operational status of the resources by examining items such as metrics, synthetic transactions, and log files.
 4. Compliance and governance. Compliance and governance frameworks drive additional validation to ensure alignment with corporate and industry standards, as well as regulatory requirements.
 
+5. Resource optimization. Administrators review performance data and identify changes needed to optimize the environment around criteria such as performance and cost management.
 
 
 
