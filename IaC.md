@@ -32,6 +32,11 @@
 
 5. Resource optimization. Administrators review performance data and identify changes needed to optimize the environment around criteria such as performance and cost management.
 
+### AWS CloudFormation
+AWS CloudFormation gives developers and systems administrators an easy way to create, manage, provision, and update a collection of related AWS resources in an orderly and predictable way. AWS CloudFormation uses templates written in JSON or YAML format to describe the collection of AWS resources (known as a stack), their associated dependencies, and any required runtime parameters. You can use a template repeatedly to create identical copies of the same stack consistently across AWS Regions.
+
+
+
 
 
 
