@@ -37,7 +37,25 @@ AWS CloudFormation gives developers and systems administrators an easy way to cr
 
 #### Template anatomy
 
+```yaml
+---
+AWSTemplateFormatVersion: "version date"
+    Description:
+        String
+    Parameters:
+        set of parameters
+    Mappings:
+        set of mappings
+    Conditions:
+        set of conditions
+    Transform:
+        set of transforms
+    Resources:
+        set of resources
+    Outputs:
+        set of outputs
 
+```
 
 
 
