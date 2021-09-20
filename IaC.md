@@ -87,7 +87,13 @@ AWS CloudFormation gives developers and systems administrators an easy way to cr
 
 
 
+
+
+
+
 ### References:
+
+<a href"https://d0.awsstatic.com/whitepapers/DevOps/infrastructure-as-code.pdf"> Original white paper </a>
 
 
 
