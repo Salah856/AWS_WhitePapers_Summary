@@ -4,6 +4,7 @@
 - This paper describes the benefits of Infrastructure as Code.
 - And how to leverage the capabilities of AWS in this realm to support DevOps initiatives.
 
+
 ## Introduction to Infrastructure as Code
 
 - Infrastructure management is a process associated with software engineering.
