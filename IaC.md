@@ -71,6 +71,11 @@ AWSTemplateFormatVersion: "version date"
 
 #### Reusable Templates
 
+- When designing the architecture of your AWS CloudFormation stacks, you can group the stacks logically by function. 
+- Instead of creating a single template that includes all the resources you need, such as virtual private clouds (VPCs), subnets, and security groups, you can use nested stacks or cross-stack references. 
+
+
+
 
 
 
