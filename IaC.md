@@ -69,6 +69,7 @@ AWSTemplateFormatVersion: "version date"
 - The change sets capability allows you to go beyond version control in AWS CloudFormation by enabling you to keep track of what will actually change from one version to the next. 
 - Developers and administrators can gain more insight into the impact of changes before promoting them and minimize the risk of introducing errors.
 
+#### Reusable Templates
 
 
 
