@@ -66,8 +66,8 @@ AWSTemplateFormatVersion: "version date"
 - You can update AWS CloudFormation templates with application source code to add, modify, or delete stack resources. 
 - The change sets feature enables you to preview proposed changes to a stack without performing the associated updates.
 - You can control the ability to create and view change sets using AWS IAM.
-
-
+- The change sets capability allows you to go beyond version control in AWS CloudFormation by enabling you to keep track of what will actually change from one version to the next. 
+- Developers and administrators can gain more insight into the impact of changes before promoting them and minimize the risk of introducing errors.
 
 
 
