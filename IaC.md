@@ -74,7 +74,9 @@ AWSTemplateFormatVersion: "version date"
 - When designing the architecture of your AWS CloudFormation stacks, you can group the stacks logically by function. 
 - Instead of creating a single template that includes all the resources you need, such as virtual private clouds (VPCs), subnets, and security groups, you can use nested stacks or cross-stack references. 
 
-
+- The nested stack feature allows you to create a new AWS CloudFormation stack resource within an AWS CloudFormation template and establish a parent-child relationship between the two stacks. 
+- Each time you create an AWS CloudFormation stack from the parent template, AWS CloudFormation also creates a new child stack. 
+- 
 
 
 
