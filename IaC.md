@@ -76,7 +76,10 @@ AWSTemplateFormatVersion: "version date"
 
 - The nested stack feature allows you to create a new AWS CloudFormation stack resource within an AWS CloudFormation template and establish a parent-child relationship between the two stacks. 
 - Each time you create an AWS CloudFormation stack from the parent template, AWS CloudFormation also creates a new child stack. 
-- 
+
+- Cross-stack references enable an AWS CloudFormation stack to export values that other AWS CloudFormation stacks can then import. 
+- Cross-stack references promote a service-oriented model with loose coupling that allows you to share a single set of resources across multiple projects.
+
 
 
 
