@@ -80,6 +80,8 @@ AWSTemplateFormatVersion: "version date"
 - Cross-stack references enable an AWS CloudFormation stack to export values that other AWS CloudFormation stacks can then import. 
 - Cross-stack references promote a service-oriented model with loose coupling that allows you to share a single set of resources across multiple projects.
 
+#### Template Linting
+
 
 
 
