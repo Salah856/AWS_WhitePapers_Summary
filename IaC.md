@@ -93,6 +93,11 @@ aws cloudformation validate-template --template-url s3://examplebucket/example_t
 
 - It is a collection of capabilities that simplifies common maintenance, management, deployment, and execution of operational tasks on EC2 instances and servers or virtual machines (VMs) in on-premises environments. 
 
+- It helps you easily understand and control the current state of your EC2 instance and OS configurations. 
+- You can track and remotely manage system configuration, OS patch levels, application configurations, and other details about deployments as they occur over time.
+
+
+
 
 
 
