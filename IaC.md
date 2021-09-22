@@ -91,8 +91,7 @@ aws cloudformation validate-template --template-url s3://examplebucket/example_t
 
 ## Amazon EC2 Systems Manager
 
-
-
+- It is a collection of capabilities that simplifies common maintenance, management, deployment, and execution of operational tasks on EC2 instances and servers or virtual machines (VMs) in on-premises environments. 
 
 
 
