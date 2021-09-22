@@ -81,9 +81,12 @@ AWSTemplateFormatVersion: "version date"
 - Cross-stack references promote a service-oriented model with loose coupling that allows you to share a single set of resources across multiple projects.
 
 #### Template Linting
+
 - The goal of linting is to determine whether the code is syntactically correct, identify potential errors, and evaluate adherence to specific style guidelines. - - In AWS CloudFormation, linting validates that a template is correctly written in either JSON or YAML.
 
-
+```sh
+aws cloudformation validate-template --template-url s3://examplebucket/example_template.template
+```
 
 
 
