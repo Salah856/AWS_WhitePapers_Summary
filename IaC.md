@@ -97,6 +97,8 @@ aws cloudformation validate-template --template-url s3://examplebucket/example_t
 - You can track and remotely manage system configuration, OS patch levels, application configurations, and other details about deployments as they occur over time.
 
 
+![1](https://user-images.githubusercontent.com/23625821/134293188-cda39ce9-6599-4029-9456-67201d5f3a9b.png)
+
 
 
 
