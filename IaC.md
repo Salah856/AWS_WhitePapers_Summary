@@ -102,6 +102,10 @@ aws cloudformation validate-template --template-url s3://examplebucket/example_t
 
 ### Document structure
 
+- The following is an example of a custom document for a Windows-based host. 
+- The document uses the ipconfig command to gather the network configuration of the node and then installs MySQL.
+
+
 ```yaml
 
 {
@@ -155,8 +159,14 @@ aws cloudformation validate-template --template-url s3://examplebucket/example_t
 
 
 
+
+
+
 ### References:
 
 <a href="https://d0.awsstatic.com/whitepapers/DevOps/infrastructure-as-code.pdf"> Original paper </a>
+
+
+
 
 
