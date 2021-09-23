@@ -100,6 +100,37 @@ aws cloudformation validate-template --template-url s3://examplebucket/example_t
 ![1](https://user-images.githubusercontent.com/23625821/134293188-cda39ce9-6599-4029-9456-67201d5f3a9b.png)
 
 
+### Document structure
+
+```yaml
+
+{
+    "schemaVersion": "2.0",
+    "description": "Sample version 2.0 document v2",
+    "parameters": {},
+    
+    "mainSteps": [
+            {
+                "action": "aws:runPowerShellScript",
+                "name": "runShellScript",
+                "inputs": {
+                "runCommand": ["ipconfig"]
+            }
+           },
+           {
+                "action": "aws:applications",
+                "name": "installapp",
+                "inputs": {
+                "action": "Install",
+                "source":
+                "http://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-5.6.22.0.msi"
+          }
+        }
+    ]
+}
+
+
+```
 
 
 
