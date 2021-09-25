@@ -150,9 +150,19 @@ aws cloudformation validate-template --template-url s3://examplebucket/example_t
 ![1](https://user-images.githubusercontent.com/23625821/134759673-d98e85be-1847-4597-9705-598b401ec449.png)
 
 
+```rb
+package 'apache2' do
+    case node[:platform]
+    when 'centos','redhat','fedora','amazon'
+        package_name 'httpd'
+    when 'debian','ubuntu'
+        package_name 'apache2'
+    end
+    action :install
+end
 
 
-
+```
 
 
 
