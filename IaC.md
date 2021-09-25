@@ -175,6 +175,13 @@ end
 
 
 
+### Unit Testing with ChefSpec
+
+- ChefSpec can provide unit testing on Chef cookbooks. 
+- These tests can determine whether Chef is being asked to do the appropriate tasks to accomplish the desired goals. 
+- ChefSpec requires a configuration test specification that is then evaluated against a recipe.
+- For example, ChefSpec would not actually check whether Chef installed the Apache package, but instead checks whether a Chef recipe asked to install Apache. 
+- The goal of the test is to validate whether the recipe reflects the intentions of the programmer.
 
 
 
