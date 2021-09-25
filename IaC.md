@@ -139,6 +139,9 @@ aws cloudformation validate-template --template-url s3://examplebucket/example_t
 
 ## AWS OpsWorks for Chef Automate
 
+- AWS OpsWorks for Chef Automate brings the capabilities of Chef, a configuration management platform, to AWS. OpsWorks for Chef Automate further builds on Chef’s capabilities by providing additional features that support DevOps capabilities at scale.
+
+- OpsWorks for Chef Automate expands the capabilities of Chef to enable your organization to implement DevOps at scale. OpsWorks for Chef Automate provides three key capabilities that you can configure to support DevOps practices: workflow, compliance, and visibility.
 
 
 
