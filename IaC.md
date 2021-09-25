@@ -165,6 +165,14 @@ end
 ```
 
 
+### Linting with Rubocop and Foodcritic
+
+- Linting can be done on infrastructure code such as Chef recipes using tools such as Rubocop and Foodcritic. 
+- Rubocop performs static analysis on Chef recipes based on the Ruby style guide. (Ruby is the language used to create Chef recipes.) 
+
+- This tool is part of the Chef Development Kit and can be integrated into the software development workflow. 
+- Foodcritic checks Chef recipes for common syntax errors based on a set of built-in rules, which can be extended by community contributions.
+
 
 
 
