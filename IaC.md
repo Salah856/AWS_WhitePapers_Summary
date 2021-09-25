@@ -144,6 +144,14 @@ aws cloudformation validate-template --template-url s3://examplebucket/example_t
 - OpsWorks for Chef Automate expands the capabilities of Chef to enable your organization to implement DevOps at scale. OpsWorks for Chef Automate provides three key capabilities that you can configure to support DevOps practices: workflow, compliance, and visibility.
 
 
+### Recipe Anatomy
+- A Chef recipe consists of a set of resource definitions. The definitions describe the desired state of the resources and how Chef can bring them to that state. Chef supports over 60 resource types. A list of common resource types appears below.
+
+![1](https://user-images.githubusercontent.com/23625821/134759673-d98e85be-1847-4597-9705-598b401ec449.png)
+
+
+
+
 
 
 
