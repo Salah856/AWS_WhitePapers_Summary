@@ -189,6 +189,7 @@ end
 #### AWS Config
 - It enables you to assess, audit, and evaluate the configurations of your AWS resources. 
 - It automatically builds an inventory of your resources and tracks changes made to them. 
+- It also provides a clear view of the resource change timeline, including changes in both the resource configurations and the associations of those resources to other AWS resources. 
 
 
 
