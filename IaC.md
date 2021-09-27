@@ -186,7 +186,10 @@ end
 
 ### Governance and Compliance
 
-- 
+#### AWS Config
+- It enables you to assess, audit, and evaluate the configurations of your AWS resources. 
+- It automatically builds an inventory of your resources and tracks changes made to them. 
+
 
 
 
