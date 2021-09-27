@@ -195,8 +195,8 @@ end
 - AWS provides a collection of managed rules for common requirements such as IAM users having good passwords, groups and policies, or for determining if EC2 instances are on the correct VPCs and Security Groups. 
 - AWS Config rules can quickly identify noncompliant resources and help with reporting and remediation.
 
-
-
+- When a custom rule is invoked through AWS Config rules, the associated Lambda function receives the configuration events, processes them, and returns results. 
+- The following function determines if Amazon Virtual Private Cloud (Amazon VPC) flow logs are enabled on a given Amazon VPC.
 
 
 
