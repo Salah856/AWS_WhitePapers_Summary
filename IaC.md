@@ -190,6 +190,10 @@ end
 - It enables you to assess, audit, and evaluate the configurations of your AWS resources. 
 - It automatically builds an inventory of your resources and tracks changes made to them. 
 - It also provides a clear view of the resource change timeline, including changes in both the resource configurations and the associations of those resources to other AWS resources. 
+- With AWS Config rules, every change triggers an evaluation by the rules associated with the resources. 
+
+- AWS provides a collection of managed rules for common requirements such as IAM users having good passwords, groups and policies, or for determining if EC2 instances are on the correct VPCs and Security Groups. 
+- AWS Config rules can quickly identify noncompliant resources and help with reporting and remediation.
 
 
 
