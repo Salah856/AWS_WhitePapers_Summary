@@ -235,11 +235,9 @@ Here are some key actions you can take as you implement Infrastructure as Code i
 
 
 
+
 #### References:
 
 <a href="https://d0.awsstatic.com/whitepapers/DevOps/infrastructure-as-code.pdf"> Original paper </a>
-
-
-
 
 
