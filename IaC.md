@@ -207,6 +207,17 @@ end
 - In this stage, administrators review performance data and identify changes needed to optimize the environment around criteria such as security, performance, and cost management. 
 - It’s important for all application stakeholders to regularly evaluate the infrastructure to determine if it is being used optimally.
 
+- AWS Trusted Advisor helps you observe best practices by scanning your AWS resources and comparing their usage against AWS best practices in four ategories: cost optimization, performance, security, and fault tolerance. 
+- As part of ongoing improvement to your infrastructure and applications, taking advantage of Trusted Advisor can help keep your resources provisioned optimally.
+
+
+![image](https://user-images.githubusercontent.com/23625821/135028073-87a67fa2-dca2-45d5-8a85-c35963fd71e8.png)
+
+
+
+
+
+
 
 
 
@@ -224,10 +235,6 @@ end
 #### References:
 
 <a href="https://d0.awsstatic.com/whitepapers/DevOps/infrastructure-as-code.pdf"> Original paper </a>
-
-
-
-
 
 
 
