@@ -215,19 +215,22 @@ end
 
 
 
+## Conclusion 
 
+Here are some key actions you can take as you implement Infrastructure as Code in your organization:
 
+- Start by using a managed source control service, such as AWS CodeCommit, for your infrastructure code.
+- Incorporate a quality control process via unit tests and static code analysis before deployments.
 
+- Remove the human element and automate infrastructure provisioning, including infrastructure permission policies.
+- Create idempotent infrastructure code that you can easily redeploy.
+- Roll out every new update to your infrastructure via code by updating your idempotent stacks. Avoid making one-off changes manually.
 
+- Embrace end-to-end automation.
+- Include infrastructure automation work as part of regular product sprints.
 
-
-
-
-
-
-
-
-
+- Make your changes auditable, and make logging mandatory.
+- Define common standards across your organization and continuously optimize.
 
 
 
