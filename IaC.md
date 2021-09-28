@@ -204,6 +204,10 @@ end
 
 ### Resource Optimization
 
+- In this stage, administrators review performance data and identify changes needed to optimize the environment around criteria such as security, performance, and cost management. 
+- It’s important for all application stakeholders to regularly evaluate the infrastructure to determine if it is being used optimally.
+
+
 
 
 
