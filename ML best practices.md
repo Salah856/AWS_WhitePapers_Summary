@@ -27,6 +27,17 @@
 
 
 
+### Reference
+
+<a href="https://d1.awsstatic.com/whitepapers/machine-learning-best-practices-for-public-sector-organizations.pdf?did=wp_card&trk=wp_card"> Original paper </a>
+
+
+
+
+
+
+
+
 
 
 
