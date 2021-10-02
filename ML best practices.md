@@ -10,4 +10,10 @@
 - Model Training and Tuning. 
 - ML Operations (MLOps). 
 - Governance. 
-- 
+
+- Security & Compliance.
+- Cost Optimization.
+- Bias and Explainability.
+
+
+
