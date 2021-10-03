@@ -19,7 +19,14 @@
 ## Best Practices
 
 ### Data Ingestion and Preparation
-- 
+- The AWS Cloud enables public sector customers to overcome the challenge of connecting to and extracting data from both streaming and batch data, as described in the following:
+
+  - For streaming data, Amazon Kinesis and AWS Managed Streaming for Apache Kafka (Amazon MSK) enable collection, processing, and analysis of data in real time. 
+  - Amazon Kinesis provides a suite of capabilities to collect, process, and analyze real-time, streaming data. 
+  - Amazon Kinesis Data Streams (KDS) is a service that enables ingestion of streaming data. 
+  - Producers of data push data directly into a stream, which consists of a group of stored data units called records. 
+  - The stored data is available for further processing or storage as part of the data pipeline. 
+  - Ingestion of streaming videos can be done using Amazon Kinesis Video Streams.
 
 
 
