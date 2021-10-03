@@ -33,7 +33,13 @@
   - The service supports multiple database sources and targets, including writing data directly to Amazon S3.
 
 ### Data Preparation
-
+- Once the data is extracted, it needs to be transformed and loaded into a data store for feeding into an ML model. 
+- It needs to be cataloged and organized so that it is available for consumption, and needs to enable data lineage for compliance with federal government guidelines. 
+- AWS Cloud provides three services that provide these mechanisms.
+   - AWS GLUE
+   - Amazon Sagemaker data wrangler
+   - Amazon EMR
+   
 
 
 
