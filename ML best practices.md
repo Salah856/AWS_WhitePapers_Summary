@@ -26,7 +26,12 @@
   - Amazon Kinesis Data Streams (KDS) is a service that enables ingestion of streaming data. 
   - Producers of data push data directly into a stream, which consists of a group of stored data units called records. 
   - The stored data is available for further processing or storage as part of the data pipeline. 
+  
   - Ingestion of streaming videos can be done using Amazon Kinesis Video Streams.
+  - There are a number of mechanisms available for data ingestion in batch format. 
+  - With AWS Database Migration Services (AWS DMS), you can replicate and ingest existing databases while the source databases remain fully operational. 
+  - The service supports multiple database sources and targets, including writing data directly to Amazon S3.
+
 
 
 
