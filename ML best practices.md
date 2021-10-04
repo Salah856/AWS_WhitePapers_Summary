@@ -46,6 +46,9 @@
 - One of the major challenges facing the public sector is the ability for team members to apply a consistent pattern or framework for working with multitudes of options that exist in this space.
 - The AWS Cloud enables public sector customers to overcome challenges in model selection, training, and tuning as described in the following.
 
+- You can use AWS Sagemaker built-in algorithms or your own script (script mode). 
+
+![image](https://user-images.githubusercontent.com/23625821/135813159-2c3dcf88-238f-4f04-b922-290217687b2b.png)
 
 
 
