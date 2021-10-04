@@ -42,7 +42,10 @@
    
 
 ### Model Training and Tuning
--  
+- It involves the selection of a ML model that is appropriate for the use case, followed by training and tuning of the ML model.
+- One of the major challenges facing the public sector is the ability for team members to apply a consistent pattern or framework for working with multitudes of options that exist in this space.
+- The AWS Cloud enables public sector customers to overcome challenges in model selection, training, and tuning as described in the following.
+
 
 
 
