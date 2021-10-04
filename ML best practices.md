@@ -48,11 +48,16 @@
 
 - You can use AWS Sagemaker built-in algorithms or your own script (script mode). 
 
+![image](https://user-images.githubusercontent.com/23625821/135825866-e1b9c2a0-5852-47a7-ac9f-85f2f7e79077.png)
+
+
 ![image](https://user-images.githubusercontent.com/23625821/135813159-2c3dcf88-238f-4f04-b922-290217687b2b.png)
 
 - Or you can use your own container (BYOC). 
 
 ![image](https://user-images.githubusercontent.com/23625821/135813365-1886b6cf-c529-41e8-a43e-976fdf2883f7.png)
+
+
 
 ### MLOps
 
