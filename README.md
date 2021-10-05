@@ -2,7 +2,8 @@
 
 Collections of summaries of AWS white papers. 
 
-https://dev.to/awsmenacommunity
+Find it <a href="https://dev.to/awsmenacommunity"> here </a>
+
 
 
 
