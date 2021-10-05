@@ -67,7 +67,8 @@
 - You can use Amazon Sagemaker pipelines. 
 
 
-
+### AWS CodePipeline and AWS Lambda
+- For AWS programmers, teams that are already working with CodePipeline for deployment of other workloads, an option exists to utilize the same workflows for ML.
 
 
 
