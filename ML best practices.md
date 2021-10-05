@@ -73,8 +73,11 @@
 ![image](https://user-images.githubusercontent.com/23625821/135985926-5dfdbfae-17b5-4d9d-bcc6-5f70a8cffe8f.png)
 
 
+### AWS StepFunctions Data Science Software Development Kit (SDK)
 
-
+- It is an open-source Python library that allows data scientists to create workflows that process and publish ML models using SageMaker and Step Functions. 
+- This can be used by teams that are already comfortable using Python and AWS Step Functions.
+ 
 
 
 
