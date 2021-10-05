@@ -70,6 +70,9 @@
 ### AWS CodePipeline and AWS Lambda
 - For AWS programmers, teams that are already working with CodePipeline for deployment of other workloads, an option exists to utilize the same workflows for ML.
 
+![image](https://user-images.githubusercontent.com/23625821/135985926-5dfdbfae-17b5-4d9d-bcc6-5f70a8cffe8f.png)
+
+
 
 
 
