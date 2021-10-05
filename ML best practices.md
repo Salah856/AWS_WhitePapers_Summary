@@ -63,7 +63,11 @@
 - MLOps is the discipline of integrating ML workloads into release management, Continuous Integration / Continuous Delivery (CI/CD), and operations.
 - One of the major hurdles facing government organizations is the ability to create a repeatable process for deployment that is consistent with their organizational best practices. 
 - Using ML models in software development makes it difficult to achieve versioning, quality control, reliability, reproducibility, explainability, and audibility in that process.
-- 
+- AWS Cloud provides a number of different options that solve these challenges, either by building an MLOps pipeline from scratch or by using managed services.
+- You can use Amazon Sagemaker pipelines. 
+
+
+
 
 
 
