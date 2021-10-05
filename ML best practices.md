@@ -77,7 +77,10 @@
 
 - It is an open-source Python library that allows data scientists to create workflows that process and publish ML models using SageMaker and Step Functions. 
 - This can be used by teams that are already comfortable using Python and AWS Step Functions.
- 
+- The SDK provides the ability to copy workflows, experiment with new options, and then put the refined workflow in production. 
+
+- The SDK can also be used to create and visualize end-to-end data science workflows that perform tasks such as data pre-processing on AWS Glue and model training, hyperparameter tuning, and endpoint creation on Amazon SageMaker.
+- Workflows can be reused in production by exporting AWS CloudFormation (infrastructure as code) templates.
 
 
 
