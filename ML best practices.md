@@ -84,6 +84,9 @@
 
 ### AWS MLOps Framework
 
+![image](https://user-images.githubusercontent.com/23625821/135986339-23ac5cf0-a735-4dfa-846a-aa82aafd0c2d.png)
+
+The solution provides a ready-made template to upload trained models (also referred to as a bring your own model), configure the orchestration of the pipeline, and monitor the pipeline's operations.
 
 
 
