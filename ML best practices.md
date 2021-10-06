@@ -102,6 +102,11 @@ The solution provides a ready-made template to upload trained models (also refer
    - License Manager. 
    - Resource Tagging. 
 
+#### AWS Service Catalog 
+- Deploying and setting up ML workspaces for a group or different groups of people is always a big challenge for public sector organizations.
+- AWS Service Catalog provides a solution for this problem. It enables the central management of commonly deployed IT services, and achieves consistent governance and meets compliance requirements. 
+- End users can quickly deploy only the approved IT services they need, following the constraints set by the organization.
+- For example, AWS Service Catalog can be used with Amazon SageMaker notebooks to provide end users a template to quickly deploy and set up their ML Workspace.
 
 
 
