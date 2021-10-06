@@ -96,6 +96,14 @@ The solution provides a ready-made template to upload trained models (also refer
 
 ### Management and Governance
 
+- AWS Cloud provides several services that enable governance and control. 
+- These include: 
+   - AWS Control Tower.
+   - License Manager. 
+   - Resource Tagging. 
+
+
+
 
 
 
