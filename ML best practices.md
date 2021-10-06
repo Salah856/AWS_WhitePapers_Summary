@@ -108,8 +108,10 @@ The solution provides a ready-made template to upload trained models (also refer
 - End users can quickly deploy only the approved IT services they need, following the constraints set by the organization.
 - For example, AWS Service Catalog can be used with Amazon SageMaker notebooks to provide end users a template to quickly deploy and set up their ML Workspace.
 
+![image](https://user-images.githubusercontent.com/23625821/136161153-083ad035-909a-4353-bcd3-297a75257a6f.png)
 
 
+### Security and compliance
 
 
 
