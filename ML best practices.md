@@ -112,6 +112,14 @@ The solution provides a ready-made template to upload trained models (also refer
 
 
 ### Security and compliance
+- Public sector organizations have a number of security challenges and concerns with hosting ML workloads in the cloud as these applications can contain sensitive customer data. 
+- This includes personal information or proprietary information that must be protected over the entire data lifecycle.
+- The specific concerns also include protecting the network and underlying resources such as compute, storage and databases; user authentication and authorization; logging, monitoring and auditing.
+
+![image](https://user-images.githubusercontent.com/23625821/136161633-79480422-ba1d-4fe5-9fa6-1a767bff573f.png)
+
+
+
 
 
 
