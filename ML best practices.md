@@ -121,8 +121,7 @@ The solution provides a ready-made template to upload trained models (also refer
 #### Compute and network isolation
 
 - One of the major requirements with many public sector ML projects is the ability to keep the environments, data and workloads secure and isolated from internet access. 
-- These can be achieved using the following methods:
-    - 
+- These can be achieved using the following methods: 
 
 
 
