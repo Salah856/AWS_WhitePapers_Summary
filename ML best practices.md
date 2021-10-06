@@ -90,6 +90,12 @@
 
 The solution provides a ready-made template to upload trained models (also referred to as a bring your own model), configure the orchestration of the pipeline, and monitor the pipeline's operations.
 
+- You can deploy custom ML models on EC2, or EKS, etc. 
+- Also, deploy at the Edge: AWS IoT Greengrass. 
+
+
+### Management and Governance
+
 
 
 
