@@ -122,6 +122,11 @@ The solution provides a ready-made template to upload trained models (also refer
 
 - One of the major requirements with many public sector ML projects is the ability to keep the environments, data and workloads secure and isolated from internet access. 
 - These can be achieved using the following methods: 
+   - Provision ML components in an isolated VPC with no internet access, see more info <a href="https://aws.amazon.com/blogs/machine-learning/building-secure-machine-learning-environments-with-amazon-sagemaker/"> here </a>. 
+   - Use VPC end-point and end-point policies to further limit access, see more info <a href="https://aws.amazon.com/blogs/machine-learning/securing-amazon-sagemaker-studio-connectivity-using-a-private-vpc/"> here </a>. 
+
+
+
 
 
 
