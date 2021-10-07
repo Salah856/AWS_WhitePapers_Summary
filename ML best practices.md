@@ -193,6 +193,16 @@ This step of the ML lifecycle includes storing the data, labeling the data, and 
 - Ground Truth also provides additional mechanisms such as crowdsourcing with Amazon Mechanical Turk or another vendor company, that can be chosen to lower the costs of labeling.
 
 
+#### Data Wrangling. 
+
+- In ML, a lot of time is spent in identifying, converting, transforming, and validating raw source data into features that can be used to train models and
+make predictions. 
+
+- Amazon SageMaker Data Wrangler can be used to reduce this time spent, lowering the costs of the project. With Data Wrangler, data can be imported from various data sources, and transformed without requiring coding. 
+
+- Once data is prepared, fully automated ML workflows can be built with Amazon SageMaker Pipelines and saved for reuse in the Amazon SageMaker Feature Store, eliminating the costs incurred in preparing this data again.
+
+
 
 
 
