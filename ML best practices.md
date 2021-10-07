@@ -203,8 +203,9 @@ make predictions.
 - Once data is prepared, fully automated ML workflows can be built with Amazon SageMaker Pipelines and saved for reuse in the Amazon SageMaker Feature Store, eliminating the costs incurred in preparing this data again.
 
 
+### Build
 
-
+- This step of the ML lifecycle involves building ML models. Cost control in this phase can be accomplished using the following techniques:
 
 
 
