@@ -129,6 +129,11 @@ The solution provides a ready-made template to upload trained models (also refer
 ![image](https://user-images.githubusercontent.com/23625821/136162671-107c9a7a-1851-4061-9f5a-592c222b4222.png)
 
 
+### Data Protection
+- Protect data at rest with KMS. 
+- Protect data in transit with TLS/SSL. 
+
+
 
 
 
