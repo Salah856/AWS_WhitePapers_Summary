@@ -151,6 +151,20 @@ The solution provides a ready-made template to upload trained models (also refer
 
 ### Security compliance
 
+- Third-party auditors assess the security and compliance of Amazon SageMaker as part of multiple AWS compliance programs including FedRAMP, HIPAA, and others.
+- AWS provides the following resources to help with compliance:
+   - Security and Compliance Quick Start Guides – These deployment guides discuss architectural considerations and provide steps for deploying security- and compliance-focused baseline environments on AWS.
+   - Architecting for HIPAA Security and Compliance – This  describes how organizations can use AWS to help create HIPAA-compliant applications.
+   - AWS Compliance Resources – This collection of workbooks and guides might apply to the Organization’s industry and location.
+   - AWS Config – This AWS service assesses how well resource configurations comply with internal practices, industry guidelines, and regulations. 
+   - As an example, AWS Config can be used to create compliance rules that can scan AWS Key Management Service (AWS KMS) key policies to determine whether these policies align with the principle of granting least privilege to users. 
+   - Please refer to the How to use AWS Config to determine compliance of AWS KMS key policies to your specifications, which outlines this process.
+   - AWS Security Hub – This AWS service provides a comprehensive view of the security state within AWS that helps check compliance with security industry standards and best practices.
+
+
+
+### Cost Optimization 
+
 
 
 
