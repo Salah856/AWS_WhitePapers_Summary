@@ -141,6 +141,14 @@ The solution provides a ready-made template to upload trained models (also refer
 - IAM can help create preventive controls for many aspects of your ML environment, including access to Amazon SageMaker resources, data in Amazon S3, and API endpoints.
 
 
+### Artifact and model management
+
+- The recommended best practice is to use version control to track code or other model artifacts. 
+- If model artifacts are modified or deleted, either accidentally or deliberately, version control allows you to roll back to a previous stable release. 
+- This can be used in cases where an unauthorized user gains access to the environment and makes changes to the model. 
+- If model artifacts are stored in Amazon S3, versioning should be enabled.
+
+
 
 
 
