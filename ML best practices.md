@@ -132,6 +132,9 @@ The solution provides a ready-made template to upload trained models (also refer
 ### Data Protection
 - Protect data at rest with KMS. 
 - Protect data in transit with TLS/SSL. 
+- Secure shared notebook instances. 
+
+
 
 
 
