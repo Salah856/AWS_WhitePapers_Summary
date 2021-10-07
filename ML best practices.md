@@ -165,6 +165,24 @@ The solution provides a ready-made template to upload trained models (also refer
 
 ### Cost Optimization 
 
+- Cost management is a primary concern for public sector organizations projects to ensure the best use of public funds while enabling agency missions. 
+- AWS provides several mechanisms to manage costs in each phase of the ML lifecycle (Prepare, Build, Train & Tune, Deploy, and Manage) as described in this section.
+
+#### Prepare
+
+This step of the ML lifecycle includes storing the data, labeling the data, and processing the data. Cost control in this phase can be accomplished using the following techniques:
+
+#### Data Storage: 
+
+- ML requires extensive data exploration and transformation. 
+- Multiple redundant copies of data are quickly generated, which can lead to exponential growth in storage costs. Therefore, it is essential to establish a cost control strategy at the storage level. 
+- Processes can be established to regularly analyze source data and either remove duplicative data or archive data to lower cost storage based on compliance policies. 
+
+- For example, for data stored in S3, S3 storage class analysis can be enabled on any group of objects (based on prefix or object tagging) to automatically analyze storage access patterns. This enables identification and transition of rarely-accessed data to S3 glacier, lowering costs. S3 intelligent storage can also be used to lower costs of data that has unpredictable usage patterns. 
+
+- It works by monitoring and moving data between a data tier that is optimized for frequent access and another lower-cost tier that is optimized for infrequent access.
+
+
 
 
 
