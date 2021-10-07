@@ -183,6 +183,17 @@ This step of the ML lifecycle includes storing the data, labeling the data, and 
 - It works by monitoring and moving data between a data tier that is optimized for frequent access and another lower-cost tier that is optimized for infrequent access.
 
 
+#### Data Labeling. 
+
+- Data labeling is a key process of identifying raw data (such as images, text files, and videos) and adding one or more meaningful and informative labels to provide context so that an ML model can learn from it. 
+
+- This process can be very time consuming and can quickly increase costs of a project.
+- Amazon SageMaker Ground Truth can be used to reduce these costs. 
+- Ground Truth’s automated data labeling utilizes the Active Learning ML technique to reduce the number of labels required for models, thereby lowering these costs. 
+- Ground Truth also provides additional mechanisms such as crowdsourcing with Amazon Mechanical Turk or another vendor company, that can be chosen to lower the costs of labeling.
+
+
+
 
 
 
