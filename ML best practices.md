@@ -135,6 +135,11 @@ The solution provides a ready-made template to upload trained models (also refer
 - Secure shared notebook instances. 
 
 
+### Authentication and Authorization
+
+- AWS IAM enables control of access to AWS resources. IAM administrators control who can be authenticated (signed in) and authorized (have permissions) to use SageMaker resources. 
+- IAM can help create preventive controls for many aspects of your ML environment, including access to Amazon SageMaker resources, data in Amazon S3, and API endpoints.
+
 
 
 
