@@ -210,6 +210,10 @@ make predictions.
    - Test Code locally. 
    - Use Pipe mode (where applicable) to reduce training time. 
    - Find the right balance: Performance vs. accuracy. 
+   - AWS Marketplace. 
+
+
+
    
 
 
