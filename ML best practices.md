@@ -224,6 +224,19 @@ make predictions.
  
 
 
+### Deploy and Manage
+
+- This step of the ML lifecycle involves deployment of the model to get predictions, and managing the model to ensure it meets functional and non-functional requirements of the application. 
+- Cost control in this phase can be accomplished using the following techniques:
+   
+   - Endpoint deployment. 
+   - Multi-model endpoints. 
+   - Auto Scaling.
+   - Amazon Elastic Inference for deep learning.
+   - Analyzing costs with Cost Explorer.
+
+
+
 
    
 
