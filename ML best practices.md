@@ -206,7 +206,11 @@ make predictions.
 ### Build
 
 - This step of the ML lifecycle involves building ML models. Cost control in this phase can be accomplished using the following techniques:
-
+   - Notebook Utilization.
+   - Test Code locally. 
+   - Use Pipe mode (where applicable) to reduce training time. 
+   - Find the right balance: Performance vs. accuracy. 
+   
 
 
 
