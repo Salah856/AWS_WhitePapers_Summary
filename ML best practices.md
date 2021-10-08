@@ -260,8 +260,9 @@ make predictions.
 - Feature importance is a technique that explains the features that make up the training data using a score (importance). 
 - It indicates how useful or valuable the feature is, relative to other features.
 
-
-
+- SHAP (SHapley Additive exPlanations) is an open-source technique based on game theory. 
+- It explains an ML prediction by assuming that each feature value of training data instance is a player in a game in which the prediction is the payout. 
+- Shapley values indicate how to distribute the payout fairly among the features.
 
 
 
