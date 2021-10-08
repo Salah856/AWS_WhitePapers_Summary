@@ -265,39 +265,15 @@ make predictions.
 - Shapley values indicate how to distribute the payout fairly among the features.
 
 
+### Conclusion
+
+Public sector organizations have complex mission objectives and are increasingly adopting ML services to help with their initiatives. 
+ML can transform the way government agencies operate, and enable them to provide improved citizen services. 
+However, several barriers remain for these organizations to implement ML. 
+This whitepaper outlined some of the challenges and provided best practices that can help address these challenges using AWS Cloud.
 
 
-
-
-
-
-
-
-
-
-
-
-
-### Reference
+#### Reference
 
 <a href="https://d1.awsstatic.com/whitepapers/machine-learning-best-practices-for-public-sector-organizations.pdf?did=wp_card&trk=wp_card"> Original paper </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
