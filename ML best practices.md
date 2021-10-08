@@ -212,6 +212,17 @@ make predictions.
    - Find the right balance: Performance vs. accuracy. 
    - AWS Marketplace. 
 
+### Train and Tune
+
+- This step of the ML lifecycle involves providing the algorithm selected in the build phase with the training data to learn from, and setting the model parameters to optimize the training process. 
+- Cost control in this phase can be accomplished using the following techniques:
+    
+    - Use Spot Instances. 
+    - Hyperparameter optimization (HPO). 
+    - Distributed Training. 
+    - Monitor the performance of your training jobs to identify waste. 
+ 
+
 
 
    
