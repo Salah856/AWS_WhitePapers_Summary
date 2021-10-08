@@ -240,6 +240,12 @@ make predictions.
  
 ### Bias and Explainability 
 
+- Demonstrating explainability is a significant challenge because complex ML models are hard to understand and even harder to interpret and debug. 
+- There is an inherent tension between ML performance (predictive accuracy) and explainability; 
+- Often the highest performing methods are the least explainable, and the most explainable are less accurate. 
+- Hence, public sector organizations need to invest significant time with appropriate tools, techniques, 
+- And mechanisms to demonstrate explainability and lack of bias in their ML models, which could be a deterrent to adoption.
+- AWS Cloud provides the following capabilities and services to assist public sector organizations in resolving these challenges.
 
 
 
