@@ -249,7 +249,16 @@ make predictions.
 
 
 
+### Amazon SageMaker Debugger
 
+- Amazon SageMaker Debugger provides visibility into the model training process for real-time and offline analysis. In the existing training code for TensorFlow, Keras, Apache MXNet, PyTorch, and XGBoost, 
+- The new SageMaker Debugger SDK can be used to save the internal model state at periodic intervals in S3. 
+- This state is composed of a number of components: 
+    - The parameters being learned by the model (for example, weights and biases for neural networks), the changes applied to these parameters by the optimizer (gradients), optimization parameters, scalar values such as accuracies and losses, and outputs of each layer of a neural network.
+
+- SageMaker Debugger provides three built-in tensor collections called feature importance, average_shap, and full_shap, to visualize and analyze captured tensors specifically for model explanation. 
+- Feature importance is a technique that explains the features that make up the training data using a score (importance). 
+- It indicates how useful or valuable the feature is, relative to other features.
 
 
 
