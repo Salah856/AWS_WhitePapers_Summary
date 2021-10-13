@@ -18,7 +18,9 @@
 - If any problems are identified, you can roll back by reverting traffic back to the blue environment.
 
 
+## Benefits of Blue/Green
 
+- 
 
 
 
