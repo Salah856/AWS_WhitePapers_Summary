@@ -7,6 +7,8 @@
 - It also addresses considerations around the data tier, which is an important component of most applications.
 
 
+## Blue/Green Deployment Methodology
+
 
 
 
