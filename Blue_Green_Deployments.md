@@ -37,6 +37,14 @@
 
 
 
+## Define the Environment Boundary
+
+- When planning for blue/green deployments, you have to think about your environment boundary, where have things changed and what needs to be deployed to make those changes live. 
+- The scope of your environment is influenced by a number of factors: 
+
+Application architecture: Dependencies, loosely/tightly coupled
+Organization: Speed and number of iterations
+Risk and complexity: Blast radius and impact of failed deployment
 
 
 
