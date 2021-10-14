@@ -48,11 +48,11 @@ Organization: Speed and number of iterations
 
 Risk and complexity: Blast radius and impact of failed deployment
 
-People Expertise of teams
+People: Expertise of teams
 
-Process Testing/QA, rollback capability
+Process: Testing/QA, rollback capability
 
-Cost Operating budgets, additional resources
+Cost: Operating budgets, additional resources
 
 
 
