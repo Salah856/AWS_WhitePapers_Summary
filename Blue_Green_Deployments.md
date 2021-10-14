@@ -20,14 +20,20 @@
 
 ## Benefits of Blue/Green
 
-- 
+- After you deploy the green environment, you have the opportunity to validate it. 
+- You might do that with test traffic before sending production traffic to the green environment, or by using a very small fraction of production traffic, to better reflect real user traffic. 
+- This is called canary analysis or canary testing. 
+- If you discover the green environment is not operating as expected, there is no impact on the blue environment. 
+- You can route traffic back to it, minimizing impaired operation or downtime and limiting the blast radius of impact.
 
+- This ability to simply roll traffic back to the operational environment is a key benefit of blue/green deployments. 
+- You can roll back to the blue environment at any time during the deployment process. 
+- Impaired operation or downtime is minimized because impact is limited to the window of time between green environment issue detection and shift of traffic back to the blue environment. 
 
-
-
-
-
-
+- Additionally, impact is limited to the portion of traffic going to the green environment, not all traffic. 
+- If the blast radius of deployment errors is reduced, so is the overall deployment risk. 
+- Blue/green deployments also work well with continuous integration and continuous deployment (CI/CD) workflows, in many cases limiting their complexity. 
+- Your deployment automation has to consider fewer dependencies on an existing environment, state, or configuration as your new green environment gets launched onto an entirely new set of resources.
 
 
 
