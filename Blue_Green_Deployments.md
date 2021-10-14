@@ -55,6 +55,11 @@ Process: Testing/QA, rollback capability
 Cost: Operating budgets, additional resources
 
 
+For example, organizations operating applications that are based on the microservices architecture pattern could have smaller environment boundaries because of the loose coupling and well-defined interfaces between the individual services. 
+
+Organizations running legacy, monolithic apps can still leverage blue/green deployments, but the environment scope can be wider and the testing more extensive. 
+
+Regardless of the environment boundary, you should make use of automation wherever you can to streamline the process, reduce human error, and control your costs.
 
 
 
