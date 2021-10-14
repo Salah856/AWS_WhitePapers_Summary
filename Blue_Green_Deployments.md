@@ -43,7 +43,9 @@
 - The scope of your environment is influenced by a number of factors: 
 
 Application architecture: Dependencies, loosely/tightly coupled
+
 Organization: Speed and number of iterations
+
 Risk and complexity: Blast radius and impact of failed deployment
 
 
