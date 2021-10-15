@@ -85,6 +85,7 @@ There are three ways traffic can be shifted during a deployment on Amazon Elasti
 With AWS Lambda hooks, CodeDeploy can call the Lambda function during the various lifecycle events including deployment of ECS, Lambda function deployment, and EC2/On-premise deployment. The hooks are helpful in creating a deployment workflow for your apps.
 
 
+## Implementation Techniques
 
 
 
