@@ -61,6 +61,16 @@ Organizations running legacy, monolithic apps can still leverage blue/green depl
 
 Regardless of the environment boundary, you should make use of automation wherever you can to streamline the process, reduce human error, and control your costs.
 
+## Services for blue/green deployments
+
+- Amazon Route 53
+- Elastic Load Balancing
+- Auto Scaling
+- AWS Elastic Beanstalk
+- AWS OpsWorks
+- AWS Cloudformation
+- Amazon CloudWatch
+- AWS CodeDeploy
 
 
 
