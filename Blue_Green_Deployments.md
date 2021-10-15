@@ -92,6 +92,18 @@ With AWS Lambda hooks, CodeDeploy can call the Lambda function during the variou
 - Choose the appropriate technique based on the existing architecture, the nature of the application, and the goals for software deployment in your organization. - Experiment as much as possible to gain experience for your environment and to understand how the different deployment risk factors affect your specific workload.
 
 
+### Update DNS Routing with Amazon Route 53
+
+
+
+
+
+
+
+
+
+
+
 
 
 #### Reference
