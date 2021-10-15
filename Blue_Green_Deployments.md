@@ -73,6 +73,14 @@ Regardless of the environment boundary, you should make use of automation wherev
 - AWS CodeDeploy
 
 
+There are three ways traffic can be shifted during a deployment on Amazon Elastic Container Services (Amazon ECS).
+
+1. Canary – Traffic is shifted in two increments.
+2. Linear – Traffic is shifted in equal increments.
+3. All-at-once – All traffic is shifted to the updated tasks.
+
+
+
 
 
 #### Reference
