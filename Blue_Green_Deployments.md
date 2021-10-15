@@ -87,6 +87,9 @@ With AWS Lambda hooks, CodeDeploy can call the Lambda function during the variou
 
 ## Implementation Techniques
 
+- The following techniques are examples of how you can implement blue/green on AWS. 
+- While AWS highlights specific services in each technique, you may have other services or tools to implement the same pattern. 
+- Choose the appropriate technique based on the existing architecture, the nature of the application, and the goals for software deployment in your organization. - Experiment as much as possible to gain experience for your environment and to understand how the different deployment risk factors affect your specific workload.
 
 
 
