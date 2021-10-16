@@ -103,9 +103,17 @@ With AWS Lambda hooks, CodeDeploy can call the Lambda function during the variou
     - Single instances, with a public or Elastic IP address
     - Groups of instances behind an Elastic Load Balancing load balancer, or third-party load balancer
     - Instances in an Auto Scaling group with an Elastic Load Balancing load balancer as the front end
+    
     - Services running on an Amazon Elastic Container Service (Amazon ECS) cluster fronted by an Elastic Load Balancing load balancer
     - Elastic Beanstalk environment web tiers
     - Other configurations that expose an IP or DNS endpoint
+
+
+You can shift traffic all at once or you can do a weighted distribution. For weighted distribution with Amazon Route 53, you can define a percentage of traffic to go to the green environment and gradually update the weights until the green environment carries the full production traffic. 
+
+This provides the ability to perform canary analysis where a small percentage of production traffic is introduced to a new environment. You can test the new code and monitor for errors, limiting the blast radius if any issues are encountered. It also allows the green environment to scale out to support the full production load if you’re using Elastic Load Balancing(ELB), for example. ELB automatically scales its request-handling capacity to meet the inbound application traffic; the process of scaling isn’t instant, so we recommend that you test, observe, and understand your traffic patterns. Load balancers can also be pre-warmed (configured for optimum capacity) through a support request.
+
+
 
 
 
