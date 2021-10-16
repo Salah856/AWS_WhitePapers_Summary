@@ -98,6 +98,14 @@ With AWS Lambda hooks, CodeDeploy can call the Lambda function during the variou
 - DNS is used as a mechanism for switching traffic from the blue environment to the green and vice versa when rollback is necessary. 
 - This approach works with a wide variety of environment configurations, as long as you can express the endpoint into the environment as a DNS name or IP address.
 
+- Within AWS, this technique applies to environments that are:
+
+    - Single instances, with a public or Elastic IP address
+    - Groups of instances behind an Elastic Load Balancing load balancer, or third-party load balancer
+    - Instances in an Auto Scaling group with an Elastic Load Balancing load balancer as the front end
+    - Services running on an Amazon Elastic Container Service (Amazon ECS) cluster fronted by an Elastic Load Balancing load balancer
+    - Elastic Beanstalk environment web tiers
+    - Other configurations that expose an IP or DNS endpoint
 
 
 
