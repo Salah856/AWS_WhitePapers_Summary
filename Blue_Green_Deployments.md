@@ -1,4 +1,3 @@
-
 # Blue/Green Deployments on AWS
 
 - The blue/green deployment technique enables you to release applications by shifting traffic between two identical environments that are running different versions of the application. 
