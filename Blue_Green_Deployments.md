@@ -94,7 +94,9 @@ With AWS Lambda hooks, CodeDeploy can call the Lambda function during the variou
 
 ### Update DNS Routing with Amazon Route 53
 
-
+- DNS routing through record updates is a common approach to blue/green deployments. 
+- DNS is used as a mechanism for switching traffic from the blue environment to the green and vice versa when rollback is necessary. 
+- This approach works with a wide variety of environment configurations, as long as you can express the endpoint into the environment as a DNS name or IP address.
 
 
 
