@@ -18,6 +18,7 @@
 - If any problems are identified, you can roll back by reverting traffic back to the blue environment.
 
 
+
 ## Benefits of Blue/Green
 
 - After you deploy the green environment, you have the opportunity to validate it. 
