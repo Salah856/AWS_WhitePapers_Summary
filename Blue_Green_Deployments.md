@@ -125,7 +125,10 @@ This provides the ability to perform canary analysis where a small percentage of
 - Health checks occur at configurable intervals and have defined thresholds to determine whether an instance is identified as healthy or unhealthy. 
 - For example, you could have an ELB health check policy that pings port 80 every 20 seconds and, after passing a threshold of 10 successful pings, health check will report the instance as being InService. 
 - If enough ping requests time out, then the instance is reported to be OutofService
-
+- As you scale up the green Auto Scaling group, you can take blue Auto Scaling group instances out of service by either terminating them or putting them in Standby state.
+- Standby is a good option because if you need to roll back to the blue environment, you only have to put your blue server instances back in service and they're ready to go. 
+- As soon as the green group is scaled up without issues, you can decommission the blue group by adjusting the group size to zero. 
+- If you need to roll back, detach the load balancer from the green group or reduce the group size of the green group to zero.
 
 
 
