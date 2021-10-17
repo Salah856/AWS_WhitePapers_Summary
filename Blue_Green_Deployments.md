@@ -117,6 +117,16 @@ This provides the ability to perform canary analysis where a small percentage of
 
 ### Swap the Auto Scaling Group Behind the Elastic Load Balancer
 
+- If DNS complexities are prohibitive, consider using load balancing for traffic management to your blue and green environments. 
+- This technique uses Auto Scaling to manage the EC2 resources for your blue and green environments, scaling up or down based on actual demand. 
+- You can also control the Auto Scaling group size by updating your maximum desired instance counts for your particular group.
+- Auto Scaling also integrates with Elastic Load Balancing (ELB), so any new instances are automatically added to the load balancing pool if they pass the health checks governed by the load balancer. 
+- ELB tests the health of your registered EC2 instances with a simple ping or a more sophisticated connection attempt or request. 
+- Health checks occur at configurable intervals and have defined thresholds to determine whether an instance is identified as healthy or unhealthy. 
+- For example, you could have an ELB health check policy that pings port 80 every 20 seconds and, after passing a threshold of 10 successful pings, health check will report the instance as being InService. 
+- If enough ping requests time out, then the instance is reported to be OutofService
+
+
 
 
 
