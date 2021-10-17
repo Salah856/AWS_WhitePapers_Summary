@@ -130,6 +130,8 @@ This provides the ability to perform canary analysis where a small percentage of
 - As soon as the green group is scaled up without issues, you can decommission the blue group by adjusting the group size to zero. 
 - If you need to roll back, detach the load balancer from the green group or reduce the group size of the green group to zero.
 
+### Update Auto Scaling Group launch configurations
+
 
 
 
