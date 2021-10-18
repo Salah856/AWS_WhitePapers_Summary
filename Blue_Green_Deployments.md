@@ -155,6 +155,7 @@ This provides the ability to perform canary analysis where a small percentage of
 - Then, perform the preceding steps in reverse. Or if the instances are in Standby state, bring them back online
 
 
+### Swap the Environment of an Elastic Beanstalk Application
 
 
 
