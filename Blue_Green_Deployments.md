@@ -130,8 +130,18 @@ This provides the ability to perform canary analysis where a small percentage of
 - As soon as the green group is scaled up without issues, you can decommission the blue group by adjusting the group size to zero. 
 - If you need to roll back, detach the load balancer from the green group or reduce the group size of the green group to zero.
 
+
 ### Update Auto Scaling Group launch configurations
 
+- A launch configuration contains information like the Amazon Machine Image (AMI) ID, instance type, key pair, one or more security groups, and a block device mapping. 
+- Auto Scaling groups have their own launch configurations. You can associate only one launch configuration with an Auto Scaling group at a time, and it can’t be modified after you create it. 
+- To change the launch configuration associated with an Auto Scaling group, replace the existing launch configuration with a new one. 
+- After a new launch configuration is in place, any new instances that are launched use the new launch configuration parameters, but existing instances are not affected. 
+
+- When Auto Scaling removes instances (referred to as scaling in) from the group, the default termination policy is to remove instances with the earliest launch configuration. 
+- However, you should know that if the Availability Zones were unbalanced to begin with, then Auto Scaling could remove an instance with a new launch configuration to balance the zones. 
+- In such situations, you should have processes in place to compensate for this effect.
+- To implement this technique, start with an Auto Scaling group and an Elastic Load Balancing load balancer. 
 
 
 
