@@ -143,6 +143,15 @@ This provides the ability to perform canary analysis where a small percentage of
 - In such situations, you should have processes in place to compensate for this effect.
 - To implement this technique, start with an Auto Scaling group and an Elastic Load Balancing load balancer. 
 
+- To deploy the new version of the application in the green environment, update the Auto Scaling group with the new launch configuration, and then scale the Auto Scaling group to twice its original size.
+
+- The next step is to shrink the Auto Scaling group back to the original size. 
+- By default, instances with the old launch configuration are removed first. 
+- You can also utilize a group’s Standby state to temporarily remove instances from an Auto Scaling group. 
+
+- Having the instance in Standby state helps in quick rollbacks, if required. 
+- As soon as you’re confident about the newly deployed version of the application, you can permanently remove instances in Standby state.
+
 
 
 
