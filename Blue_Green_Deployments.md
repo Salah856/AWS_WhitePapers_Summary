@@ -148,9 +148,11 @@ This provides the ability to perform canary analysis where a small percentage of
 - The next step is to shrink the Auto Scaling group back to the original size. 
 - By default, instances with the old launch configuration are removed first. 
 - You can also utilize a group’s Standby state to temporarily remove instances from an Auto Scaling group. 
-
 - Having the instance in Standby state helps in quick rollbacks, if required. 
+
 - As soon as you’re confident about the newly deployed version of the application, you can permanently remove instances in Standby state.
+- To perform a rollback, update the Auto Scaling group with the old launch configuration. 
+- Then, perform the preceding steps in reverse. Or if the instances are in Standby state, bring them back online
 
 
 
