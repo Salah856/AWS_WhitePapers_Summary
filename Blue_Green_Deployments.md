@@ -195,6 +195,11 @@ This provides the ability to perform canary analysis where a small percentage of
 - You can also do this DNS flip gradually by using the Amazon Route 53 weighted routing policy.
 
 
+### Best Practices for Managing Data Synchronization and Schema Changes
+
+
+
+
 
 
 
