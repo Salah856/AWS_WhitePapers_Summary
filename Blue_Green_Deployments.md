@@ -186,6 +186,13 @@ This provides the ability to perform canary analysis where a small percentage of
 
 - When a data store is part of the stack, you should be aware of certain data management challenges.
 - To implement this technique in AWS OpsWorks, bring up the blue environment/stack with the current version of the application.
+- Next, create the green environment/stack with the newer version of application. 
+
+- At this point, the green environment is not receiving any traffic. 
+- If Elastic Load Balancing needs to be initialized, you can do that at this time.
+
+- When it’s time to promote the green environment/stack into production, update DNS records to point to the green environment/stack’s load balancer. 
+- You can also do this DNS flip gradually by using the Amazon Route 53 weighted routing policy.
 
 
 
