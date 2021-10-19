@@ -161,6 +161,13 @@ This provides the ability to perform canary analysis where a small percentage of
 - To deploy an application using Elastic Beanstalk, upload an application version in the form of an application bundle (for example, Java .war file or .zip file), and then provide some information about your application. 
 - Based on application information, Elastic Beanstalk deploys the application in the blue environment and provides a URL to access the environment (typically for web server environments).
 
+- Elastic Beanstalk provides several deployment policies that you can configure for use, ranging from policies that perform an in-place update on existing instances, to immutable deployment using a set of new instances. 
+- Because Elastic Beanstalk performs an in-place update when you update your application versions, your application may become unavailable to users for a short period of time.
+
+- Elastic Beanstalk provides an environment URL when the application is up and running. 
+- The green environment is spun up with its own environment URL. 
+- At this time, two environments are up and running, but only the blue environment is serving production traffic.
+
 
 
 
