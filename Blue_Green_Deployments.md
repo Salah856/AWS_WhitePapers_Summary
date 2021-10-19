@@ -157,7 +157,9 @@ This provides the ability to perform canary analysis where a small percentage of
 
 ### Swap the Environment of an Elastic Beanstalk Application
 
-
+- Elastic Beanstalk enables quick and easier deployment and management of applications without having to worry about the infrastructure that runs those applications. 
+- To deploy an application using Elastic Beanstalk, upload an application version in the form of an application bundle (for example, Java .war file or .zip file), and then provide some information about your application. 
+- Based on application information, Elastic Beanstalk deploys the application in the blue environment and provides a URL to access the environment (typically for web server environments).
 
 
 
