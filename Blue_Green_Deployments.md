@@ -168,7 +168,19 @@ This provides the ability to perform canary analysis where a small percentage of
 - The green environment is spun up with its own environment URL. 
 - At this time, two environments are up and running, but only the blue environment is serving production traffic.
 
+##### Use the following procedure to promote the green environment to serve production traffic.
 
+1. Navigate to the environment's dashboard in the Elastic Beanstalk console.
+2. In the Actions menu, choose Swap Environment URL.
+
+3. Elastic Beanstalk performs a DNS switch, which typically takes a few minutes.
+4. Once the DNS changes have propagated, you can terminate the blue environment. 
+
+
+
+### Clone a Stack in AWS OpsWorks and Update DNS
+
+- 
 
 
 
