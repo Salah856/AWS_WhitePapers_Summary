@@ -180,6 +180,14 @@ This provides the ability to perform canary analysis where a small percentage of
 
 ### Clone a Stack in AWS OpsWorks and Update DNS
 
+- AWS OpsWorks utilizes the concept of stacks, which are logical groupings of AWS resources (EC2 instances, Amazon RDS, Elastic Load Balancing, and so on) that have a common purpose and should be logically managed together. 
+- Stacks are made of one or more layers. 
+- A layer represents a set of EC2 instances that serve a particular purpose, such as serving applications or hosting a database server. 
+
+- When a data store is part of the stack, you should be aware of certain data management challenges.
+- To implement this technique in AWS OpsWorks, bring up the blue environment/stack with the current version of the application.
+
+
 
 
 
