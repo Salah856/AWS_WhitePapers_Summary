@@ -209,6 +209,14 @@ Broadly, you accomplish this by having both the green and blue environments shar
 
 Structured data stores, such as RDBMS, where the data schema can diverge between the environments, typically require additional considerations.
 
+A general recommendation is to decouple schema changes from the code changes. This way, the relational database is outside of the environment boundary defined for the blue/green deployment and shared between the blue and green environments. The two approaches for performing the schema changes are often used in tandem:
+
+
+- The schema is changed first, before the blue/green code deployment. 
+- Database updates must be backward compatible, so the old version of the application can still interact with the data.
+
+- The schema is changed last, after the blue/green code deployment. 
+- Code changes in the new version of the application must be backward compatible with the old schema.
 
 
 
