@@ -232,8 +232,8 @@ Performing the deployment in a test environment can help identify these sorts of
 ### When Blue/Green Deployments Are Not Recommended
 
 - The following scenarios highlight patterns that may not be well suited for blue/green deployments.
-
-#### Are your schema changes too complex to decouple from the code changes? Is sharing of data stores not feasible? 
+-   
+       #### Are your schema changes too complex to decouple from the code changes? Is sharing of data stores not feasible? 
 
 
 
