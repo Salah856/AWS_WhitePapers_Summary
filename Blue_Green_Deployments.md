@@ -229,6 +229,16 @@ Be sure to have a strong testing phase and framework and a strong QA phase.
 Performing the deployment in a test environment can help identify these sorts of issues early, before the push to production.
 
 
+### When Blue/Green Deployments Are Not Recommended
+
+- The following scenarios highlight patterns that may not be well suited for blue/green deployments.
+
+#### Are your schema changes too complex to decouple from the code changes? Is sharing of data stores not feasible? 
+
+
+
+
+
 
 ### Conclusion
 
