@@ -197,7 +197,17 @@ This provides the ability to perform canary analysis where a small percentage of
 
 ### Best Practices for Managing Data Synchronization and Schema Changes
 
+- The complexity of managing data synchronization across two distinct environments depends on the number of data stores in use, the intricacy of the data model, and the data consistency requirements.
 
+Both the blue and green environments need up-to-date data:
+
+- The green environment needs up-to-date data access because it’s becoming the new production environment.
+- The blue environment needs up-to-date data in the event of a rollback, when production is either shifts back or remains on the blue environment.
+
+
+Broadly, you accomplish this by having both the green and blue environments share the same data stores. Unstructured data stores, such as Amazon S3 object storage, NoSQL databases, and shared file systems are often easier to share between the two environments. 
+
+Structured data stores, such as RDBMS, where the data schema can diverge between the environments, typically require additional considerations.
 
 
 
