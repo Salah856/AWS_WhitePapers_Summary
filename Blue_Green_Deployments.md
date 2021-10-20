@@ -8,6 +8,7 @@
 
 ## Blue/Green Deployment Methodology
 
+
 - Blue/green deployments provide releases with near zero-downtime and rollback capabilities. 
 - The fundamental idea behind blue/green deployment is to shift traffic between two identical environments that are running different versions of your application. 
 
