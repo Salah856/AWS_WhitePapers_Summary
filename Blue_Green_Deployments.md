@@ -230,6 +230,14 @@ Performing the deployment in a test environment can help identify these sorts of
 
 
 
+### Conclusion
+
+Application deployment has associated risks. However, advancements such as the advent of cloud computing, deployment and automation frameworks, and new deployment techniques, blue/green for example, help mitigate risks, such as human error, process, downtime, and rollback capability. 
+
+The AWS utility billing model and wide range of automation tools make it much easier for customers to move fast and cost-effectively implement blue/green deployments at scale.
+
+
+
 #### Reference
 
 <a href="https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/blue-green-deployments.pdf#welcome"> Original paper </a>
