@@ -218,6 +218,15 @@ A general recommendation is to decouple schema changes from the code changes. Th
 - The schema is changed last, after the blue/green code deployment. 
 - Code changes in the new version of the application must be backward compatible with the old schema.
 
+There’s an increased risk involved when managing schema with a deletive approach: failures in the schema modification process can impact your production environment. 
+
+Your additive changes can bring down the earlier application because of an undocumented issue where best practices weren’t followed or where the new application version still has a dependency on a deleted field somewhere in the code.
+
+To mitigate risk appropriately, this pattern places a heavy emphasis on your pre-deployment software lifecycle steps. 
+
+Be sure to have a strong testing phase and framework and a strong QA phase. 
+
+Performing the deployment in a test environment can help identify these sorts of issues early, before the push to production.
 
 
 
