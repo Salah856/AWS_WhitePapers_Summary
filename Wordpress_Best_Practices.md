@@ -9,6 +9,7 @@
 - Through the work of the WordPress community and the release of various WordPress modules, the capabilities of this CMS solution are constantly expanding.
 - Today, it is possible to build a WordPress architecture that takes advantage of many of the benefits of the AWS Cloud.
 
+## Simple deployment
 
 
 
