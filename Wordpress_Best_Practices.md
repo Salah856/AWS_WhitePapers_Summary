@@ -14,6 +14,7 @@
 - For low-traffic blogs or websites without strict high availability requirements, a simple deployment of a single server might be suitable. 
 - This deployment isn’t the most resilient or scalable architecture, but it is the quickest and most economical way to get your website up and running.
 
+### Considerations
 
 
 
