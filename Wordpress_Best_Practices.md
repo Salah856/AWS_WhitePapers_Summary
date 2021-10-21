@@ -16,7 +16,8 @@
 
 ### Considerations
 
-- This discussion starts with a single web server deployment. There may be occasions when you outgrow it, for example:
+- This discussion starts with a single web server deployment. 
+- There may be occasions when you outgrow it, for example:
 
     - The virtual machine that your WordPress website is deployed on is a single point of failure. 
     - A problemwith this instance causes a loss of service for your website.
