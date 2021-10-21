@@ -20,10 +20,10 @@
 - There may be occasions when you outgrow it, for example:
 
     - The virtual machine that your WordPress website is deployed on is a single point of failure. 
-    - A problemwith this instance causes a loss of service for your website.
+    - A problem with this instance causes a loss of service for your website.
     
     - Scaling resources to improve performance can only be achieved by “vertical scaling;” 
-    - That is, byincreasing the size of the virtual machine running your WordPress website.
+    - That is, by increasing the size of the virtual machine running your WordPress website.
 
 
 
