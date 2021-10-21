@@ -1,6 +1,8 @@
 
 # Best Practices for WordPress on AWS
 
+- This whitepaper provides system administrators with specific guidance on how to get started with WordPress on Amazon Web Services (AWS) and how to improve both the cost efficiency of the deployment as well as the end user experience. 
+- It also outlines a reference architecture that addresses common scalability and high availability requirements.
 
 
 
