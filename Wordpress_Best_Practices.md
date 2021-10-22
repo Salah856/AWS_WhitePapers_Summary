@@ -115,6 +115,22 @@ In this way, you don’t have to reconfigure any external systems (such as DNS r
 
 ### Improving performance and cost efficiency
 
+You may eventually outgrow your single-server deployment. 
+
+In this case, you may need to consider options for improving your website’s performance. 
+
+Before migrating to a multi-server, scalable deployment (discussed later in this paper), there are a number of performance and cost efficiencies you can apply. 
+
+These are good practices that you should follow anyway, even if you do move to a multi-server architecture.
+
+The following sections introduce a number of options that can improve aspects of your WordPress website’s performance and scalability. 
+
+Some can be applied to a single-server deployment, whereas others take advantage of the scalability of multiple servers. 
+
+Many of those modifications require the use of one or more WordPress plugins. 
+
+Although various options are available, W3 Total Cache is a popular choice that combines many of those modifications in a single plugin.
+
 
 
 
