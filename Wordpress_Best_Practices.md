@@ -27,6 +27,18 @@
 
 
 
+### Available approaches
+
+- AWS has a number of different options for provisioning virtual machines. 
+- There are three main ways to host your own WordPress website on AWS:
+
+- Amazon Lightsail
+- Amazon Elastic Compute Cloud (Amazon EC2)
+- AWS Marketplace
+
+
+
+
 
 
 ### Reference
