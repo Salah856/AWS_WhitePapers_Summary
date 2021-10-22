@@ -100,6 +100,23 @@ To recover from failure, you can restore a new instance from your most recent sn
 
 To reduce the amount of data that could be lost during a restore, your snapshots must be as recent as possible.
 
+To minimize the potential for data loss, ensure that snapshots are being taken on a regular basis. 
+
+You can schedule automatic snapshots of your Lightsail Linux/Unix instances. 
+
+For steps, refer to Enabling or disabling automatic snapshots for instances or disks in Amazon Lightsail.
+
+AWS recommends that you use a static IP: a fixed, public IP address that is dedicated to your Lightsail account. 
+
+If you need to replace your instance with another one, you can reassign the static IP to the new instance. 
+
+In this way, you don’t have to reconfigure any external systems (such as DNS records) to point to a new IP address every time you want to replace your instance.
+
+
+
+
+
+
 
 
 ### Reference
