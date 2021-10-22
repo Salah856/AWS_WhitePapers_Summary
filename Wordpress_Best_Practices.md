@@ -85,6 +85,15 @@ Snapshots can be used to revert to a known good configuration after a bad deploy
 This snapshot allows you to recover your server if needed, but also to launch new instances with the same customizations.
 
 
+### Recovering from failure
+
+A single web server is a single point of failure, so you must ensure that your website data is backed up.
+
+The snapshot mechanism described earlier can also be used for this purpose. 
+
+To recover from failure, you can restore a new instance from your most recent snapshot. 
+
+To reduce the amount of data that could be lost during a restore, your snapshots must be as recent as possible.
 
 
 
