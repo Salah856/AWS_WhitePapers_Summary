@@ -113,6 +113,9 @@ If you need to replace your instance with another one, you can reassign the stat
 In this way, you don’t have to reconfigure any external systems (such as DNS records) to point to a new IP address every time you want to replace your instance.
 
 
+### Improving performance and cost efficiency
+
+
 
 
 
