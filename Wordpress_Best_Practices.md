@@ -37,6 +37,31 @@
 - AWS Marketplace
 
 
+#### Amazon Lightsail
+
+Lightsail is the easiest way to get started on AWS for developers, small businesses, students, and other users who need a simple VPS solution.
+
+The service abstracts many of the more complex elements of infrastructure management away from the user. 
+
+It is, therefore, an ideal starting point if you have less infrastructure experience, or when you need to focus on running your website and a simplified product is sufficient for your needs.
+
+With Amazon Lightsail, you can choose Windows or Linux/Unix operating systems and popular web
+applications, including WordPress, and deploy these with a single click from preconfigured templates.
+
+As your needs grow, you have the ability to smoothly step outside of the initial boundaries and connect to additional AWS database, object storage, caching, and content distribution services.
+
+
+##### Selecting an Amazon Lightsail pricing plan
+
+A Lightsail plan defines the monthly cost of the Lightsail resources you use to host your WordPress website. 
+
+There are a number of plans available to cover a variety of use cases, with varying levels of CPU resource, memory, solid-state drive (SSD) storage, and data transfer. 
+
+If your website is complex, you may need a larger instance with more resources. 
+
+You can achieve this by migrating your server to a larger plan using the web console or as described in the Amazon Lightsail CLI documentation.
+
+
 
 
 
