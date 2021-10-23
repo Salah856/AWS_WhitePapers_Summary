@@ -175,6 +175,9 @@ CloudFront uses the forwarded cookie values as part of the key that identifies a
 To ensure that you maximize the caching efficiency, you should configure CloudFront to only forward those HTTP cookies and HTTP headers that really vary the content (not cookies that are only used on the client side or by third-party applications, for example, for web analytics).
 
 
+![2](https://user-images.githubusercontent.com/23625821/138556834-6619ab4a-6b64-4907-a3b6-c0aca8f27eca.png)
+
+
 
 ### Reference
 
