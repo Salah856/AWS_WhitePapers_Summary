@@ -134,6 +134,7 @@ Although various options are available, W3 Total Cache is a popular choice that 
 
 #### Accelerating content delivery
 
+- 
 
 
 
