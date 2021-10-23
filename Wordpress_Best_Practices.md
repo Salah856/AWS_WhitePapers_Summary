@@ -192,8 +192,9 @@ Application performance is improved by storing frequently accessed pieces of dat
 
 When a large percentage of the queries are served from the cache, the number of queries that need to hit the database is reduced, resulting in a lower cost associated with running the database.
 
-Although WordPress has limited caching capabilities out-of-the-box, a variety of plugins support
-integration with Memcached, a widely adopted memory object caching system. The W3 Total Cache plugin is a good example.
+Although WordPress has limited caching capabilities out-of-the-box, a variety of plugins support integration with Memcached, a widely adopted memory object caching system. 
+
+The W3 Total Cache plugin is a good example.
 
 In the simplest scenarios, you install Memcached on your web server and capture the result as a new snapshot. In this case, you are responsible for the administrative tasks associated with running a cache.
 
