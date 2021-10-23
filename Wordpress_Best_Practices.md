@@ -144,6 +144,24 @@ If the content can be cached (for a few seconds, minutes, or even days) and is a
 
 This retrieval takes place over optimized network connections, which work to speed up the delivery of content on your website. Apart from improving the end-user experience, the model discussed also reduces the load on your origin servers and has the potential to create significant cost savings.
 
+#### Static content offload
+
+This includes CSS, JavaScript, and image files – either those that are part of your WordPress themes or those media files uploaded by the content administrators. 
+
+All these files can be stored in Amazon Simple Storage Service (Amazon S3) using a plugin such as W3 Total Cache and served to users in a scalable and highly available manner. 
+
+Amazon S3 offers a highly scalable, reliable, and low-latency data storage infrastructure at low cost, which is accessible via REST APIs. 
+
+Amazon S3 redundantly stores your objects, not only on multiple devices, but also across multiple facilities in an AWS Region, thus providing exceptionally high levels of durability.
+
+This has the positive side effect of offloading this workload from your Lightsail instance and letting it focus on dynamic content generation. 
+
+This reduces the load on the server and is an important step towards creating a stateless architecture (a prerequisite before implementing automatic scaling).
+
+You can subsequently configure Amazon S3 as an origin for CloudFront to improve delivery of those
+static assets to users around the world. 
+
+Although WordPress isn’t integrated with Amazon S3 and CloudFront out-of-the-box, a variety of plugins add support for these services (for example, W3 Total Cache)
 
 
 
