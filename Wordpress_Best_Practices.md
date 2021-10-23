@@ -177,6 +177,15 @@ To ensure that you maximize the caching efficiency, you should configure CloudFr
 
 ![2](https://user-images.githubusercontent.com/23625821/138556834-6619ab4a-6b64-4907-a3b6-c0aca8f27eca.png)
 
+CloudFront uses standard cache control headers to identify if and for how long it should cache specific HTTP responses. 
+
+The same cache control headers are also used by web browsers to decide when and for how long to cache content locally for a more optimal end user experience (for example, a .css file that is already downloaded will not be re-downloaded every time a returning visitor views a page).
+
+You can configure cache control headers on the web server level (for example, via .htaccess files or modifications of the httpd.conf file) or install a WordPress plugin (for example, W3 Total Cache) to dictate how those headers are set for both static and dynamic content.
+
+
+
+
 
 
 ### Reference
