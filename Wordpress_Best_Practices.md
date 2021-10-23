@@ -164,6 +164,15 @@ static assets to users around the world.
 Although WordPress isn’t integrated with Amazon S3 and CloudFront out-of-the-box, a variety of plugins add support for these services (for example, W3 Total Cache)
 
 
+#### Dynamic content
+
+Dynamic content includes the output of server-side WordPress PHP scripts. Dynamic content can also be served via CloudFront by configuring the WordPress website as an origin. 
+
+Since dynamic content includes personalized content, you need to configure CloudFront to forward certain HTTP cookies and HTTP headers as part of a request to your custom origin server.
+
+CloudFront uses the forwarded cookie values as part of the key that identifies a unique object in its cache. 
+
+To ensure that you maximize the caching efficiency, you should configure CloudFront to only forward those HTTP cookies and HTTP headers that really vary the content (not cookies that are only used on the client side or by third-party applications, for example, for web analytics).
 
 
 
