@@ -209,6 +209,19 @@ If you are using Lightsail and wish to access an ElastiCache cluster in your AWS
 For instructions to enable VPC peering, refer to Set up Amazon VPC peering to work with AWS resources outside of Amazon Lightsail.
 
 
+### Bytecode caching
+
+Each time a PHP script is run, it gets parsed and compiled. By using a PHP bytecode cache, the output of the PHP compilation is stored in RAM so that the same script doesn’t have to be compiled again and again. 
+
+This reduces the overhead related to executing PHP scripts, resulting in better performance and lower CPU requirements.
+
+A bytecode cache can be installed on any Lightsail instance that hosts WordPress and can greatly reduce its load. 
+
+For PHP 5.5 and later, AWS recommends the use of OPcache, a bundled extension with that PHP version.
+
+Note that OPcache is enabled by default in the Bitnami WordPress Lightsail template, so no further action is required.
+
+
 
 
 ### Reference
