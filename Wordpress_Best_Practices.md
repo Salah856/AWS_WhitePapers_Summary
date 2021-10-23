@@ -221,6 +221,10 @@ For PHP 5.5 and later, AWS recommends the use of OPcache, a bundled extension wi
 
 Note that OPcache is enabled by default in the Bitnami WordPress Lightsail template, so no further action is required.
 
+### Elastic deployment
+
+There are many scenarios where a single-server deployment may not be sufficient for your website. In these situations, you need a multi-server, scalable architecture.
+
 
 
 
