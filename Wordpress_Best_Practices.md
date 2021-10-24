@@ -276,6 +276,9 @@ When running WordPress in a multi-server configuration, this creates a problem b
 This demonstrates why we need to improve the default WordPress running configuration to move important data to shared storage. The best practice architecture has a database as a separate layer outside the web server and makes use of shared storage to store user uploads, themes, and plugins.
 
 
+#### Shared storage (Amazon S3 and Amazon EFS)
+
+
 
 
 
