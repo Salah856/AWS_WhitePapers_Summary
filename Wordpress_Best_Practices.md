@@ -228,6 +228,9 @@ There are many scenarios where a single-server deployment may not be sufficient 
 
 
 
+Check <a href="https://github.com/awslabs/aws-refarch-wordpress"> here </a> to see refere architecure
+
+
 
 ### Reference
 
