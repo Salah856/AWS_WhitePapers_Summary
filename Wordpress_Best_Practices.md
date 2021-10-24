@@ -290,6 +290,8 @@ By moving the entire WordPress installation directory onto an EFS file system an
 The benefit of this architecture is that you don’t need to install plugins and themes on each new instance launch, and you can significantly speed up the installation and recovery of WordPress instances. It is also easier to deploy changes to plugins and themes in WordPress, as outlined in the Deployment Considerations (p. 18) section of this document.
 
 
+#### Data tier (Amazon Aurora and Amazon ElastiCache)
+
 
 
 
