@@ -279,6 +279,9 @@ This demonstrates why we need to improve the default WordPress running configura
 #### Shared storage (Amazon S3 and Amazon EFS)
 
 
+By default, WordPress stores user uploads on the local file system and so isn’t stateless. Therefore, we need to move the WordPress installation and all user customizations (such as configuration, plugins, themes, and user-generated uploads) into a shared data platform to help reduce load on the web servers and to make the web tier stateless.
+
+Amazon Elastic File System (Amazon EFS) provides scalable network file systems for use with EC2 instances. Amazon EFS file systems are distributed across an unconstrained number of storage servers,
 
 
 
