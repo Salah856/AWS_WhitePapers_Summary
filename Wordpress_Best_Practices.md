@@ -239,6 +239,23 @@ To evolve your single-server architecture into a multi-server, scalable architec
 - Automatic scaling
 - Health checks
 
+AWS provides a wide variety of EC2 instance types so you can choose the best server configuration for both performance and cost. Generally speaking, the compute-optimized (for example, C4) instance type may be a good choice for a WordPress web server. 
+
+You can deploy your instances across multiple Availability Zones within an AWS Region to increase the reliability of the overall architecture.
+
+Because you have complete control of your EC2 instance, you can log in with root access to install and configure all of the software components required to run a WordPress website. After you are done, you can save that configuration as an AMI, which you can use to launch new instances with all the customizations that you've made.
+
+
+To distribute end-user requests to multiple web server nodes, you need a load balancing solution. 
+
+AWS provides this capability through Elastic Load Balancing, a highly available service that distributes traffic to multiple EC2 instances. 
+
+
+Because your website is serving content to your users via HTTP or HTTPS, we recommend that you make use of the Application Load Balancer, an application-layer load balancer with content routing and the ability to run multiple WordPress websites on different domains, if required  Elastic Load Balancing supports distribution of requests across multiple Availability Zones within an AWS Region. 
+
+You can also configure a health check so that the Application Load Balancer automatically stops sending traffic to individual instances that have failed (for example, due to a hardware problem or software crash). 
+
+AWS recommends using the WordPress admin login page (/wp-login.php) for the health check because this page confirms both that the web server is running and that the web server is configured to serve PHP files correctly
 
 
 
