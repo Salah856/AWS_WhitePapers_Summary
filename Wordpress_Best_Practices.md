@@ -226,9 +226,24 @@ Note that OPcache is enabled by default in the Bitnami WordPress Lightsail templ
 
 There are many scenarios where a single-server deployment may not be sufficient for your website. In these situations, you need a multi-server, scalable architecture.
 
-
-
 Check <a href="https://github.com/awslabs/aws-refarch-wordpress"> here </a> to see refere architecure
+
+
+### Scaling the web tier
+
+To evolve your single-server architecture into a multi-server, scalable architecture, you must use five key components:
+
+- Amazon EC2 instances
+- Amazon Machine Images (AMIs)
+- Load balancers
+- Automatic scaling
+- Health checks
+
+
+
+
+
+
 
 
 
