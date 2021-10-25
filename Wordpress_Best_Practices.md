@@ -292,6 +292,17 @@ The benefit of this architecture is that you don’t need to install plugins and
 
 #### Data tier (Amazon Aurora and Amazon ElastiCache)
 
+With the WordPress installation stored on a distributed, scalable, shared network file system, and static assets being served from Amazon S3, you can focus your attention on the remaining stateful component: the database. 
+
+As with the storage tier, the database should not be reliant on any single server, so it cannot  be hosted on one of the web servers. Instead, host the WordPress database on Amazon Aurora.
+
+Amazon Aurora is a MySQL and PostgreSQL compatible relational database built for the cloud that combines the performance and availability of high-end commercial databases with the simplicity and cost-effectiveness of open source databases. Aurora MySQL increases MySQL performance and availability by tightly integrating the database engine with a purpose-built distributed storage system, backed by SSD. 
+
+It is fault-tolerant and self-healing, replicates six copies of your data across three Availability Zones, is designed for greater than 99.99% availability, and continuously backs up your data in Amazon S3. 
+
+Amazon Aurora is designed to automatically detect database crashes and restart without the need for crash recovery or to rebuild the database cache.
+
+Amazon Aurora provides a number of instances types to suit different application profiles, including memory-optimized and burstable instances. To improve the performance of your database you can select a large instance type to provide more CPU and memory resources.
 
 
 
