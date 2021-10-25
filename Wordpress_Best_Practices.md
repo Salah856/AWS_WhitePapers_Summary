@@ -305,6 +305,15 @@ Amazon Aurora is designed to automatically detect database crashes and restart w
 Amazon Aurora provides a number of instances types to suit different application profiles, including memory-optimized and burstable instances. To improve the performance of your database you can select a large instance type to provide more CPU and memory resources.
 
 
+### WordPress high availability by Bitnami on AWS Quick Start
+
+Quick Starts are built by AWS solutions architects and partners to help you deploy popular technologies on AWS, based on AWS best practices for security and high availability. 
+
+These accelerators reduce hundreds of manual procedures into just a few steps, so you can build your production environment quickly and start using it immediately. 
+
+Each Quick Start includes AWS CloudFormation templates that automate the deployment and a guide that discusses the architecture and provides step-by-step deployment instructions.
+
+
 
 
 
