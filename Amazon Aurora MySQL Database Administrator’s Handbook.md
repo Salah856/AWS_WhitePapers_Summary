@@ -37,6 +37,20 @@
     - The Aurora Replicas can be used for read scaling, and are automatically used as failover targets in case of a primary instance failure.
 
 
+- Amazon Aurora supports the following types of Domain Name System (DNS) endpoints:
+  
+  - Cluster endpoint – Connects you to the primary instance and automatically follows the primary instance in case of failover, that is, when the current primary instance is demoted and one of the Aurora Replicas is promoted in its place.
+
+  - Reader endpoint – Includes all Aurora Replicas in the DB cluster under a single DNS CNAME. You can use the reader endpoint to implement DNS round robin load balancing for read-only connections.
+
+  - Instance endpoint – Each instance in the DB cluster has its own individual endpoint. You can use this endpoint to connect directly to a specific instance.
+
+  - Custom endpoints – User-defined DNS endpoints containing a selected group of instances from a given cluster.
+
+  
+
+
+
 
 
 
