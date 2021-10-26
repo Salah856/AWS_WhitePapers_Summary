@@ -24,6 +24,8 @@
     - Internal server connection pooling and thread multiplexing for improved scalability. 
 
 
+## DNS endpoints
+
 
 
 
