@@ -47,7 +47,11 @@
 
   - Custom endpoints – User-defined DNS endpoints containing a selected group of instances from a given cluster.
 
-  
+
+## Connection handling in Aurora MySQL and MySQL
+
+
+
 
 
 
