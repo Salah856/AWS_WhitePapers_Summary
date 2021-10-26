@@ -18,6 +18,13 @@
     - A cluster endpoint that automatically follows the primary instance in case of failover.
     
     - A reader endpoint that includes all Aurora Replicas and is automatically updated when Aurora Replicas are added or removed.
+    
+    - Ability to create custom DNS endpoints containing a user-configured group of database instances within a single cluster.
+    
+    - Internal server connection pooling and thread multiplexing for improved scalability. 
+
+
+
 
 
 
