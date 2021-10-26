@@ -16,6 +16,9 @@
     - Each of the Replicas can be automatically promoted to the primary role if the current primary instance fails.
 
     - A cluster endpoint that automatically follows the primary instance in case of failover.
+    
+    - A reader endpoint that includes all Aurora Replicas and is automatically updated when Aurora Replicas are added or removed.
+
 
 
 
