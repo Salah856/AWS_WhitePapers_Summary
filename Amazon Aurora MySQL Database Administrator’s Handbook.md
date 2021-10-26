@@ -26,6 +26,16 @@
 
 ## DNS endpoints
 
+- An Aurora DB cluster consists of one or more instances and a cluster volume that manages the data for those instances. 
+
+- There are two types of instances:
+
+  - Primary instance – Supports read and write statements. Currently, there can be one primary instance per DB cluster.
+
+  - Aurora Replica – Supports read-only statements. 
+    - A DB cluster can have up to 15 Aurora Replicas. 
+    - The Aurora Replicas can be used for read scaling, and are automatically used as failover targets in case of a primary instance failure.
+
 
 
 
