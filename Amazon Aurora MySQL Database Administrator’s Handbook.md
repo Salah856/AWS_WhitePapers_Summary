@@ -5,6 +5,14 @@
 
 - It’s a recommended read for Amazon Aurora MySQL Database Administrators (DBAs) and application developers.
 
+## Introduction
+
+- Amazon Aurora MySQL (Aurora MySQL) is a managed relational database engine, wire-compatible with MySQL 5.6 and 5.7. Most of the drivers, connectors, and tools that you currently use with MySQL can be used with Aurora MySQL with little or no change.
+
+
+
+
+
 
 
 
