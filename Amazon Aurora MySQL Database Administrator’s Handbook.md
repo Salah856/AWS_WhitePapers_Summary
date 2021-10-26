@@ -9,6 +9,11 @@
 
 - Amazon Aurora MySQL (Aurora MySQL) is a managed relational database engine, wire-compatible with MySQL 5.6 and 5.7. Most of the drivers, connectors, and tools that you currently use with MySQL can be used with Aurora MySQL with little or no change.
 
+- Aurora MySQL database (DB) clusters provide advanced features such as:
+
+    - One primary instance that supports read/write operations and up to 15 Aurora Replicas that support read-only operations. Each of the Replicas can be automatically promoted to the primary role if the current primary instance fails.
+
+    - A cluster endpoint that automatically follows the primary instance in case of failover.
 
 
 
