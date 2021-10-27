@@ -67,6 +67,13 @@ The following are common misconceptions for database connection management:
  
  - Idle connections don’t use memory. This isn’t true because the operating system and the database process both allocate an in-memory descriptor for each user connection. What is typically true is that Aurora MySQL uses less memory than MySQL Community Edition to maintain the same number of connections. However, memory usage for idle connections is still not zero, even with Aurora MySQL.
 
+ - Downtime depends entirely on database stability and database features. This isn’t true because the application design and configuration play an important role in determining how fast user traffic can recover following a database event.
+
+
+## Best practices
+
+
+
 
 
 
