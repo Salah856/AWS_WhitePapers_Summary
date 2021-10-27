@@ -85,7 +85,7 @@ Aurora MySQL exposes near-real-time metadata about DB instances in the INFORMATI
 
 ```sql
   
-  mysql> select server_id, if(session_id = 'MASTER_SESSION_ID',
+mysql> select server_id, if(session_id = 'MASTER_SESSION_ID',
 'writer', 'reader') as role, replica_lag_in_milliseconds from
 information_schema.replica_host_status;
 
