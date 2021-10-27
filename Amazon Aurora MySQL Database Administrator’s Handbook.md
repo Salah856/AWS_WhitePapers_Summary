@@ -107,6 +107,10 @@ It can route new connections to individual instance endpoints without relying on
 A smart driver is also typically capable of load balancing read-only connections across the available Aurora Replicas in a round robin fashion.
 
 
+The MariaDB Connector/J is an example of a third-party Java Database Connectivity (JDBC) smart driver with native support for Aurora MySQL DB clusters. 
+
+Application developers can draw inspiration from the MariaDB driver to build drivers and connectors for languages other than Java.
+
 
 
 
