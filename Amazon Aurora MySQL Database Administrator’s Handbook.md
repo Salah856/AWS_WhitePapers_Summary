@@ -112,6 +112,15 @@ The MariaDB Connector/J is an example of a third-party Java Database Connectivit
 Application developers can draw inspiration from the MariaDB driver to build drivers and connectors for languages other than Java.
 
 
+It’s a good idea to evaluate the use of smart drivers in your setup. 
+
+Note that if a thirdparty driver contains Aurora MySQL–specific functionality, it doesn’t mean that it has been officially tested, validated, or certified by AWS. 
+
+Also note that due to the advanced built-in features and higher overall complexity, smart drivers are likely to receive updates and bug fixes more frequently than traditional (bare bones) drivers. 
+
+
+You should regularly review the driver’s release notes and use the latest available version whenever possible.
+
 
 
 
