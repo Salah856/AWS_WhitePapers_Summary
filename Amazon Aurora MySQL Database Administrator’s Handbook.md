@@ -100,6 +100,18 @@ information_schema.replica_host_status;
 ```
 
 
+For the purpose of this whitepaper, a smart driver is a database driver or connector with the ability to read DB cluster topology from the metadata table. 
+
+It can route new connections to individual instance endpoints without relying on high-level cluster endpoints. 
+
+A smart driver is also typically capable of load balancing read-only connections across the available Aurora Replicas in a round robin fashion.
+
+
+
+
+
+
+
 
 
 
