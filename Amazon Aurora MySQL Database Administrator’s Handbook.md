@@ -63,7 +63,7 @@
 
 The following are common misconceptions for database connection management: 
 
- - If the server uses connection pooling, you don’t need a pool on the application side. As explained previously, this isn’t true for workloads where connections are opened and torn down very frequently, and clients run relatively few statements per connection.
+ - If the server uses connection pooling, you don’t need a pool on the application side. This isn’t true for workloads where connections are opened and torn down very frequently, and clients run relatively few statements per connection.
  - 
 
 
