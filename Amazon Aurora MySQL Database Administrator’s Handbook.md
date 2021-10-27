@@ -59,9 +59,6 @@
 
 
 
-
-
-
 ### Reference 
 
 <a href="https://d1.awsstatic.com/whitepapers/RDS/amazon-aurora-connection-management-handbook.pdf?did=wp_card&trk=wp_card"> Original paper </a>
