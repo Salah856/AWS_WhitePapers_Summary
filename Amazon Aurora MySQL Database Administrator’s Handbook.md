@@ -76,6 +76,12 @@ The following are best practices for managing database connections and configuri
 
 ### Using smart drivers
 
+The cluster and reader endpoints abstract the role changes and topology changes occurring in the DB cluster. However, DNS updates are not instantaneous. 
+
+In addition, they can sometimes contribute to a slightly longer delay between the time a database event occurs and the time it’s noticed and handled by the application.
+
+
+
 
 
 
