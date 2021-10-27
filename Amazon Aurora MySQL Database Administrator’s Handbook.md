@@ -49,6 +49,17 @@
 
 ## Connection handling in Aurora MySQL and MySQL
 
+- MySQL Community Edition manages connections in a one-thread-per-connection fashion. 
+- This means that each individual user connection receives a dedicated operating system thread in the mysqld process. 
+- Issues with this type of connection handling include:
+
+  - Relatively high memory use when there is a large number of user connections, even if the connections are completely idle. 
+  - Higher internal server contention and context switching overhead when working with thousands of user connections. 
+
+
+
+
+
 
 
 
