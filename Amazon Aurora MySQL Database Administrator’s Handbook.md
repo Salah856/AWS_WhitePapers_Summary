@@ -81,6 +81,26 @@ The cluster and reader endpoints abstract the role changes and topology changes 
 In addition, they can sometimes contribute to a slightly longer delay between the time a database event occurs and the time it’s noticed and handled by the application.
 
 
+Aurora MySQL exposes near-real-time metadata about DB instances in the INFORMATION_SCHEMA.REPLICA_HOST_STATUS table.
+
+```sql
+  
+  mysql> select server_id, if(session_id = 'MASTER_SESSION_ID',
+'writer', 'reader') as role, replica_lag_in_milliseconds from
+information_schema.replica_host_status;
+
++-------------------+--------+-----------------------------+
+| server_id | role | replica_lag_in_milliseconds |
++-------------------+--------+-----------------------------+
+| aurora-node-usw2a | writer | 0 |
+| aurora-node-usw2b | reader | 19.253999710083008 |
++-------------------+--------+-----------------------------+
+2 rows in set (0.00 sec)
+
+```
+
+
+
 
 
 
