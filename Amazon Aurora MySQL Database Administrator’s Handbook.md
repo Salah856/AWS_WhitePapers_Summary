@@ -122,6 +122,8 @@ Also note that due to the advanced built-in features and higher overall complexi
 You should regularly review the driver’s release notes and use the latest available version whenever possible.
 
 
+### DNS caching
+
 
 
 
