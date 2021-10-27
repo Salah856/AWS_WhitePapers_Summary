@@ -64,7 +64,9 @@
 The following are common misconceptions for database connection management: 
 
  - If the server uses connection pooling, you don’t need a pool on the application side. This isn’t true for workloads where connections are opened and torn down very frequently, and clients run relatively few statements per connection.
- - 
+ 
+ - Idle connections don’t use memory. This isn’t true because the operating system and the database process both allocate an in-memory descriptor for each user connection. What is typically true is that Aurora MySQL uses less memory than MySQL Community Edition to maintain the same number of connections. However, memory usage for idle connections is still not zero, even with Aurora MySQL.
+
 
 
 
