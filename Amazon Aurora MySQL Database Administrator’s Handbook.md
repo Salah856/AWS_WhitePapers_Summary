@@ -181,6 +181,8 @@ Also, the total number of connections is not easy to control because it’s not 
 - On the other side, the proxy accepts application connections and can provide additional features such as query caching, connection buffering, query rewriting/routing, and load balancing.
 
 
+### Transaction management and autocommit
+
 
 
 
