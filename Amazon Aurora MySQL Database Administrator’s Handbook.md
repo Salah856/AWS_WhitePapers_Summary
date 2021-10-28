@@ -158,7 +158,9 @@ In such cases, you might experience database connection leaks where connections 
 
 ### Connection scaling
 
+The most common technique for scaling web service capacity is to add or remove application instances in response to changes in user traffic. 
 
+Each application server can use a database connection pool.
 
 
 
