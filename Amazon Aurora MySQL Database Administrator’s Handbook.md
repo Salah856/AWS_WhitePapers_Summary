@@ -162,7 +162,15 @@ The most common technique for scaling web service capacity is to add or remove a
 
 Each application server can use a database connection pool.
 
+This approach causes the total number of database connections to grow proportionally with the number of application instances. 
 
+For example, 20 application servers configured with 200 database connections each would require a total of 4,000 database connections. 
+
+If the application pool scales up to 200 instances (for example, during peak hours), the total connection count will reach 40,000. Under a typical web application workload, most of these connections are likely idle. 
+
+In extreme cases, this can limit database scalability: idle connections do take server resources, and you’re opening significantly more of them than you need.
+
+Also, the total number of connections is not easy to control because it’s not something you configure directly, but rather depends on the number of application servers.
 
 
 
