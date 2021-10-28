@@ -175,10 +175,10 @@ Also, the total number of connections is not easy to control because it’s not 
 
 You have two options in this situation:
 
-    • Tune the connection pools on application instances. Reduce the number of connections in the pool to the acceptable minimum. This can be a stop-gap
+    - Tune the connection pools on application instances. Reduce the number of connections in the pool to the acceptable minimum. This can be a stop-gap
     solution, but it might not be a long-term solution as your application server fleet continues to grow.
 
-    • Introduce a connection proxy between the database and the application. On one side, the proxy connects to the database with a fixed number of connections. On the other side, the proxy accepts application connections and can provide additional features such as query caching, connection buffering, query rewriting/routing, and load balancing.
+    - Introduce a connection proxy between the database and the application. On one side, the proxy connects to the database with a fixed number of connections. On the other side, the proxy accepts application connections and can provide additional features such as query caching, connection buffering, query rewriting/routing, and load balancing.
 
 
 
