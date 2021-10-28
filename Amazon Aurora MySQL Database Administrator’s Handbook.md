@@ -156,6 +156,8 @@ There are situations, especially in container based or code-as-a-service scenari
 
 In such cases, you might experience database connection leaks where connections are left open and continue to hold resources (for example, memory and locks).
 
+### Connection scaling
+
 
 
 
