@@ -150,6 +150,12 @@ Here are some examples of issues that can occur if you don’t follow DNS cachin
 
 ### Connection management and pooling
 
+Always close database connections explicitly instead of relying on the development framework or language destructors to do it. 
+
+There are situations, especially in container based or code-as-a-service scenarios, when the underlying code container isn’t immediately destroyed after the code completes. 
+
+In such cases, you might experience database connection leaks where connections are left open and continue to hold resources (for example, memory and locks).
+
 
 
 
