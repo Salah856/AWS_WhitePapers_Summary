@@ -124,7 +124,17 @@ You should regularly review the driver’s release notes and use the latest avai
 
 ### DNS caching
 
+Unless you use a smart database driver, you depend on DNS record updates and DNS propagation for failovers, instance scaling, and load balancing across Aurora Replicas.
 
+Currently, Aurora DNS zones use a short Time-To-Live (TTL) of five seconds. 
+
+Ensure that your network and client configurations don’t further increase the DNS cache TTL. 
+
+Remember that DNS caching can occur anywhere from your network layer, through the operating system, to the application container. 
+
+For example, Java virtual machines (JVMs) are notorious for caching DNS indefinitely unless configured otherwise. 
+
+Here are some examples of issues that can occur if you don’t follow DNS caching best practices:
 
 
 
