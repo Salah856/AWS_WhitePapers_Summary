@@ -137,6 +137,16 @@ For example, Java virtual machines (JVMs) are notorious for caching DNS indefini
 Here are some examples of issues that can occur if you don’t follow DNS caching best practices:
 
 
+- After a new primary instance is promoted during a failover, applications continue to send write traffic to the old instance. 
+
+- Data-modifying statements will fail because that instance is no longer the primary instance.
+
+- After a DB instance is scaled up or down, applications are unable to connect to it. 
+
+- Due to DNS caching, applications continue to use the old IP address of that instance, which is no longer valid.
+
+- Aurora Replicas can experience unequal utilization, for example, one DB instance receiving significantly more traffic than the others.
+
 
 
 
