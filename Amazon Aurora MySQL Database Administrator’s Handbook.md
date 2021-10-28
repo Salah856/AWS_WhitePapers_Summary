@@ -148,7 +148,7 @@ Here are some examples of issues that can occur if you don’t follow DNS cachin
 - Aurora Replicas can experience unequal utilization, for example, one DB instance receiving significantly more traffic than the others.
 
 
-
+### Connection management and pooling
 
 
 
