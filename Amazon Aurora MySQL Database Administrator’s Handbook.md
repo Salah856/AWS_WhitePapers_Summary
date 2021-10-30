@@ -219,6 +219,8 @@ OLTP or key-value workloads that expect single-digit millisecond latency can be 
 For example, if the driver runs six statements to set up a connection and each statement takes just one millisecond to run, your application will be delayed by six milliseconds before it issues its first query.
 
 
+### Load balancing with the reader endpoint
+
 
 
 
