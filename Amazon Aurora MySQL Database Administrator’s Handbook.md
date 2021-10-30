@@ -228,6 +228,9 @@ DNS load balancing works at the connection level (not the individual query level
 You must keep resolving the endpoint without caching DNS to get a different instance IP on each resolution. 
 
 
+### Designing for fault tolerance and quick recovery
+
+
 
 
 
