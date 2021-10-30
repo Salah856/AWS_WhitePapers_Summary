@@ -240,6 +240,19 @@ The only scalable way of addressing this challenge is to assume that issues and 
 
 There are two major server configuration variables worth mentioning in the context of this whitepaper: max_connections and max_connect_errors.
 
+###### Configuration variable max_connections
+
+The configuration variable max_connections limits the number of database connections per Aurora DB instance. 
+
+The best practice is to set it slightly higher than the maximum number of connections you expect to open on each instance.
+
+If you also enabled performance_schema, be extra careful with the setting. 
+
+The Performance Schema memory structures are sized automatically based on server configuration variables, including max_connections. 
+
+The higher you set the variable, the more memory Performance Schema uses. 
+
+In extreme cases, this can lead to out-ofmemory issues on smaller instance types.
 
 
 
