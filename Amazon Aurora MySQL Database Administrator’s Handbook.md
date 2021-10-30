@@ -230,6 +230,10 @@ You must keep resolving the endpoint without caching DNS to get a different inst
 
 ### Designing for fault tolerance and quick recovery
 
+In large-scale database operations, you’re statistically more likely to experience issues such as connection interruptions or hardware failures. 
+You must also take operational actions more frequently, such as scaling, adding, or removing DB instances and performing software upgrades.
+The only scalable way of addressing this challenge is to assume that issues and changes will occur and design your applications accordingly.
+
 
 
 
