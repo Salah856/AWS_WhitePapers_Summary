@@ -185,8 +185,9 @@ Also, the total number of connections is not easy to control because it’s not 
 
 With autocommit enabled, each SQL statement runs within its own transaction. 
 
-When the statement ends, the transaction ends as well. Between statements, the client connection is not in transaction. If you need a transaction to remain open for more than one statement, you explicitly begin the transaction, run the statements, and then commit
-or roll back the transaction.
+When the statement ends, the transaction ends as well. Between statements, the client connection is not in transaction. 
+
+If you need a transaction to remain open for more than one statement, you explicitly begin the transaction, run the statements, and then commit or roll back the transaction.
 
 With autocommit disabled, the connection is always in transaction. You can commit or roll back the current transaction, at which point the server immediately opens a new one.
 
