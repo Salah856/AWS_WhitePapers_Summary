@@ -189,9 +189,19 @@ When the statement ends, the transaction ends as well. Between statements, the c
 
 If you need a transaction to remain open for more than one statement, you explicitly begin the transaction, run the statements, and then commit or roll back the transaction.
 
-With autocommit disabled, the connection is always in transaction. You can commit or roll back the current transaction, at which point the server immediately opens a new one.
+With autocommit disabled, the connection is always in transaction. 
 
+You can commit or roll back the current transaction, at which point the server immediately opens a new one.
 
+Running with autocommit disabled is not recommended because it encourages longrunning transactions where they’re not needed. 
+
+##### Recommendations:
+
+- Always run with autocommit mode enabled. Set the autocommit parameter to 1 on the database side (which is the default) and on the application side (which might not be the default).
+
+- Always double-check the autocommit settings on the application side. For example, Python drivers such as MySQLdb and PyMySQL disable autocommit by default.
+
+- Manage transactions explicitly by using BEGIN/START TRANSACTION and COMMIT/ROLLBACK statements. You should start transactions when you need them and commit as soon as the transactional work is done.
 
 
 
