@@ -255,6 +255,21 @@ The higher you set the variable, the more memory Performance Schema uses.
 In extreme cases, this can lead to out-ofmemory issues on smaller instance types.
 
 
+##### Configuration variable max_connect_errors
+
+The configuration variable max_connect_errors determines how many successive interrupted connection requests are permitted from a given client host. 
+
+If the client host exceeds the number of successive failed connection attempts, the server blocks it.
+
+
+
+
+#### Conclusion
+
+Understanding and implementing connection management best practices is critical to achieve scalability, reduce downtime, and ensure smooth integration between the
+application and database layers. You can apply most of the recommendations provided in this whitepaper with little to no engineering effort. The guidance provided in this whitepaper should help you introduce improvements in your current and future application deployments using Aurora MySQL DB clusters.
+
+
 
 
 ### Reference 
