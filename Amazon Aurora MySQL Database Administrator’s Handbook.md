@@ -212,6 +212,11 @@ Drivers and client tools commonly run series of statements to set up session con
 
 This increases the cost of creating new connections and delays when your application can start issuing queries.
 
+The cost of connection handshakes becomes even more important if your applications are very sensitive to latency. 
+
+OLTP or key-value workloads that expect single-digit millisecond latency can be visibly impacted if each connection is expensive to open. 
+
+For example, if the driver runs six statements to set up a connection and each statement takes just one millisecond to run, your application will be delayed by six milliseconds before it issues its first query.
 
 
 
