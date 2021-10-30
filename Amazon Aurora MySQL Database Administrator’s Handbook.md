@@ -206,6 +206,11 @@ Running with autocommit disabled is not recommended because it encourages longru
 
 ### Connection handshakes
 
+A lot of work can happen behind the scenes when an application connector or a GUI tool opens a new database session. 
+
+Drivers and client tools commonly run series of statements to set up session configuration (e.g, SET SESSION variable = value). 
+
+This increases the cost of creating new connections and delays when your application can start issuing queries.
 
 
 
