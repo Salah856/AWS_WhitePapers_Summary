@@ -236,7 +236,9 @@ The only scalable way of addressing this challenge is to assume that issues and 
 
 
 
+#### Server configuration
 
+There are two major server configuration variables worth mentioning in the context of this whitepaper: max_connections and max_connect_errors.
 
 
 
