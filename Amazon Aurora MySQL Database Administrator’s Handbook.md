@@ -221,6 +221,13 @@ For example, if the driver runs six statements to set up a connection and each s
 
 ### Load balancing with the reader endpoint
 
+Because the reader endpoint contains all Aurora Replicas, it can provide DNS-based, round robin load balancing for new connections. 
+Every time you resolve the reader endpoint, you'll get an instance IP that you can connect to, chosen in round robin fashion.
+
+DNS load balancing works at the connection level (not the individual query level). 
+You must keep resolving the endpoint without caching DNS to get a different instance IP on each resolution. 
+
+
 
 
 
