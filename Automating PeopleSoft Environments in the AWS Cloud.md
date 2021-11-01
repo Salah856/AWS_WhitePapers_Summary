@@ -10,6 +10,19 @@ Such enterprises have effectively used the AWS infrastructure as a service (IaaS
 
 
 
+### Benefits of Automating PeopleSoft Environments in the AWS Cloud
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Reference
