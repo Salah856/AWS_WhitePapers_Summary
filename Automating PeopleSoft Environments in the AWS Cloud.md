@@ -12,8 +12,17 @@ Such enterprises have effectively used the AWS infrastructure as a service (IaaS
 
 ### Benefits of Automating PeopleSoft Environments in the AWS Cloud
 
+- Automating PeopleSoft environments in the AWS Cloud has several very important benefits, including the following.
 
-
+  - Flexibility 
+  - Consistency
+  - Change Control
+  - Stability
+  - Scalability
+  - Security
+  - Economics
+ 
+ 
 
 
 
