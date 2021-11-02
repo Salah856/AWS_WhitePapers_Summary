@@ -24,6 +24,18 @@
 
 ### Automation Tools in Action
 
+#### Docker
+
+- This automation process relies heavily on the Docker2 open source tool. Docker allows components of the PeopleSoft applications to be containerized. 
+- This means they are run in isolation from the host operating system and other containers that run on the host machine. 
+- It also means that because the application is containerized, deployment and orchestration automation can be developed in a standard way. 
+
+- The Automations leverage existing infrastructure automations from AWS and use Amazon ECS instead of building custom automations to provision and scale applications and environments.
+
+- In some ways, Docker is similar to virtual machine software. Like virtual machine software, Docker automates the creation of a well-defined and consistently deployed workspace. 
+
+- Unlike virtual machine software, Docker accomplishes this by sharing the host operating system kernel and using kernel functionality to create an isolated
+workspace.
 
 
 
