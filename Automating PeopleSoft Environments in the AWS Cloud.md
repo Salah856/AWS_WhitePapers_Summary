@@ -37,8 +37,9 @@
 - Unlike virtual machine software, Docker accomplishes this by sharing the host operating system kernel and using kernel functionality to create an isolated
 workspace.
 
+- Docker uses the kernel in the host machine to create an isolated workspace, known as a container, where an application and its dependencies can run consistently and reliably.
 
-
+- The process to create a container begins with a Dockerfile, which is a script written in the Go programming language, composed of various commands and arguments listed successively, which perform actions on an existing, base Docker image to create a new, more specialized Docker image. 
 
 
 
