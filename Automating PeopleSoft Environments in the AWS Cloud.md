@@ -77,6 +77,11 @@ The application architecture of a PeopleSoft environment in the AWS Cloud was de
 
 Using AWS CloudFormation and Amazon ECS ensures that each environment is deployed and configured in a consistent manner.
 
+The AWS CloudFormation templates create the VPC, load balancers, Amazon EC2 servers, Amazon ECS clusters, and Amazon RDS instances, that form the environments. 
+
+The Amazon VPC restricts access to the environments to only customer-approved users.
+
+
 
 
 
