@@ -63,6 +63,12 @@ services.
 - query the complete state of such applications, and access many AWS features, such as IAM roles, security groups, load balancers, and AWS CloudFormation
 
 
+### Amazon RDS
+
+- Amazon RDS is a web service that simplifies the setup, operation, and scaling of a relational database in the AWS Cloud. 
+
+- Amazon RDS provides cost-efficient, resizable capacity for an industry-standard relational database, and manages common database administration tasks
+
 
 
 
