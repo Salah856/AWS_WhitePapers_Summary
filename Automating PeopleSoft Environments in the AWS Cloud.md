@@ -44,10 +44,16 @@ workspace.
 
 ### AWS CloudFormation
 
+- AWS CloudFormation is an AWS service through which users can create a template that describes all the AWS infrastructure resources needed to create user-defined
+services. 
+
+- AWS CloudFormation takes care of provisioning and configuring all the specified infrastructure components and services. The AWS CloudFormation template describes exactly what resources are provisioned and their settings. 
+
+- Templates are text files, so users can see the differences in template versions and track changes in their infrastructure solution
 
 
 
-
+### 
 
 
 
