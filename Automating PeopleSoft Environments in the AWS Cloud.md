@@ -53,7 +53,15 @@ services.
 
 
 
-### 
+### Amazon ECS
+
+- Amazon Elastic Container Service (Amazon ECS) is a scalable, container management solution that supports Docker containers. 
+
+- Amazon ECS schedules, runs, and scales containerized applications on AWS. 
+
+- Amazon ECS can launch and stop Docker-enabled applications, 
+- query the complete state of such applications, and access many AWS features, such as IAM roles, security groups, load balancers, and AWS CloudFormation
+
 
 
 
