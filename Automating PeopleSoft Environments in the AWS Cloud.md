@@ -77,8 +77,6 @@ The application architecture of a PeopleSoft environment in the AWS Cloud was de
 
 Using AWS CloudFormation and Amazon ECS ensures that each environment is deployed and configured in a consistent manner.
 
-Below is a high-level architecture of all of the components that are deployed as part of the AWS CloudFormation deployments for each environment
-
 
 
 
