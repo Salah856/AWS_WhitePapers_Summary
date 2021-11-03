@@ -82,6 +82,13 @@ The AWS CloudFormation templates create the VPC, load balancers, Amazon EC2 serv
 The Amazon VPC restricts access to the environments to only customer-approved users.
 
 
+Automation scripts and AWS CloudFormation are used to generate two types of deployments: one for the production environment and one for the non-production environments. 
+
+The automation scripts for both the production and non-production environments use all of the same components, however, they are composed and behave differently
+
+
+### Amazon ECS Service Design
+
 
 
 
