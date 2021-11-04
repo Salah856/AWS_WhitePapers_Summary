@@ -205,6 +205,7 @@ Running with autocommit disabled is not recommended because it encourages longru
 - Manage transactions explicitly by using BEGIN/START TRANSACTION and COMMIT/ROLLBACK statements. You should start transactions when you need them and commit as soon as the transactional work is done.
 
 
+
 ### Connection handshakes
 
 A lot of work can happen behind the scenes when an application connector or a GUI tool opens a new database session. 
