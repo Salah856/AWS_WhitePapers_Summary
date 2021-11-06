@@ -115,6 +115,24 @@ This allows the application to continue to be available, but takes advantage of 
 
 
 
+### Conclusion
+
+AWS provides a tremendous amount of on-demand infrastructure services for cloud storage. Until recently, PeopleSoft users who migrated to AWS have used the many AWS infrastructure services with a data center outsourcing model. 
+
+Though this model uses AWS infrastructure services, the implementation is subject to the same pillar-bypillar inconsistencies and degradation over time as an on-premises implementation.
+
+The migration approach recommended in this paper augments delivered AWS infrastructure services functionality with the Automations, which empower users to much more effectively and economically administer a PeopleSoft implementation. 
+
+Because the Automations can launch the non-production instances so quickly, these instances can be terminated during non-business hours. 
+
+Because the Automations are used to administer all the environments in the implementation, a high degree of consistency is maintained among the environments. 
+
+The stability of all the environments is also engineered into the Automations. 
+
+Improvements are managed by re-engineering the Automations and are then quickly pushed out to all the environments after they are validated and approved
+
+
+
 
 ### Reference
 
