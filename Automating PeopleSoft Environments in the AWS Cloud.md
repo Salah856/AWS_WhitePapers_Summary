@@ -90,6 +90,15 @@ The automation scripts for both the production and non-production environments u
 
 ### Amazon ECS Service Design
 
+Amazon ECS orchestrates Docker containers and creates tasks, or groups of container services, that are essential elements of the environments. 
+
+Amazon ECS also monitors the health of these tasks and launches new tasks if an issue with an existing task is detected. 
+
+The Docker images in Amazon ECR and managed by Amazon ECS contain the instructions necessary to build out the web, application, and batch containers. 
+
+For example, the Amazon ECS task definition might combine a web and app container into a single task which can be monitored and managed by Amazon ECS.
+
+
 
 
 
