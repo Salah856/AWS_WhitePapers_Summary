@@ -105,6 +105,9 @@ Production environment deployments are built to allow the online transaction pro
 
 This allows each component to be scaled independently. The following are some examples of methods you can use to scale your production environments up or down to meet your business needs.
 
+In off-peak hours, a production environment can be scaled down to a minimal footprint. 
+
+This allows the application to continue to be available, but takes advantage of cost savings by only running a minimal set of resources.
 
 
 
