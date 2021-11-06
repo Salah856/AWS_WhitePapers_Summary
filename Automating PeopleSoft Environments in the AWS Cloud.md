@@ -109,6 +109,8 @@ In off-peak hours, a production environment can be scaled down to a minimal foot
 
 This allows the application to continue to be available, but takes advantage of cost savings by only running a minimal set of resources.
 
+### Development in Automated Environments
+
 
 
 
