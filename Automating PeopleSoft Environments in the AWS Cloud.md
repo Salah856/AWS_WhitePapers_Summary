@@ -99,6 +99,12 @@ The Docker images in Amazon ECR and managed by Amazon ECS contain the instructio
 For example, the Amazon ECS task definition might combine a web and app container into a single task which can be monitored and managed by Amazon ECS.
 
 
+### Scalable Production Deployment
+
+Production environment deployments are built to allow the online transaction processing application, process scheduler, and integration brokers to be decoupled into separate Amazon ECS services. 
+
+This allows each component to be scaled independently. The following are some examples of methods you can use to scale your production environments up or down to meet your business needs.
+
 
 
 
