@@ -13,6 +13,7 @@ This whitepaper discusses how to use AWS KMS for each capability described in th
 
 ### Identity and Access Management
 
+The Identity and Access Management capability provides guidance on determining the controls for access management within AWS KMS to secure your infrastructure according to established best practices and internal policies.
 
 
 
