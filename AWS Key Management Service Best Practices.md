@@ -48,6 +48,8 @@ To access an encrypted resource, the principal needs to have permissions to use 
 
 If the principal does not have the necessary permissions for either of those actions, the request to use the encrypted resource will be denied.
 
+#### Least Privilege / Separation of Duties
+
 
 
 
