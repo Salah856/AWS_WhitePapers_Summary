@@ -36,6 +36,20 @@ IAM policies by themselves are not sufficient to allow access to a CMK, although
 To do so, ensure that the CMK key policy includes the policy statement that enables IAM policies.
 
 
+#### Key Policies
+
+Key policies are the primary way to control access to CMKs in AWS KMS. Each CMK has a key policy attached to it that defines permissions on the use and management of the key. 
+
+The default policy enables any principals you define, as well as enables the root user in the account to add IAM policies that reference the key. 
+
+We recommend that you edit the default CMK policy to align with your organization’s best practices for least privilege. 
+
+To access an encrypted resource, the principal needs to have permissions to use the resource, as well as to use the encryption key that protects the resource. 
+
+If the principal does not have the necessary permissions for either of those actions, the request to use the encrypted resource will be denied.
+
+
+
 
 
 
