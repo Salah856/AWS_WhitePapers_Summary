@@ -18,6 +18,9 @@ The Identity and Access Management capability provides guidance on determining t
 
 
 
+
+
+
 #### Reference 
 
 <a href="https://docs.aws.amazon.com/whitepapers/latest/kms-best-practices/kms-best-practices.pdf#welcome"> Original paper </a> 
