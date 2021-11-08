@@ -50,6 +50,17 @@ If the principal does not have the necessary permissions for either of those act
 
 #### Least Privilege / Separation of Duties
 
+Key policies specify a resource, action, effect, principal, and conditions to grant access to CMKs. 
+
+Key policies allow you to push more granular permissions to CMKs to enforce least privilege. 
+
+For example, an application might make a KMS API call to encrypt data but there is no use case for that same application to decrypt data. 
+
+In that use case, a key policy could grant access to the kms:Encrypt action but not kms:Decrypt and reduce the possibility for exposure. 
+
+Additionally, AWS allows you to separate the usage permissions from administration permissions associated with the key. 
+
+This means that an individual may have the ability to manipulate the key policy, but might not have the necessary permissions to use the key for cryptographic functions.
 
 
 
