@@ -62,6 +62,17 @@ Additionally, AWS allows you to separate the usage permissions from administrati
 
 This means that an individual may have the ability to manipulate the key policy, but might not have the necessary permissions to use the key for cryptographic functions.
 
+### Cross Account Sharing of Keys
+
+Delegation of permissions to a CMK within AWS KMS can occur when you include the root principal of a trusted account within the CMK key policy. 
+
+The trusted account then has the ability to further delegate these permissions to IAM users and roles within their own account using IAM policies. 
+
+While this approach may simplify the management of the key policy, it also relies on the trusted accounts to ensure that the delegated permissions are managed. 
+
+The other approach would be to explicitly manage permissions to all authorized users using only the KMS key policy, which could make the key policy complex and less manageable. 
+
+Regardless of the approach you take, the specific trust should be broken out on a per key basis to ensure that you adhere to the least privilege model.
 
 
 
