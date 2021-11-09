@@ -81,7 +81,6 @@ Regardless of the approach you take, the specific trust should be broken out on 
 
 
 
-
 #### Reference 
 
 <a href="https://docs.aws.amazon.com/whitepapers/latest/kms-best-practices/kms-best-practices.pdf#welcome"> Original paper </a> 
