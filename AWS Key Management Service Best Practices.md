@@ -15,7 +15,6 @@ This whitepaper discusses how to use AWS KMS for each capability described in th
 
 The Identity and Access Management capability provides guidance on determining the controls for access management within AWS KMS to secure your infrastructure according to established best practices and internal policies.
 
-
 #### AWS KMS and IAM Policies
 
 You can use AWS Identity and Access Management (IAM) policies in combination with key policies to control access to your customer master keys (CMKs) in AWS KMS. 
