@@ -109,6 +109,13 @@ The encryption context should not be considered sensitive information and should
 
 ### Multi-Factor Authentication
 
+To provide an additional layer of security over specific actions, you can implement an additional layer of protection using multi-factor authentication (MFA) on critical KMS API calls. 
+
+Some of those calls are PutKeyPolicy, ScheduleKeyDeletion, DeleteAlias, and DeleteImportedKeyMaterial. 
+
+This can be accomplished through a conditional statement within the key policy that checks for when or if an MFA device was used as part of authentication.
+
+If someone attempts to perform one of the critical AWS KMS actions, the following CMK policy will validate that their MFA was authenticated within the last 300 seconds, or 5 minutes, before performing the action.
 
 
 
