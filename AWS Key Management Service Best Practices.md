@@ -140,6 +140,10 @@ If someone attempts to perform one of the critical AWS KMS actions, the followin
 ```
 
 
+### Detective Controls
+
+
+
 
 
 
