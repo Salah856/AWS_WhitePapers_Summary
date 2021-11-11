@@ -76,6 +76,19 @@ Regardless of the approach you take, the specific trust should be broken out on 
 
 ### CMK Grants
 
+Key policy changes follow the same permissions model used for policy editing elsewhere in AWS. 
+
+That is, users either have permission to change the key policy or they do not. 
+
+Users with the PutKeyPolicy permission for a CMK can completely replace the key policy for a CMK with a different key policy of their choice. 
+
+You can use key policies to allow other principals to access a CMK, but key policies work best for relatively static assignments of permissions. 
+
+To enable more granular permissions management, you can use grants. 
+
+Grants are useful when you want to define scoped-down, temporary permissions to use your CMK on your behalf in the absence of a direct API call from you.
+
+
 
 
 
