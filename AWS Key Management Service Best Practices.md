@@ -118,7 +118,26 @@ This can be accomplished through a conditional statement within the key policy t
 If someone attempts to perform one of the critical AWS KMS actions, the following CMK policy will validate that their MFA was authenticated within the last 300 seconds, or 5 minutes, before performing the action.
 
 
+```json
+{
+ "Sid": "MFACriticalKMSEvents",
+ "Effect": "Allow",
+ "Principal": {
+    "AWS": "arn:aws:iam::111122223333:user/ExampleUser"
+ },
+ "Action": [
+   "kms:DeleteAlias",
+   "kms:DeleteImportedKeyMaterial",
+   "kms:PutKeyPolicy",
+   "kms:ScheduleKeyDeletion"
+ ],
+ "Resource": "*",
+ "Condition":{
+    " NumericLessThan ":{"aws: MultiFactorAuthAge":"300"}
+  }
+ }
 
+```
 
 
 
