@@ -27,6 +27,7 @@ Policies attached to resources outside of IAM are called resource-based policies
 
 In AWS KMS, you must attach resource-based policies to your customer master keys (CMKs). 
 
+
 These are called key policies. All KMS CMKs have a key policy, and you must use it to control access to a CMK. 
 
 IAM policies by themselves are not sufficient to allow access to a CMK, although you can use them in combination with a CMK key policy. 
