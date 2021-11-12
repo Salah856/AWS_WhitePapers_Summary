@@ -174,6 +174,11 @@ The tags can then be used to verify that the correct CMK is being used for a giv
 For example, in CloudTrail logs, for a given KMS action you can verify that the CMK being used belongs to the same business category as the resource that it’s being used on. Previously, this might have required a look up within a resource catalog, but now this external lookup is not required because of tagging within AWS KMS as well as many of the other AWS services.
 
 
+### Infrastructure Security
+
+The Infrastructure Security capability provides you with best practices on how to configure AWS KMS to ensure that you have an agile implementation that can scale with your business while protecting your sensitive information.
+
+
 
 
 
