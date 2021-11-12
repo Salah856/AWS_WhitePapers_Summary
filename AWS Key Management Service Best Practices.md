@@ -162,13 +162,19 @@ In addition to capturing audit data associated with key management and use, you 
 
 Another method is to use AWS Config rules. By using AWS Config rules you can ensure that the configuration of many of the AWS services are set up appropriately. 
 
-For example, with EBS volumes you can use the AWS Config rule ENCRYPTED_VOLUMES to validate that attached EBS volumes are encrypted. Key Tags A CMK can have a tag applied to it for a variety of purposes. 
+For example, with EBS volumes you can use the AWS Config rule ENCRYPTED_VOLUMES to validate that attached EBS volumes are encrypted.
+
+
+A CMK can have a tag applied to it for a variety of purposes. 
 
 The most common use is to correlate a specific CMK back to a business category (such as a cost center, application name, or owner). 
 
 The tags can then be used to verify that the correct CMK is being used for a given action. 
 
 For example, in CloudTrail logs, for a given KMS action you can verify that the CMK being used belongs to the same business category as the resource that it’s being used on. Previously, this might have required a look up within a resource catalog, but now this external lookup is not required because of tagging within AWS KMS as well as many of the other AWS services.
+
+
+
 
 
 
