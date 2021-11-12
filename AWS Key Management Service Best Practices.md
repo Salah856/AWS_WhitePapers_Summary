@@ -142,8 +142,18 @@ If someone attempts to perform one of the critical AWS KMS actions, the followin
 
 
 ### Detective Controls
+ 
+The Detective Controls capability ensures that you properly configure AWS KMS to log the necessary information you need to gain greater visibility into your environment.
 
+#### CMK Auditing
 
+AWS KMS is integrated with CloudTrail. To audit the usage of your keys in AWS KMS, you should enable CloudTrail logging in your AWS account. 
+
+This ensures that all KMS API calls made on keys in your AWS account are automatically logged in files that are then delivered to an Amazon Simple Storage Service (S3) bucket that you specify. Using the information collected by CloudTrail, you can determine what request was made, the source IP address from which the request was made, who made the request, when it was made, and so on. 
+
+AWS KMS integrates natively with many other AWS services to make monitoring easy. 
+
+You can use these AWS services, or your existing security tool suite, to monitor your CloudTrail logs for specific actions such as ScheduleKeyDeletion, PutKeyPolicy, DeleteAlias, DisableKey, DeleteImportedKeyMaterial on your KMS key. Furthermore, AWS KMS emits Amazon CloudWatch Events when your CMK is rotated, deleted, and imported key material in your CMK expires.
 
 
 
