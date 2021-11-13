@@ -209,6 +209,17 @@ Previously, you may have used the same key across different geographic regions, 
 
 For example, you could define a CMK for data classified as “Confidential,” and so on. This ensures that authorized users only have permissions for the key material that they require to complete their job.
 
+You should also decide how you want to manage usage of AWS KMS. 
+
+Creating KMS keys within each account that requires the ability to encrypt and decrypt sensitive data works best for most customers, but another option is to share the CMKs from a few centralized accounts. 
+
+Maintaining the CMKs in the same account as the majority of the infrastructure using them helps users provision and run AWS services that use those keys. AWS services don’t allow for cross-account searching unless the principal doing the searching has explicit List* permissions on resources owned by the external account. 
+
+This can also only be accomplished via the CLI or SDK, and not through service console-based searches. Additionally, by storing the credentials in the local accounts, it might be easier to delegate permissions to individuals who know the IAM principals that require access to the specific CMKs. 
+
+If you were sharing the keys via a centralized model, the AWS KMS administrators would need to know the full Amazon Resource Name (ARN) for all users of the CMKs to ensure least privilege. 
+
+Otherwise, the administrators might provide overly permissive permissions on the keys.
 
 
 
