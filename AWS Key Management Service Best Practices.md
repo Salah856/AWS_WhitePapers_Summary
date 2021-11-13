@@ -183,7 +183,18 @@ The Infrastructure Security capability provides you with best practices on how t
 
 #### Customer Master Keys
 
+Within AWS KMS, your key hierarchy starts with a CMK. A CMK can be used to directly encrypt data blocks up to 4 KB or it can be used to secure data keys, which protect underlying data of any size.
 
+
+CMKs can be broken down into two general types: AWS-managed and customer-managed. 
+
+An AWSmanaged CMK is created when you choose to enable server-side encryption of an AWS resource under the AWS-managed CMK for that service for the first time (e.g., SSE-KMS). 
+
+The AWS-managed CMK is unique to your AWS account and the Region in which it’s used. 
+
+An AWS-managed CMK can only be used to protect resources within the specific AWS service for which it’s created. It does not provide the level of granular control that a customer-managed CMK provides. 
+
+For more control, a best practice is to use a customer-managed CMK in all supported AWS services and in your applications. A customer-managed CMK is created at your request and should be configured based upon your explicit use case.
 
 
 
