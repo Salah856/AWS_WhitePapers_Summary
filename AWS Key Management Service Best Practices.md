@@ -199,6 +199,14 @@ For more control, a best practice is to use a customer-managed CMK in all suppor
 
 
 
+#### Key Creation and Management
+
+
+
+
+
+
+
 #### Reference 
 
 <a href="https://docs.aws.amazon.com/whitepapers/latest/kms-best-practices/kms-best-practices.pdf#welcome"> Original paper </a> 
