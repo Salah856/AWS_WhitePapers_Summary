@@ -197,6 +197,8 @@ An AWS-managed CMK can only be used to protect resources within the specific AWS
 For more control, a best practice is to use a customer-managed CMK in all supported AWS services and in your applications. A customer-managed CMK is created at your request and should be configured based upon your explicit use case.
 
 
+![1](https://user-images.githubusercontent.com/23625821/141607731-83fbeec0-91e6-4d36-b18a-e75090acc6a1.png)
+
 
 
 #### Key Creation and Management
