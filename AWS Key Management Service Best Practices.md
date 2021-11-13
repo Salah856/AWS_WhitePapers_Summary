@@ -203,6 +203,12 @@ For more control, a best practice is to use a customer-managed CMK in all suppor
 
 #### Key Creation and Management
 
+Since AWS makes creating and managing keys easy through the use of AWS KMS, we recommend that you have a plan for how to use the service to best control the blast radius around individual keys.
+
+Previously, you may have used the same key across different geographic regions, environments, or even applications. With AWS KMS, you should define data classification levels and have at least one CMK per level. 
+
+For example, you could define a CMK for data classified as “Confidential,” and so on. This ensures that authorized users only have permissions for the key material that they require to complete their job.
+
 
 
 
