@@ -239,6 +239,16 @@ It should be noted that CMK aliases can’t be used within policies. This is bec
 
 ### Using AWS KMS at Scale
  
+AWS recommends using envelope encryption to scale your KMS implementation. Envelope encryption is the practice of encrypting plaintext data with a unique data key, and then encrypting the data key with a key encryption key (KEK). Within AWS KMS, the CMK is the KEK. 
+
+You can encrypt your message with the data key and then encrypt the data key with the CMK. Then the encrypted data key can be stored along with the encrypted message. 
+
+You can cache the plaintext version of the data key for repeated use, reducing the number of requests to AWS KMS. Additionally, envelope encryption can help to design your application for disaster recovery. You can move your encrypted data as-is between Regions and only have to re-encrypt the data keys with the Region-specific CMKs.
+
+
+### Data Protection
+
+
 
 
 #### Reference 
