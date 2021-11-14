@@ -224,6 +224,14 @@ Otherwise, the administrators might provide overly permissive permissions on the
 
 #### Key Aliases
 
+A key alias allows you to abstract key users away from the underlying Region-specific key ID and key ARN. 
+
+Authorized individuals can create a key alias that allows their applications to use a specific CMK independent of the Region or rotation schedule. 
+
+Thus, multi-Region applications can use the same key alias to refer to KMS keys in multiple Regions without worrying about the key ID or the key ARN. 
+
+You can also trigger manual rotation of a CMK by pointing a given key alias to a different CMK. Similar to how Domain Name Services (DNS) allows the abstraction of IP addresses, a key alias does the same for the
+
 
 
 
