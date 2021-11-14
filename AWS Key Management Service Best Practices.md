@@ -259,6 +259,14 @@ The Data Protection capability addresses some of the common AWS use cases for us
 ##### Secret Management Using AWS KMS and Amazon S3
 
 
+##### Encrypting Lambda Environment Variables
+
+
+
+##### Encrypting Data within Systems Manager Parameter Store
+
+
+
 
 
 
