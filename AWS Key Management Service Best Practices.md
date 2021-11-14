@@ -266,6 +266,12 @@ The Data Protection capability addresses some of the common AWS use cases for us
 ##### Encrypting Data within Systems Manager Parameter Store
 
 
+### Conclusion 
+
+
+AWS KMS provides your organization with a fully managed service to centrally control your encryption keys. Its native integration with other AWS services makes it easier for AWS KMS to encrypt the data that you store and process.
+
+By taking the time to properly architect and implement AWS KMS, you can ensure that your encryption keys are secure and available for applications and their authorized users. Additionally, you can show your auditors detailed logs associated with your key usage.
 
 
 
