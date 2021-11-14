@@ -232,6 +232,10 @@ Thus, multi-Region applications can use the same key alias to refer to KMS keys 
 
 You can also trigger manual rotation of a CMK by pointing a given key alias to a different CMK. Similar to how Domain Name Services (DNS) allows the abstraction of IP addresses, a key alias does the same for the
 
+key ID. When you are creating a key alias, we recommend that you determine a naming scheme that can be applied across your accounts such as alias/<Environment>-<Function>-<Service Team>.
+
+It should be noted that CMK aliases can’t be used within policies. This is because the mapping of aliases to keys can be manipulated outside the policy, which would allow for an escalation of privilege. Therefore, key IDs must be used in KMS key policies, IAM policies, and KMS grants.
+ 
 
 
 
