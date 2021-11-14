@@ -250,6 +250,15 @@ You can cache the plaintext version of the data key for repeated use, reducing t
 
 The Data Protection capability addresses some of the common AWS use cases for using AWS KMS within your organization to protect your sensitive information.
 
+#### Common AWS KMS Use Cases
+
+##### Encrypting PCI Data Using AWS KMS
+
+
+
+##### Secret Management Using AWS KMS and Amazon S3
+
+
 
 
 
