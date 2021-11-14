@@ -248,6 +248,10 @@ You can cache the plaintext version of the data key for repeated use, reducing t
 
 ### Data Protection
 
+The Data Protection capability addresses some of the common AWS use cases for using AWS KMS within your organization to protect your sensitive information.
+
+
+
 
 
 
