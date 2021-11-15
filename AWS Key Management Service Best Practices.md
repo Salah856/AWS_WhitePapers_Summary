@@ -300,6 +300,12 @@ If you have data that you don't want users to alter or reference in clear text, 
 By selecting this option when you create your parameter, the Systems Manager encrypts that value when it’s passed into a command and decrypts it when processing it on the managed instance. The encryption is handled by AWS KMS and can be either a default KMS key for the Systems Manager or you can specify a specific CMK per parameter.
 
 
+### Enforcing Data at Rest Encryption within AWS Services
+
+Your organization might require the encryption of all data that meets a specific classification. Depending on the specific service, you can enforce data encryption policies through preventative or detective controls. For some services like Amazon S3, a policy can prevent storing unencrypted data. For other services, the most efficient mechanism is to monitor the creation of storage resources and check whether encryption is enabled appropriately. In the event that unencrypted storage is created, you have a number of possible responses ranging from deleting the storage resource to notifying an administrator.
+
+
+
 
 
 ### Conclusion 
