@@ -283,6 +283,22 @@ To further protect your environment variables, you should select the “Enable e
 
 ##### Encrypting Data within Systems Manager Parameter Store
 
+Amazon EC2 Systems Manager is a collection of capabilities that can help you automate management tasks at scale. 
+
+To efficiently store and reference sensitive configuration data such as passwords, license keys, and certificates, the Parameter Store lets you protect sensitive information within secure string parameters.
+
+A secure string is any sensitive data that needs to be stored and referenced in a secure manner. 
+
+If you have data that you don't want users to alter or reference in clear text, such as domain join passwords or license keys, then specify those values using the Secure String data type. You should use secure strings in the following circumstances:
+
+  - You want to use data/parameters across AWS services without exposing the values as clear text in commands, functions, agent logs, or CloudTrail logs.
+  - You want to control who has access to sensitive data.
+  - You want to be able to audit when sensitive data is accessed using CloudTrail.
+  - You want AWS-level encryption for your sensitive data and you want to bring your own encryption keys to manage access.
+
+
+By selecting this option when you create your parameter, the Systems Manager encrypts that value when it’s passed into a command and decrypts it when processing it on the managed instance. The encryption is handled by AWS KMS and can be either a default KMS key for the Systems Manager or you can specify a specific CMK per parameter.
+
 
 
 
