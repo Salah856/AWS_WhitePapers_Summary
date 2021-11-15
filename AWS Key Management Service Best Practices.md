@@ -275,6 +275,10 @@ Each secret, when placed in the S3 bucket, is encrypted using a specific custome
 
 ##### Encrypting Lambda Environment Variables
 
+By default, when you create or update Lambda functions that use environment variables, those variables are encrypted using AWS KMS. When your Lambda function is invoked, those values are decrypted and made available to the Lambda code. You have the option to use the default KMS key for Lambda or specify a specific CMK of your choice.
+
+To further protect your environment variables, you should select the “Enable encryption helpers” checkbox. By selecting this option, your environment variables will also be individually encrypted using a CMK of your choice, and then your Lambda function will have to specifically decrypt each encrypted environment variable that is needed.
+
 
 
 ##### Encrypting Data within Systems Manager Parameter Store
