@@ -254,9 +254,23 @@ The Data Protection capability addresses some of the common AWS use cases for us
 
 ##### Encrypting PCI Data Using AWS KMS
 
+Since security and quality controls in AWS KMS have been validated and certified to meet the requirements of PCI DSS Level 1 certification, you can directly encrypt Primary Account Number (PAN) data with an AWS KMS CMK. 
+
+The use of a CMK to directly encrypt data removes some of the burden of managing encryption libraries. 
+
+Additionally, a CMK can’t be exported from AWS KMS, which alleviates the concern about the encryption key being stored in an insecure manner. As all KMS requests are logged in CloudTrail, use of the CMK can be audited by reviewing the CloudTrail logs. 
+
+It’s important to be aware of the requests per second limit when designing applications that use the CMK directly to protect Payment Card Industry (PCI) data.
 
 
 ##### Secret Management Using AWS KMS and Amazon S3
+
+Although AWS KMS primarily provides key management functions, you can leverage AWS KMS and Amazon S3 to build your own secret management solution.
+
+Create a new Amazon s3 bucket to hold your secrets. Deploy a bucket policy onto the bucket to limit access to only authorized individuals and services. The secrets stored in the bucket utilize a predefined prefix per file to allow for granular control of access to the secrets. 
+
+Each secret, when placed in the S3 bucket, is encrypted using a specific customer-managed KMS key. Furthermore, due to the highly sensitive nature of the information being stored within this bucket, S3 access logging or CloudTrail Data Events are enabled for audit purposes. Then, when a user or service requires access to the secret, they assume an identity within AWS that has permissions to use both the object in the S3 bucket as well as the KMS key. An application that runs in an EC2 instance uses an instance role that has the necessary permissions.
+
 
 
 ##### Encrypting Lambda Environment Variables
@@ -264,6 +278,8 @@ The Data Protection capability addresses some of the common AWS use cases for us
 
 
 ##### Encrypting Data within Systems Manager Parameter Store
+
+
 
 
 ### Conclusion 
