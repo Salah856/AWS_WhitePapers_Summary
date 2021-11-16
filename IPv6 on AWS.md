@@ -26,7 +26,9 @@
 - This whitepaper explains key drivers for adoption and highlights best practices to guide you while leaving enough space for you to decide, based on your specific use case and implementation, how to approach IPv6 in your network.
 
 
+### Tenets for IPv6 adoption
 
+- 
 
 
 
