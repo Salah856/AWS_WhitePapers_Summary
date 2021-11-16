@@ -49,6 +49,8 @@
 
 ### IPv6 addressing
 
+The IPv6 address space is organized by using format prefixes, that logically divide it in the form of a tree so that a route from one network to another can easily be found.
+
 
 
 
