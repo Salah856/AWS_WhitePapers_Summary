@@ -72,6 +72,9 @@ Working with customers, AWS observed the following two main drivers for IPv6 ado
 
 Following is a summary of IPv6 adoption drivers:
 
+- Mandated IPv6 endpoints — Either mandated by a government policy or an industry regulator, and not necessarily tied to a particular use case.
+
+
 
 
 
