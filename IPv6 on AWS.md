@@ -75,7 +75,11 @@ Following is a summary of IPv6 adoption drivers:
 - Mandated IPv6 endpoints — Either mandated by a government policy or an industry regulator, and not necessarily tied to a particular use case.
 
 
+- Interoperability with IPv6 networks — The last years have seen a growing population of IPv6-only clients, and as a result so have the number of organizations wanting to cater to this user base. With the number of mobile IPv6-only users, many companies find they can’t afford to lose that section of their potential user base.
 
+- Public IPv4 exhaustion — As public IPv4 addresses become more scarce, allocating contiguous IP address ranges for public routing becomes more difficult and costly.
+
+- Private IPv4 exhaustion — As private IPv4 (RFC1918) addresses become exhausted and too fragmented within organizations’ private networks, IPv6-only networks offer opportunities to address additional nodes.
 
 
 
