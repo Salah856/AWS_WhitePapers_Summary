@@ -3,7 +3,6 @@
 
 ## Best practices for adopting and designing IPv6-based networks on AWS
 
-
 - Every node connected to an Internet Protocol (IP) network must have an IP address for communication purposes. 
 
 - As the internet continues to grow, so does the need for IP addresses. 
