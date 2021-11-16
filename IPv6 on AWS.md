@@ -28,7 +28,14 @@
 
 ### Tenets for IPv6 adoption
 
-- 
+- Adhering to the following tenets for IPv6 adoption can help make the process and decision more manageable: 
+   - Re-evaluate network controls — IPv6 offers opportunities to rethink your approach to perimeter security and make design decisions that further improve your security posture.
+   - Design for scale — More usable IPv6 addresses doesn’t mean you can shortcut IP allocation and planning.
+   - Phase your IPv6 adoption — Focus on your business needs to implement IPv6 where needed, and remember that IPv4 and IPv6 can be made to coexist as long as needed.
+   
+   
+   
+
 
 
 
