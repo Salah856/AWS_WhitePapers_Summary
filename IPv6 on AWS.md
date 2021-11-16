@@ -55,9 +55,11 @@ The IPv6 address space is organized by using format prefixes, that logically div
 The main categories of IPv6 addresses are:
       
       - Aggregatable global unicast addresses (GUA) — 2000::/3. 
+      
       - Unique-local unicast addresses (ULA) — FC00::/7. 
       
       - Link-local unicast addresses — FE80::/10. 
+      
       - Multicast addresses — FF00::/8. 
 
 
