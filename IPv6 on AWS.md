@@ -87,6 +87,9 @@ Following are the four main driving forces, and the corresponding adoption strat
 
 - Private IPv4 exhaustion — The goal is to provision new nodes and allocate routable IP addresses without IP overlap, and without the challenge of sourcing contiguous and usable IP addresses.
 
+- Adoption strategy — Configure IPv6-only routing between dual stack network segments, to facilitate communication using the IPv6 stack. Provide IPv6 to IPv4 interoperability layer, such as dual-stack load balancers. 
+
+
 
 
 
