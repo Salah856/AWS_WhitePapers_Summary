@@ -67,7 +67,10 @@ The main categories of IPv6 addresses are:
 Working with customers, AWS observed the following two main drivers for IPv6 adoption.
 
    - Network Address Translation is no longer sufficient to work around exhaustion and poses significant challenges with overlapping IP addresses.
-   - There are numerous organizational or regulatory mandates to adopt IPv6. Following is a summary of IPv6 adoption drivers:
+   - There are numerous organizational or regulatory mandates to adopt IPv6. 
+   
+
+Following is a summary of IPv6 adoption drivers:
 
 
 
