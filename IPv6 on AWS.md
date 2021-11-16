@@ -62,6 +62,8 @@ The main categories of IPv6 addresses are:
       
       - Multicast addresses — FF00::/8 
 
+### IPv6 adoption strategies and mechanisms
+
 
 
 
