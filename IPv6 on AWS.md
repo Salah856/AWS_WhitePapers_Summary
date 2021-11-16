@@ -95,6 +95,8 @@ Following are the four main driving forces, and the corresponding adoption strat
 - Adoption strategy — Create dual-stack VPCs and subnets. Configure AWS services such as load balancers and edge service in dual-stack mode with corresponding DNS record on the AWS Cloud. Optionally, provide separate endpoints for IPv4 and IPv6 in dedicated IPv4-only or IPv6-only deployments.
 
 
+### Interoperability
+
 
 
 
