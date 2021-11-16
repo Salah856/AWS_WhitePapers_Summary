@@ -81,6 +81,12 @@ Following is a summary of IPv6 adoption drivers:
 
 - Private IPv4 exhaustion — As private IPv4 (RFC1918) addresses become exhausted and too fragmented within organizations’ private networks, IPv6-only networks offer opportunities to address additional nodes.
 
+IPv6 adoption strategy depends on the driving force behind it. You may have an immediate goal such as addressing private IPv4 exhaustion, or the ability to provide IPv6 service endpoints as per government mandate, with the long-term goal of fully converting to an IPv6 only network. 
+
+Following are the four main driving forces, and the corresponding adoption strategy:
+
+- Private IPv4 exhaustion — The goal is to provision new nodes and allocate routable IP addresses without IP overlap, and without the challenge of sourcing contiguous and usable IP addresses.
+
 
 
 
