@@ -14,7 +14,12 @@
 - It covers IPv6 dual-stack networks for both internet-facing and private IPv6 networks use cases.
 
 
+## Intro
 
+- An increasing number of organizations operate dual-stack IPv4/IPv6 networks. 
+- Carrier networks and ISPs were the first groups to start deploying IPv6 on their networks, with mobile networks leading the charge. 
+- Adoption of IPv6 has been delayed, partly due to network address translation (NAT) with IPv4, which takes private IP addresses and turns them into public IP addresses.
+- 
 
 
 
