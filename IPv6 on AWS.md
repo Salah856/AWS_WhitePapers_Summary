@@ -33,8 +33,7 @@
    - Design for scale — More usable IPv6 addresses doesn’t mean you can shortcut IP allocation and planning.
    - Phase your IPv6 adoption — Focus on your business needs to implement IPv6 where needed, and remember that IPv4 and IPv6 can be made to coexist as long as needed.
    
-   
-   
+
 ### Internet Protocol version 6
 
 - IPv6 is the next generation IP address standard intended to supplement and eventually replace IPv4, the original and ubiquitous IP address scheme. 
@@ -48,7 +47,14 @@
 - IP version 6 (IPv6) is the replacement for IPv4, and it is designed to address the depletion of IP addresses, and change the way traffic is managed.
 
 
-### 
+### IPv6 addressing
+
+
+
+
+
+
+
 
 
 
