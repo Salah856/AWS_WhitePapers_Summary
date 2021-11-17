@@ -126,6 +126,15 @@ some fashion in IPv6 might initially prove advantageous.
 However, any temporary advantage gained by such a shortcut will ultimately be surpassed by the ease and efficiency of operation and design offered by a proper IPv6 addressing plan that incorporates the key benefits of the larger allocations possible with IPv6. 
 
 
+#### AWS-assigned IPv6 VPC CIDR
+
+By default, Amazon provides one fixed size (/56) IPv6 CIDR block to a VPC. This range is assigned by the service, and consequently, you can’t assign contiguous IPv6 CIDR blocks to VPCs in the same Region or based on other custom-defined criteria.
+
+For customers that have a large VPC footprint in AWS and prefer to use IP route summarization to simplify their overall environment, bring your own IPv6 (BYOIPv6) described, in the next section, may be the preferred solution.
+
+
+
+
 
 
 
