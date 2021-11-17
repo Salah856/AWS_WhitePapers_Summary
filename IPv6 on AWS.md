@@ -260,8 +260,18 @@ Amazon VPC provides a Stratum-3 NTP server at 169.254.169.123.
 Nitro-based IPv6 enabled instances can reach this server via fd00:ec2::123.
 
 
-
 ### Amazon VPC connectivity options for IPv6
+
+There are a growing number of ways in which Amazon VPCs can connect to each other. 
+
+Many of these options are detailed in the VPC to VPC connectivity section of the Building a Scalable and Secure Multi-VPC AWS Network Infrastructure <a href="https://docs.aws.amazon.com/whitepapers/latest/building-scalable-secure-multi-vpc-network-infrastructure/welcome.html"> whitepaper </a> .
+
+AWS recommends you read the following subsections alongside, and it follows the same structure while providing additional insight regarding IPv6 operation as both papers cover:
+
+   - VPC peering
+   - AWS Transit Gateway
+   - VPC subnet sharing
+   - AWS PrivateLink
 
 
 
