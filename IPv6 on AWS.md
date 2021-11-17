@@ -261,6 +261,9 @@ Nitro-based IPv6 enabled instances can reach this server via fd00:ec2::123.
 
 
 
+### Amazon VPC connectivity options for IPv6
+
+
 
 
 
