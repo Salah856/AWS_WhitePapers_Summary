@@ -133,7 +133,6 @@ By default, Amazon provides one fixed size (/56) IPv6 CIDR block to a VPC. This 
 For customers that have a large VPC footprint in AWS and prefer to use IP route summarization to simplify their overall environment, bring your own IPv6 (BYOIPv6) described, in the next section, may be the preferred solution.
 
 
-
 #### BYOIPv6 VPC CIDR
 
 Alternatively, if you own an IPv6 address space, you can import it into AWS using the Bring Your Own IPv6 service. The smallest IPv6 address range that you can bring is /48 for CIDRs that are publicly advertised by AWS, and /56 for CIDRs that are not publicly advertised by AWS. 
