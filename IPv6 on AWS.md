@@ -245,6 +245,13 @@ Instances can introspect this at runtime by querying the IMDS available to it at
 For Nitro-based instances, AWS also provides this service at the fd00:ec2::254 IPv6 endpoint.
 
 
+### Route 53 DNS resolver
+
+Amazon VPC features a built-in DNS resolver which resides at VPC_CIDR_BASE + 2 and 169.254.169.253. 
+
+IPv6 enabled Nitro instances can access the service via fd00:ec2::253. 
+
+Amazon Route 53 Resolver and DNS in general is discussed at greater length in the Designing DNS for IPv6 section of this document.
 
 
 
