@@ -116,6 +116,15 @@ Elastic network interfaces in an IP network could operate in three different mod
 
 A separate interoperability layer is not required
 
+#### IPv6 addressing plan on AWS
+
+Coming up with an IPv6 addressing plan is one of the most important initial tasks for any organization proceeding with IPv6 adoption. For most organizations, IPv6 is deployed in parallel with IPv4 in existing IPv4 AWS and hybrid networks. 
+
+IPv4 addressing plans tend to grow over time, and consequently may be highly fragmented, not contiguous, or not big enough. Simply duplicating the IPv4 addressing scheme in
+some fashion in IPv6 might initially prove advantageous. 
+
+However, any temporary advantage gained by such a shortcut will ultimately be surpassed by the ease and efficiency of operation and design offered by a proper IPv6 addressing plan that incorporates the key benefits of the larger allocations possible with IPv6. 
+
 
 
 
