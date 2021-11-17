@@ -206,6 +206,15 @@ This means you are not required to provision separate elastic network interfaces
 ![1](https://user-images.githubusercontent.com/23625821/142264990-174070e1-4445-454d-abe0-1432f448d921.png)
 
 
+#### IP addressing at the resource’s networking stack
+
+In IPv4, the preferred method for assigning IPv4 addresses is to use Dynamic Host Configuration Protocol (DHCP). 
+
+DHCP is based on IPv4’s broadcast mechanism that allows hosts to announce themselves to DHCP servers. 
+
+These servers can then offer an IP address lease to the client. IPv6 has no concept of broadcast and initially did not feature DHCP capability. 
+
+
 
 
 
