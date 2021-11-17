@@ -188,6 +188,33 @@ The address assignment of resource within a subnet occurs at two levels:
 
 ##### IP addressing of the elastic network interface
 
+- Network-addressable resources deployed within a VPC must have an elastic network interface. Examples of resources include: 
+
+   - Amazon Elastic Compute Cloud (Amazon EC2) instances
+   - Interface VPC endpoints
+   - AWS Lambda functions (deployed in VPCs)
+   - Amazon Relational Database Service (Amazon RDS) database instances
+
+
+Elastic network interfaces are logical constructs in the VPC which represent a resource’s network adapter at runtime. 
+
+Each elastic network interface may have one or more IPv4 addresses as well as one or more IPv6 addresses. 
+
+This means you are not required to provision separate elastic network interfaces for IPv4 and IPv6, and there is no need to configure additional elastic network interfaces on your workloads to enable IPv6.
+
+
+![1](https://user-images.githubusercontent.com/23625821/142264990-174070e1-4445-454d-abe0-1432f448d921.png)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
