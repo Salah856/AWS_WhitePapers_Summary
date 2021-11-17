@@ -214,7 +214,17 @@ DHCP is based on IPv4’s broadcast mechanism that allows hosts to announce them
 
 These servers can then offer an IP address lease to the client. IPv6 has no concept of broadcast and initially did not feature DHCP capability. 
 
+However, the community has become used to DHCP, and so RFC 8415 was developed to introduce DHCPv6. 
 
+In the absence of broadcast capability, DHCPv6 makes use of the well-known multicast address for all DHCP servers/relays, ff02::1:2.
+
+Amazon VPC has built in support for address assignment via DHCP for both IPv4 and IPv6. 
+
+Address allocation works similar to static address reservation in traditional DHCP servers: 
+
+   the IP address assigned to the elastic network interface construct determines the IP address the VPC DHCP infrastructure offers the resource requesting an address.
+
+Amazon VPC also offers the ability to configure DHCP option sets which can be used to provide additional configuration information such as domain name or DNS servers to use. In a dual-stack design all IP addresses used in an option set need to be IPv4.
 
 
 
