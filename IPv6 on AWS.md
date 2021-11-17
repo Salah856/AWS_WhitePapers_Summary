@@ -106,6 +106,15 @@ You may be able to avoid making the entire network dual-stack by focusing on imp
 
 ### Planning IPv6 adoption in the AWS Cloud network
 
+Elastic network interfaces in an IP network could operate in three different modes:
+
+- IPv4-only mode — Your resources can communicate over IPv4, and if communicating to IPv6 nodes, require an interoperability layer.
+
+- IPv6-only mode — Your resources can communicate over IPv6, and if communicating to IPv4 nodes, require an interoperability layer.
+
+- Dual-stack mode — Your resources can communicate over both IPv4 and IPv6.
+
+A separate interoperability layer is not required
 
 
 
