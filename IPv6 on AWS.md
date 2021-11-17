@@ -253,6 +253,11 @@ IPv6 enabled Nitro instances can access the service via fd00:ec2::253.
 
 Amazon Route 53 Resolver and DNS in general is discussed at greater length in the Designing DNS for IPv6 section of this document.
 
+### Network Time Protocol server
+
+Amazon VPC provides a Stratum-3 NTP server at 169.254.169.123. 
+
+Nitro-based IPv6 enabled instances can reach this server via fd00:ec2::123.
 
 
 
