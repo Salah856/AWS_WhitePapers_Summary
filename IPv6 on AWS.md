@@ -146,6 +146,8 @@ You can also choose to bring a /48 and mark it as non-advertisable, keeping cont
 Although you can assign one /56 IPv6 CIDR block to a VPC, the VPC subnets are /64 fixed in length. This yields to the interface ID being /64 in length, in accordance with the general format of the IPv6 unicast addresses. Given the fixed size of the VPC CIDR and the subnet prefix, you have 8 bits for subnet allocation in the VPC, enabling you to create 256 subnets in the VPC.
 
 
+### Designing an IPv6 AWS Cloud network
+
 
 
 
