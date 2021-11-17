@@ -166,6 +166,10 @@ Following are some of the aspects typically considered:
    - Scalability and expansion
 
 
+##### VPC IP address assignment
+
+Your VPC can operate in dual-stack mode—your resources can communicate over IPv4, IPv6, or both. IPv4 and IPv6 communication are independent of each other. You cannot disable IPv4 support for your VPC and subnets; you are required to allocate at least one IPv4 CIDR range to your VPC. In addition, you may associate up to one IPv6 CIDR block range per VPC.
+
 
 
 
