@@ -134,6 +134,15 @@ For customers that have a large VPC footprint in AWS and prefer to use IP route 
 
 
 
+#### BYOIPv6 VPC CIDR
+
+Alternatively, if you own an IPv6 address space, you can import it into AWS using the Bring Your Own IPv6 service. The smallest IPv6 address range that you can bring is /48 for CIDRs that are publicly advertised by AWS, and /56 for CIDRs that are not publicly advertised by AWS. 
+
+
+You can also choose to bring a /48 and mark it as non-advertisable, keeping control of IP advertisements on your on-premises setup. After importing it, you can assign /56 ranges from the space to individual VPCs in the same account.
+
+
+
 
 
 
