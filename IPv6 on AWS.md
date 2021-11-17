@@ -147,6 +147,8 @@ Although you can assign one /56 IPv6 CIDR block to a VPC, the VPC subnets are /6
 
 ### Designing an IPv6 AWS Cloud network
 
+##### Amazon VPC design
+
 
 
 
