@@ -150,6 +150,20 @@ Although you can assign one /56 IPv6 CIDR block to a VPC, the VPC subnets are /6
 ##### Amazon VPC design
 
 
+Planning and implementing network connectivity in AWS is usually one of the foundational tasks you perform when deploying workloads in AWS. 
+
+Following are some of the aspects typically considered:
+
+   - Amount and nature of Amazon VPCs required
+   - Amazon VPC CIDR range and IP address allocation including Bring Your Own IP (BYOIP) for public connectivity
+   
+   - Number and type of subnets
+   - Number of availability zones to cover
+   - Permitted traffic paths
+   - Internet incoming and outgoing traffic options
+   - Hybrid connectivity
+   - Inter-VPC connectivity
+   - Scalability and expansion
 
 
 
