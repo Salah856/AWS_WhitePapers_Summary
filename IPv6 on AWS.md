@@ -236,6 +236,14 @@ These services are traditionally exposed from the IPv4 linklocal address range (
 For <a href="https://aws.amazon.com/ec2/nitro/"> AWS Nitro System instances </a> , AWS also provides these services using IPv6 ULAs.
 
 
+### Instance Metadata Service (IMDS)
+
+The instance metadata is information about your instance. 
+
+Instances can introspect this at runtime by querying the IMDS available to it at 169.254.169.254. 
+
+For Nitro-based instances, AWS also provides this service at the fd00:ec2::254 IPv6 endpoint.
+
 
 
 
