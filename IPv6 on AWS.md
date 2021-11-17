@@ -274,6 +274,21 @@ AWS recommends you read the following subsections alongside, and it follows the 
    - AWS PrivateLink
 
 
+#### VPC peering
+
+VPC peering is the simplest method for VPC-to-VPC connectivity. 
+
+It supports both intraand inter-Region connectivity. 
+
+The peering itself is IP protocol agnostic. 
+
+After you establish peering, you must configure one or more static routes defining which prefixes are reachable. 
+
+Both IPv4 and IPv6 prefixes may be routed across the same peering.
+
+The following diagram depicts a VPC peering between two VPCs supporting IPv4 and IPv6 simultaneously. 
+
+The peering is agnostic, and the subnet route tables are the deciding factor for which prefixes are reachable.
 
 
 
