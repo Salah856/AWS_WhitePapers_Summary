@@ -186,7 +186,7 @@ The address assignment of resource within a subnet occurs at two levels:
   - A resource’s networking stack configuration
 
 
-
+##### IP addressing of the elastic network interface
 
 
 
