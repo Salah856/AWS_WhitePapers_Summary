@@ -227,6 +227,13 @@ Address allocation works similar to static address reservation in traditional DH
 Amazon VPC also offers the ability to configure DHCP option sets which can be used to provide additional configuration information such as domain name or DNS servers to use. In a dual-stack design all IP addresses used in an option set need to be IPv4.
 
 
+### Supporting Amazon VPC services
+
+AWS exposes a set of supporting services within customer VPCs at wellknown/reserved addresses. 
+
+These services are traditionally exposed from the IPv4 linklocal address range (169.254.0.0/16). 
+
+For <a href="https://aws.amazon.com/ec2/nitro/"> AWS Nitro System instances </a> , AWS also provides these services using IPv6 ULAs.
 
 
 
