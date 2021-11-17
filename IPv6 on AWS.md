@@ -171,6 +171,19 @@ Following are some of the aspects typically considered:
 Your VPC can operate in dual-stack mode—your resources can communicate over IPv4, IPv6, or both. IPv4 and IPv6 communication are independent of each other. You cannot disable IPv4 support for your VPC and subnets; you are required to allocate at least one IPv4 CIDR range to your VPC. In addition, you may associate up to one IPv6 CIDR block range per VPC.
 
 
+###### Subnet address assignment
+
+After you have associated an IPv6 prefix to a VPC, you can begin to assign one /64 IPv6 prefix to each subnet. 
+
+Note that these assignments are configured on a per-subnet basis, and it’s possible to have a mix of subnets with and without IPv6 within the same VPC. 
+
+This is useful in scenarios where you merely require IPv6 capability for a subset of the network as described in the drivers for adoption section.
+
+
+The address assignment of resource within a subnet occurs at two levels:
+
+  - The Amazon VPC elastic network interface construct configuration
+  - A resource’s networking stack configuration
 
 
 
