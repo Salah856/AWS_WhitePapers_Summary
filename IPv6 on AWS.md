@@ -291,6 +291,10 @@ The following diagram depicts a VPC peering between two VPCs supporting IPv4 and
 The peering is agnostic, and the subnet route tables are the deciding factor for which prefixes are reachable.
 
 
+![1](https://user-images.githubusercontent.com/23625821/142266702-20583d31-8ba5-41e4-9bfa-231690c6333f.png)
+
+
+
 
 
 ### Reference
