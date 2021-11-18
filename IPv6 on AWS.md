@@ -399,6 +399,9 @@ Hybrid connectivity scenarios are a reality for many customers.
 Two methods for addressing these: AWS Direct Connect and AWS managed Site-to-Site VPN.
 
 
+AWS previously published the Hybrid Connectivity whitepaper, which focused on designs and considerations around these solutions, and most of that content remains relevant. 
+
+However, that paper does not consider IPv6. This section assumes you are acquainted with the aforementioned document, and it focuses only on the best practices and differences compared to IPv4 implementations.
 
 
 
