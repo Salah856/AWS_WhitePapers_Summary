@@ -392,6 +392,15 @@ Amazon assigned IPv6 addresses are automatically publicly advertised whereas for
 In either case, resources deployed only have IPv6 internet reachability if their subnet’s routing table contains IPv6 destinations (such as ::/0) via either an internet gateway or outbound traffic-only internet gateway.
 
 
+### Hybrid connectivity design
+
+Hybrid connectivity scenarios are a reality for many customers. We offer two methods for addressing these: AWS Direct Connect and AWS managed Site-to-Site VPN.
+
+
+
+
+
+
 
 
 ### Reference
