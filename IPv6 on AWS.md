@@ -348,6 +348,14 @@ Multiprotocol BGP (MP-BGP) is an extension to BGP that enables BGP to carry rout
 ![1](https://user-images.githubusercontent.com/23625821/142367647-1ee6aff8-99f3-41bc-9f2b-ee108ed2a965.png)
 
 
+#### AWS PrivateLink
+
+AWS PrivateLink provides private connectivity between VPCs, AWS services, and customer on-premises networks, without exposing traffic to the public internet. 
+
+AWS PrivateLink makes it easy to connect services across different accounts and VPCs to significantly simplify your network architecture.
+
+
+
 
 
 
