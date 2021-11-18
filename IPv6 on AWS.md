@@ -316,6 +316,21 @@ The attachments themselves are IP protocol agnostic, and you can route IPv4 and 
 To support IPv6, the elastic network interface s used by the attachments need to have IPv6 addresses assigned to them.
 
 
+#### IPv6 traffic within and between Transit Gateways
+
+A Transit Gateway attachment is both a source and a destination of packets. 
+You can attach the following resources to your Transit Gateway:
+
+   - VPCs
+   - One or more VPN connections
+   - One or more AWS Direct Connect gateways
+   - One or more Transit Gateway Connect attachments
+   - One or more Transit Gateway peering connections
+
+A Transit Gateway has one or more routing tables. 
+
+A routing table can receive its entries through a combination of static route configuration and dynamic propagations from other attachments (VPC, Direct Connect, Site-to-Site VPN, or Connect Peering). In either case, IPv6 routes are supported.
+
 
 
 
