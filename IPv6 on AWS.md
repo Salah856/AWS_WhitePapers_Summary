@@ -394,7 +394,9 @@ In either case, resources deployed only have IPv6 internet reachability if their
 
 ### Hybrid connectivity design
 
-Hybrid connectivity scenarios are a reality for many customers. We offer two methods for addressing these: AWS Direct Connect and AWS managed Site-to-Site VPN.
+Hybrid connectivity scenarios are a reality for many customers. 
+
+Two methods for addressing these: AWS Direct Connect and AWS managed Site-to-Site VPN.
 
 
 
