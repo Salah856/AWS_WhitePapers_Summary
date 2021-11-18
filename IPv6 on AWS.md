@@ -361,6 +361,12 @@ In the meantime, it’s possible to operate a dual-stack setup for the purpose o
 It is possible for a workload to use IPv6 for most communication and use IPv4 purely for accessing the IPv4 address of the PrivateLink endpoint.
 
 
+![1](https://user-images.githubusercontent.com/23625821/142368216-ed49991d-e692-44b6-8902-efe1f0727fb1.png)
+
+
+
+#### VPC sharing
+
 
 
 
