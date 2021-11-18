@@ -296,6 +296,28 @@ The peering is agnostic, and the subnet route tables are the deciding factor for
 
 #### AWS Transit Gateway
 
+It is a scalable highly available way to establish network connectivity between multiple VPCs. 
+
+A Transit Gateway is a Regional construct, and attaches VPCs within the same Region. 
+
+Transit Gateways located in different AWS Regions can establish a peering relationship, enabling global connectivity for your network.
+
+
+#### IPv6 connectivity into Transit Gateway
+
+You use a Transit Gateway attachment to connect a VPC to a Transit Gateway. 
+
+An attachment deploys an elastic network interface into each subnet you select. 
+
+Traffic is routed into Transit Gateways using static routes in VPC subnet routing tables with the attachment as the next-hop. 
+
+The attachments themselves are IP protocol agnostic, and you can route IPv4 and IPv6 prefixes via the same attachment. 
+
+To support IPv6, the elastic network interface s used by the attachments need to have IPv6 addresses assigned to them.
+
+
+
+
 
 
 
