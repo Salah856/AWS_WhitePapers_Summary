@@ -334,6 +334,21 @@ A Transit Gateway has one or more routing tables.
 A routing table can receive its entries through a combination of static route configuration and dynamic propagations from other attachments (VPC, Direct Connect, Site-to-Site VPN, or Connect Peering). In either case, IPv6 routes are supported.
 
 
+#### AWS Transit Gateway Connect Attachments for IPv6
+
+You can create a Transit Gateway Connect attachment to establish a connection and dynamic routing between a transit gateway and third-party virtual appliances (such as SD-WAN appliances).
+
+These attachments take the form of IP Generic Routing Encapsulation (GRE) protocol tunnels and enable dynamic exchange of routing information between an EC2 instances in a VPC and a TGW. 
+
+Route exchange is facilitated by a Border Gateway Protocol (BGP) peering. TGW connect peers support IPv6 using Multi-Protocol BGP (MP-BGP) and a /125 CIDR block from the well-known fd00::/8 unique local address range.
+
+Multiprotocol BGP (MP-BGP) is an extension to BGP that enables BGP to carry routing information for multiple network layers and address families. MP-BGP can carry the unicast routes used for multicast routing separately from the routes used for unicast IP forwarding.
+
+
+![1](https://user-images.githubusercontent.com/23625821/142367647-1ee6aff8-99f3-41bc-9f2b-ee108ed2a965.png)
+
+
+
 
 
 
