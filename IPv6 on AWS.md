@@ -374,6 +374,11 @@ You may share dual-stack subnets the same way as IPv4-only ones.
 IPv6 resources deployed into a shared subnet function identical to those deployed into non-shared subnets.
 
 
+### Amazon VPC internet access
+
+
+
+
 
 
 ### Reference
