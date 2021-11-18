@@ -354,9 +354,11 @@ AWS PrivateLink provides private connectivity between VPCs, AWS services, and cu
 
 AWS PrivateLink makes it easy to connect services across different accounts and VPCs to significantly simplify your network architecture.
 
+AWS PrivateLink does not currently support IPv6. However, PrivateLink has the useful property of abstracting the IP addressing used between source and destination. 
 
+In the meantime, it’s possible to operate a dual-stack setup for the purpose of communicating via PrivateLink endpoints. 
 
-
+It is possible for a workload to use IPv6 for most communication and use IPv4 purely for accessing the IPv4 address of the PrivateLink endpoint.
 
 
 
