@@ -367,6 +367,12 @@ It is possible for a workload to use IPv6 for most communication and use IPv4 pu
 
 #### VPC sharing
 
+VPC sharing allows VPC owners to share a subnet across AWS accounts. 
+
+You may share dual-stack subnets the same way as IPv4-only ones. 
+
+IPv6 resources deployed into a shared subnet function identical to those deployed into non-shared subnets.
+
 
 
 
