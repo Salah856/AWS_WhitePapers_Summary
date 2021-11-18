@@ -404,6 +404,23 @@ AWS previously published the Hybrid Connectivity whitepaper, which focused on de
 However, that paper does not consider IPv6. This section assumes you are acquainted with the aforementioned document, and it focuses only on the best practices and differences compared to IPv4 implementations.
 
 
+#### AWS Direct Connect
+
+
+AWS Direct Connect is a cloud service solution that makes it easy to establish a dedicated network connection from customer premises to AWS.
+
+Different aspects of the Direct Connect service deal with different layers of the OSI model. 
+
+The choice of IPv6 only affects configuration related to Layer 3, so many aspects of Direct Connect configuration such as physical connections, link aggregation, VLANs, and jumbo frame are no different from IPv4 use cases.
+
+
+Where IPv6 does differ is when it comes to addressing and configuration of BGP peerings on top of a virtual network interface (VIF). There are three types of VIFs: 
+
+- Private
+- Transit
+- Public
+
+
 
 
 
