@@ -422,7 +422,16 @@ Where IPv6 does differ is when it comes to addressing and configuration of BGP p
 
 
 Transit and Private VIF IPv6 peerings — Whereas in IPv4 you are free to choose your own addressing for the logical point-to-point, in IPv6, AWS automatically allocates a
- 125 CIDR for each VIF, and it’s not possible to specify custom IPv6 addresses.
+125 CIDR for each VIF, and it’s not possible to specify custom IPv6 addresses.
+
+
+Advertising IPv6 prefixes from AWS
+
+When associating a Direct Connect Gateway directly with a VGW you can specify “Allowed Prefixes . 
+
+Think of this like a traditional “prefix-list” filter, controlling the prefixes advertised to your customer gateway. With IPv4, specifying no filter equates to 0.0.0.0/0 — no filtering. 
+
+With IPv6, not specifying a value here results in all advertisements being implicitly blocked.
 
 
 
