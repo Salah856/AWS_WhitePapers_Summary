@@ -319,6 +319,7 @@ To support IPv6, the elastic network interface s used by the attachments need to
 #### IPv6 traffic within and between Transit Gateways
 
 A Transit Gateway attachment is both a source and a destination of packets. 
+
 You can attach the following resources to your Transit Gateway:
 
    - VPCs
@@ -326,6 +327,7 @@ You can attach the following resources to your Transit Gateway:
    - One or more AWS Direct Connect gateways
    - One or more Transit Gateway Connect attachments
    - One or more Transit Gateway peering connections
+
 
 A Transit Gateway has one or more routing tables. 
 
