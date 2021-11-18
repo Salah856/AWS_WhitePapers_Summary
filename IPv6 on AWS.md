@@ -376,7 +376,20 @@ IPv6 resources deployed into a shared subnet function identical to those deploye
 
 ### Amazon VPC internet access
 
+#### Internet reachable IPv6 resources
 
+Elastic network interfaces retain their IPv6 addresses throughout their lifetime. 
+
+For IPv4, elastic network interfaces can have zero or more Elastic IP addresses associated with them. 
+
+An Elastic IP address defines a static 1:1 NAT relationship between an elastic network interface’s IPv4 address and a public internetroutable address.
+
+
+In IPv6, VPC addressing is already globally unique, and therefore Elastic IP addresses are not required. 
+
+Amazon assigned IPv6 addresses are automatically publicly advertised whereas for BYOIP ranges this is optional. 
+
+In either case, resources deployed only have IPv6 internet reachability if their subnet’s routing table contains IPv6 destinations (such as ::/0) via either an internet gateway or outbound traffic-only internet gateway.
 
 
 
