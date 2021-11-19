@@ -488,6 +488,13 @@ When configured as dual-stack, most modern operating systems default to preferri
 In other words, when a query for a FQDN returns both an A and AAAA record the OS prefers to use the AAAA record and establishes IPv6 connectivity to the target.
 
 
+### Amazon Route 53 DNS records
+
+In AWS, Amazon Route 53 provides DNS capabilities. Route 53 provides features for two use cases:
+
+   - Public DNS for externally hosted content
+   - DNS capability within a VPC both from a resolver and authoritative name server standpoint
+
 
 
 
