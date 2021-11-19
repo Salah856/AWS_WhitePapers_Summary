@@ -497,6 +497,14 @@ In AWS, Amazon Route 53 provides DNS capabilities. Route 53 provides features fo
 
 
 
+#### Public IPv6 DNS resolution
+
+For externally queryable DNS, you can use Route 53 public hosted zones, with both A and AAAA records. 
+
+Route 53 health checks support health checking IPv6 services. 
+
+The name servers exist both for IPv4 and IPv6, meaning clients wanting to resolve a FQDN hosted on Route 53 public hosted zone can do so natively.
+
 
 
 
