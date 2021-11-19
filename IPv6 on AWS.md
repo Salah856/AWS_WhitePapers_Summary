@@ -438,11 +438,39 @@ With IPv6, not specifying a value here results in all advertisements being impli
 
 AWS Site-to-Site VPN connectivity configuration comprises multiple parts:
 
-   • The customer gateway, which is the logical representation of the onpremises VPN end point.
-   • The VPN connection.
-   • The local device configuration on the VPN appliance, represented by the customer gateway. 
+   1. The customer gateway, which is the logical representation of the onpremises VPN end point.
+   2. The VPN connection.
+   3. The local device configuration on the VPN appliance, represented by the customer gateway. 
+
 
 Any AWS S2S VPN connection consists of two tunnels. It is this connection that defines the IP addressing, ISAKMP, IPsec, and BGP peering parameters.
+
+### Designing DNS for IPv6
+
+The core concept of DNS is unchanged from IPv4. From a Layer 3 perspective, DNS is just another application, and therefore, by virtue of the OSI/ISO model provided abstraction, agnostic to the chosen network layer protocol.
+
+Regardless of the IP version, there is a deep link between DNS and the IP layer. 
+
+The DNS specification has adapted and introduced an additional type to accommodate IPv6 addresses. 
+
+In IPv6 the equivalent of the IPv4 “A” records are AAAA records. 
+
+This means that it is possible to use IPv4 as the network protocol to connect to a DNS server and resolve an IPv6 (AAAA) record.
+
+#### PTR records
+
+A pointer (PTR) record translates an IP address to its domain name. 
+
+IPv6 addresses are reverse mapped under the domain IP6.ARPA. 
+
+IPv6 reverse maps use a sequence of nibbles separated by dots with the suffix “.IP6.ARPA” as defined in RFC 3596. 
+
+For example, the reverse lookup domain name corresponding to the address 2001:db8:1234:1a00:1:2:3:4 would be 4.0.0.0.3.0.0.0.2.0.0.0.1.0.0.0.0.0.a.1.4.3.2.1.8.b.d.0.1.0.0.2.ip6.arpa
+
+
+
+
+
 
 
 
