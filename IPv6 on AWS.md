@@ -479,7 +479,13 @@ Route 53 monitors the IP address associated with an alias target's DNS name for 
 The authoritative response from Route 53 name servers contains an A record (for IPv4 addresses) or AAAA record (for IPv6 addresses) with the IP address of the alias target.
 
 
+#### DNS resolution within a host
 
+External configuration aside it is up to a host’s networking stack at runtime to resolve DNS records. 
+
+When configured as dual-stack, most modern operating systems default to preferring IPv6. 
+
+In other words, when a query for a FQDN returns both an A and AAAA record the OS prefers to use the AAAA record and establishes IPv6 connectivity to the target.
 
 
 
