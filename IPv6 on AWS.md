@@ -514,6 +514,14 @@ This resolver is reachable either on 169.254.169.253 or VPC_CIDR_NETWORK + 2 for
 Requests sent to this resolver are resolved against the combination of private hosted zones associated with the VPC, and any (shared) resolver rules
 
 
+### IPv6 security and monitoring considerations
+
+#### Network-level access control
+
+Amazon VPCs feature two network access control mechanisms, and these exist irrespectively of which version of the IP protocol is used (IPv4 or IPv6):
+
+   - Security groups (SGs) at the elastic network interface level
+   - Network access control lists (network ACLs) at the subnet level
 
 
 
