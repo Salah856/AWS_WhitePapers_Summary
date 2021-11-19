@@ -468,6 +468,18 @@ IPv6 reverse maps use a sequence of nibbles separated by dots with the suffix â€
 For example, the reverse lookup domain name corresponding to the address 2001:db8:1234:1a00:1:2:3:4 would be 4.0.0.0.3.0.0.0.2.0.0.0.1.0.0.0.0.0.a.1.4.3.2.1.8.b.d.0.1.0.0.2.ip6.arpa
 
 
+#### Alias records
+
+Amazon Route 53 supports alias records. 
+
+Route 53 alias records are mapped internally to the DNS name of alias targets such as AWS resources. 
+
+Route 53 monitors the IP address associated with an alias target's DNS name for scaling actions and software updates. 
+
+The authoritative response from Route 53 name servers contains an A record (for IPv4 addresses) or AAAA record (for IPv6 addresses) with the IP address of the alias target.
+
+
+
 
 
 
