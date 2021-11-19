@@ -436,6 +436,14 @@ With IPv6, not specifying a value here results in all advertisements being impli
 
 ### Amazon-managed VPN
 
+AWS Site-to-Site VPN connectivity configuration comprises multiple parts:
+
+   • The customer gateway, which is the logical representation of the onpremises VPN end point.
+   • The VPN connection.
+   • The local device configuration on the VPN appliance, represented by the customer gateway. 
+
+Any AWS S2S VPN connection consists of two tunnels. It is this connection that defines the IP addressing, ISAKMP, IPsec, and BGP peering parameters.
+
 
 
 
