@@ -505,6 +505,14 @@ Route 53 health checks support health checking IPv6 services.
 
 The name servers exist both for IPv4 and IPv6, meaning clients wanting to resolve a FQDN hosted on Route 53 public hosted zone can do so natively.
 
+#### DNS resolution within a VPC
+
+Amazon VPC comes with Route 53 Resolver, which provides a built-in capability for resolving DNS names. 
+
+This resolver is reachable either on 169.254.169.253 or VPC_CIDR_NETWORK + 2 for IPv4 and fd00:ec2::253 for Nitro-based IPv6 hosts.
+
+Requests sent to this resolver are resolved against the combination of private hosted zones associated with the VPC, and any (shared) resolver rules
+
 
 
 
