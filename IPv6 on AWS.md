@@ -552,11 +552,15 @@ Traffic Mirroring copies inbound and outbound IPv4 and IPv6 traffic from the net
 
 You can send the mirrored traffic to the network interface of another EC2 instance, or a Network Load Balancer that has a UDP listener (listening on UDP port 4789 - VXLAN).
 
-The mirrored traffic is sent to the traffic mirror target by means of the source VPC IPv4 route table. Note that all mirrored traffic is encapsulated in an IPv4 packet. 
+The mirrored traffic is sent to the traffic mirror target by means of the source VPC IPv4 route table. 
+
+Note that all mirrored traffic is encapsulated in an IPv4 packet. 
 
 Traffic Mirroring mirrors both your IPv4 and IPv6 traffic. 
 
-No special configuration is necessary to enable Traffic Mirroring for your IPv6 traffic, whether the traffic mirror source and the target are in the same VPC, or in a different VPC connected via VPC peering or a Transit Gateway (as long as the traffic mirror source can route to the traffic mirror target by IPv4).
+No special configuration is necessary to enable Traffic Mirroring for your IPv6 traffic, whether the traffic mirror source and the target are in the same VPC.  
+
+Or in a different VPC connected via VPC peering or a Transit Gateway (as long as the traffic mirror source can route to the traffic mirror target by IPv4).
 
 
 
