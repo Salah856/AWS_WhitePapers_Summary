@@ -563,6 +563,12 @@ No special configuration is necessary to enable Traffic Mirroring for your IPv6 
 Or in a different VPC connected via VPC peering or a Transit Gateway (as long as the traffic mirror source can route to the traffic mirror target by IPv4).
 
 
+### AWS Web Application Firewall
+
+AWS Web Application Firewall (AWS WAF) lets you monitor the HTTP(S) requests that are forwarded to an Amazon CloudFront distribution, an Amazon API Gateway REST
+API, an Application Load Balancer, or an AWS AppSync GraphQL API. 
+
+With AWS WAF, the services that are associated with the protected resources can respond either with the requested content or with HTTP 403 status code based on conditions that are specified, such as the IP addresses (either IPv4 or IPv6) that the request originate from.
 
 
 
