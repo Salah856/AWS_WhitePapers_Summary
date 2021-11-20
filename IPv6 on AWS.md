@@ -621,6 +621,8 @@ Both load balancer types support internet-facing and internal load balancer sche
 You create internet-facing Application Load Balancers and internet-facing Network Load 
 
 
+![1](https://user-images.githubusercontent.com/23625821/142721677-274e3668-5f56-4bc5-a84f-ba34b2d1be47.png)
+
 
 
 
