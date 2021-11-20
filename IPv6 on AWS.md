@@ -572,6 +572,15 @@ With AWS WAF, the services that are associated with the protected resources can 
 
 
 
+#### Web ACL
+
+You use the rules in a web ACL to block or allow web requests based on criteria which includes IP addresses or address ranges that requests originate from. 
+
+The IP set match statement inspects the IP address of a web request against a set of IP addresses and address ranges. 
+
+Use this to allow or block web requests based on the IP addresses (either IPv4 or IPv6) that the requests originate from. 
+
+AWS WAF IP sets supports all IPv4 and IPv6 CIDR ranges except for 0.0.0.0/0 and ::/0.
 
 
 
