@@ -627,6 +627,7 @@ You create internet-facing Application Load Balancers and internet-facing Networ
 
 
 
+
 ### Reference
 
 <a href="https://d1.awsstatic.com/whitepapers/IPv6-on-AWS.pdf"> Original paper </a> 
