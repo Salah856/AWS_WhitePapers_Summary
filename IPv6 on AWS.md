@@ -598,6 +598,14 @@ AWS Network Firewall is a stateful, managed, network firewall and intrusion dete
 AWS Network Firewall does not currently support IPv6. In the dual-stack mode, you can still use AWS Network Firewall to filter IPv4 traffic going to and coming from an internet gateway, NAT gateway, or over VPN or AWS Direct Connect.
 
 
+### AWS Systems Manager
+
+Resources managed by AWS Systems Manager must have IPv4 connectivity to Systems Manager’s endpoints. 
+
+For example, to connect to an EC2 instance using Systems Manager Session Manager, the instance must be running dual-stack and must have an IPv4 connectivity to the internet or AWS PrivateLink VPC endpoint. 
+
+Similarly, on-premises resources must also be in dual-stack network mode
+
 
 
 
