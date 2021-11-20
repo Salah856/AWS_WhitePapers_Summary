@@ -612,6 +612,11 @@ Similarly, on-premises resources must also be in dual-stack network mode
 
 #### Elastic Load Balancing
 
+ELB automatically distributes your incoming traffic across multiple targets, such as EC2 instances, containers, and IP addresses, in one or more Availability Zones. 
+
+It supports the following types of load balancers: Application Load Balancers, Network Load Balancers, and Classic Load Balancers.
+
+
 
 
 
