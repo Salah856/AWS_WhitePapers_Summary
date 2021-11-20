@@ -524,6 +524,28 @@ Amazon VPCs feature two network access control mechanisms, and these exist irres
    - Network access control lists (network ACLs) at the subnet level
 
 
+#### VPC Flow Logs
+
+VPC Flow Logs is a feature that enables you to capture information about the IPv6 traffic going to and from network interfaces in your VPC. 
+
+VPC Flow Logs for IPv6 traffic works the same as IPv4 where you can create flow logs at the VPC level, the subnet level, or the network interface level. 
+
+If you create VPC Flow Logs at a VPC or subnet level, every network interface in that VPC or subnet is monitored.
+
+The flow log records can use the default format or the custom format. 
+
+With a custom format, you specify which fields are included in the IPv6 flow log records and in which order. 
+
+
+VPC Logs default format: 
+
+
+![1](https://user-images.githubusercontent.com/23625821/142719605-08952018-6fdf-42c5-a379-5250fc750e6c.png)
+
+
+
+
+
 
 
 
