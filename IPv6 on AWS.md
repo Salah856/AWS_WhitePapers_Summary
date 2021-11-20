@@ -584,6 +584,12 @@ AWS WAF IP sets supports all IPv4 and IPv6 CIDR ranges except for 0.0.0.0/0 and 
 
 ### AWS Shield 
 
+It provides protection against DDoS attacks. 
+
+A DDoS attack can prevent legitimate users from accessing a service and can cause the system to crash due to the overwhelming traffic volume. 
+
+All of the AWS Shield detection and mitigations work with IPv4 and IPv6 without any impact to performance, scalability, or availability of the service
+
 
 
 
