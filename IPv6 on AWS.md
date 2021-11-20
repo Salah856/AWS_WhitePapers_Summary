@@ -591,6 +591,13 @@ A DDoS attack can prevent legitimate users from accessing a service and can caus
 All of the AWS Shield detection and mitigations work with IPv4 and IPv6 without any impact to performance, scalability, or availability of the service
 
 
+### AWS Network Firewall
+
+AWS Network Firewall is a stateful, managed, network firewall and intrusion detection and prevention service for Amazon Virtual Private Cloud (Amazon VPC). 
+
+AWS Network Firewall does not currently support IPv6. In the dual-stack mode, you can still use AWS Network Firewall to filter IPv4 traffic going to and coming from an internet gateway, NAT gateway, or over VPN or AWS Direct Connect.
+
+
 
 
 
