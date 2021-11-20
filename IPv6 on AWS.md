@@ -616,6 +616,9 @@ ELB automatically distributes your incoming traffic across multiple targets, suc
 
 It supports the following types of load balancers: Application Load Balancers, Network Load Balancers, and Classic Load Balancers.
 
+Both load balancer types support internet-facing and internal load balancer schemes. 
+
+You create internet-facing Application Load Balancers and internet-facing Network Load 
 
 
 
