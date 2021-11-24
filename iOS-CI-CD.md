@@ -11,8 +11,9 @@ Automate building and testing of iOS apps using AWS CodePipeline, Amazon EC2 Mac
 
 - An AWS Lambda function loads required build scripts from an Amazon S3 bucket and triggers an AWS Systems Manager Run command.
 
-- 
+- The AWS Systems Manager Run command runs the build scripts on an Amazon EC2 Mac instance and sends run logs to Amazon CloudWatch
 
+- 
 
 
 
