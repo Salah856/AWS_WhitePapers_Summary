@@ -15,7 +15,9 @@ Automate building and testing of iOS apps using AWS CodePipeline, Amazon EC2 Mac
 
 - Build scripts initiate an iOS build on the Amazon EC2 Mac instance and put the build artifacts in an Amazon S3 bucket.
 
+- AWS CodePipeline detects the built artifacts in Amazon S3 and initiates AWS Device Farm for testing the app on multiple real devices.
 
+- AWS Device Farm generates test results, logs, and recording for all tests for review through the AWS Device Farm console or through AWS S3 pre-signed URLs. 
 
 
 
