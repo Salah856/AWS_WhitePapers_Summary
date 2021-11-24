@@ -6,7 +6,7 @@
 
 - This whitepaper describes how AWS approaches machine learning (ML) in a regulated environment and provides guidance on good ML practices using AWS products.
 
-- This whitepaper takes into consideration the principles described in the Proposed Regulatory Framework for Modifications to AI/ML-Based Software as a Medical Device (SaMD) discussion paper.
+- This whitepaper takes into consideration the principles described in the Proposed <a href="https://www.fda.gov/files/medical%20devices/published/US-FDA-Artificial-Intelligence-and-Machine-Learning-Discussion-Paper.pdf"> Regulatory Framework </a> for Modifications to AI/ML-Based Software as a Medical Device (SaMD) discussion paper.
 
 
 - This content has been developed based on experience with and feedback from AWS pharmaceutical and medical device customers, as well as software partners. 
