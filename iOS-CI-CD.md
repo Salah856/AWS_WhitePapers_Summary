@@ -13,7 +13,9 @@ Automate building and testing of iOS apps using AWS CodePipeline, Amazon EC2 Mac
 
 - The AWS Systems Manager Run command runs the build scripts on an Amazon EC2 Mac instance and sends run logs to Amazon CloudWatch
 
-- 
+- Build scripts initiate an iOS build on the Amazon EC2 Mac instance and put the build artifacts in an Amazon S3 bucket.
+
+
 
 
 
