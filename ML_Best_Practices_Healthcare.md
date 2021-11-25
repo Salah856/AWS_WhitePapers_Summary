@@ -1,7 +1,6 @@
 
 # Machine Learning Best Practices in Healthcare and Life Sciences
 
-
 ## An overview of security and good machine learning compliance practices using AWS
 
 - This whitepaper describes how AWS approaches machine learning (ML) in a regulated environment and provides guidance on good ML practices using AWS products.
