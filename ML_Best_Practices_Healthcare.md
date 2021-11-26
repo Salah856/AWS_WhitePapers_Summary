@@ -37,6 +37,11 @@ biomarkers, patient data enrichment and search, the classification of tissue sam
 
 ![1](https://user-images.githubusercontent.com/23625821/143559110-27689442-ddf2-48e0-9925-85dacc30f14c.png)
 
+This framework relies on the principle of a “predetermined change control plan.” 
+
+The predetermined change control plan includes the types of anticipated modifications, (SaMD Pre-Specifications) based on the retraining and model update strategy. 
+
+- And the associated methodology (Algorithm Change Protocol) being used to implement those changes in a controlled manner that manages risks to patients. 
 
 
 
