@@ -71,6 +71,15 @@ Developing AI/ML-enabled GxP workloads raise the following challenges:
 
 ### Provision a secure and GXP-compliant ML environment
 
+For healthcare and life sciences customers, the security and privacy of an ML environment is paramount. 
+
+It is therefore strongly recommended that you protect your environment against unauthorized access, privilege escalation, and data exfiltration. 
+
+Common considerations when you set up a secure ML environment include:
+
+    - Platform qualification
+    - Compute and network isolation
+    - Authentication and authorization 
 
 
 
