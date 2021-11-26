@@ -51,6 +51,9 @@ The predetermined change control plan includes the types of anticipated modifica
 - Algorithm Change Protocol (ACP) — Specific methods that a manufacturer has in place to achieve and appropriately control the risks of the anticipated types of modifications delineated in the SPS. The ACP is a step-by-step delineation of the data and procedures to be followed so that the modification achieves its goals and the device remains safe and effective after the modification. The preceding figure provides a general overview of the components of an ACP. 
 
 
+### Challenges to support AI/ML enabled GxP workloads
+
+
 
 
 
