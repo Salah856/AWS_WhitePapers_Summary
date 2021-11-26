@@ -45,6 +45,13 @@ The predetermined change control plan includes the types of anticipated modifica
 
 
 
+- SaMD Pre-Specifications (SPS) — A SaMD manufacturer’s anticipated modifications to “performance” or “inputs,” or changes related to the “intended use” of AI/ML-based SaMD. These are the types of changes the manufacturer plans to achieve when the SaMD is in use. The SPS draws a “region of potential changes” around the initial specifications and labeling of the original device. This is what the manufacturer intends the algorithm to become as it learns.
+
+
+- Algorithm Change Protocol (ACP) — Specific methods that a manufacturer has in place to achieve and appropriately control the risks of the anticipated types of modifications delineated in the SPS. The ACP is a step-by-step delineation of the data and procedures to be followed so that the modification achieves its goals and the device remains safe and effective after the modification. The preceding figure provides a general overview of the components of an ACP. 
+
+
+
 
 
 
