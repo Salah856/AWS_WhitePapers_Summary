@@ -27,6 +27,10 @@ biomarkers, patient data enrichment and search, the classification of tissue sam
 
 - Commercial — Use cases include predicting healthcare providers with relevant patient bases, identifying next best action for sales and marketing, annotation and management of existing promotional materials, and so on. 
 
+- Post-market surveillance and patient support — Use cases include forecasting patient cost, automation of adverse event detection from social media or call centers, patient outcome prediction, and so on.
+
+
+
 
 
 
