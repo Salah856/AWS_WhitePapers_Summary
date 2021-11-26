@@ -88,8 +88,7 @@ The validated state of ML models may be brought into question if the underlying 
 
 Similarly, data integrity can also be affected by problems related to IT infrastructure. 
 
-Therefore, to support a culture of quality and operational excellence, it is 
-
+Therefore, to support a culture of quality and operational excellence, it is important to qualify your underlying platform and then maintain it under a state of control.
 
 
 
