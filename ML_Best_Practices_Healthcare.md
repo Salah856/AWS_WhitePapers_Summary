@@ -30,6 +30,12 @@ biomarkers, patient data enrichment and search, the classification of tissue sam
 - Post-market surveillance and patient support — Use cases include forecasting patient cost, automation of adverse event detection from social media or call centers, patient outcome prediction, and so on.
 
 
+Reference Implementation of Good machine learning practices
+
+
+![1](https://user-images.githubusercontent.com/23625821/143559110-27689442-ddf2-48e0-9925-85dacc30f14c.png)
+
+
 
 
 
