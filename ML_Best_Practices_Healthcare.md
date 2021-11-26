@@ -53,7 +53,22 @@ The predetermined change control plan includes the types of anticipated modifica
 
 ### Challenges to support AI/ML enabled GxP workloads
 
+Developing AI/ML-enabled GxP workloads raise the following challenges:
 
+
+- Building a secure infrastructure that complies with a stringent regulatory process working on the public cloud and aligning to the FDA framework for AI/ML
+
+- Supporting an AI/ML-enabled solution for GxP workloads covering:
+
+    - Reproducibility
+    - Traceability
+    - Data integrity
+
+- Monitoring the Machine Learning model with respect to various changes to parameters and data
+
+- Handling model uncertainty and confidence calibration
+
+- Making AI/ML models interpretable
 
 
 
