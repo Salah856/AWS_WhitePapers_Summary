@@ -82,6 +82,13 @@ Common considerations when you set up a secure ML environment include:
     - Authentication and authorization 
 
 
+#### Platform qualification
+
+The validated state of ML models may be brought into question if the underlying IT infrastructure is not maintained in a demonstrable state of control and regulatory compliance. 
+
+Similarly, data integrity can also be affected by problems related to IT infrastructure. 
+
+Therefore, to support a culture of quality and operational excellence, it is 
 
 
 
