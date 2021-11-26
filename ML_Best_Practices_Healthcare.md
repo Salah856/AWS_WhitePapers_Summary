@@ -69,6 +69,8 @@ Developing AI/ML-enabled GxP workloads raise the following challenges:
 
 
 
+### Provision a secure and GXP-compliant ML environment
+
 
 
 
