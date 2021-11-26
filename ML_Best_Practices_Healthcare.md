@@ -12,6 +12,20 @@
 
 ### Life sciences at AWS
 
+AI/ML in the life sciences industry fall under five main categories:
+
+
+- Research and discovery — Use cases include molecular structure prediction, antibody binding affinity prediction, outcome prediction for patients with certain
+biomarkers, patient data enrichment and search, the classification of tissue samples, and so on.
+
+
+- Clinical development — Use cases include forecasting and optimization of trial timelines, optimization of inclusion/exclusion criteria and site selection, protocol document enrichment, and so on.
+
+
+- Manufacturing and supply chain — Use cases include predictive maintenance of equipment, computer vision for effective line clearance, optimization of manufacturing process staging, vial inspection, and so on.
+
+
+- Commercial — Use cases include predicting healthcare providers with relevant patient bases, identifying next best action for sales and marketing, annotation and management of existing promotional materials, and so on. 
 
 
 
