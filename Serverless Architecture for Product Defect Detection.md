@@ -36,17 +36,7 @@ Architecture for camera-based in-line or end-of-line quality inspection. Support
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+![1](https://user-images.githubusercontent.com/23625821/143669605-0ca7b53d-3e5f-4519-b01c-657c7f5a1071.png)
 
 
 
