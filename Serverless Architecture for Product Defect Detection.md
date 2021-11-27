@@ -26,7 +26,13 @@ Architecture for camera-based in-line or end-of-line quality inspection. Support
 
 - Inference results are fetched from DynamoDB Streams, transformed and enriched, sent to Amazon Kinesis Data Firehose for batching, and saved in another S3 bucket.
 
+- Inference results datasets are imported into Amazon Quicksight.
 
+- Create dashboards and analyses for business users, and gain insights from the inference results.
+
+- Amazon CloudWatch provides a single pane of glass to operators and plant managers for workload and defect detection monitoring using logs, alarms, and dashboards.
+
+- Alarm notifications from Amazon CloudWatch are sent to operators and plant managers by Amazon SNS whenever defects exceed a pre-defined threshold
 
 
 
