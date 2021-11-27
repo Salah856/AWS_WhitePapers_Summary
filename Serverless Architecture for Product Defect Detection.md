@@ -6,19 +6,21 @@
 Architecture for camera-based in-line or end-of-line quality inspection. Supports automated or one-time anomaly detection using image classification in the cloud; real-time monitoring and notifications; and analytics and insights from the classification results.
 
 
-Upload training data to Amazon Lookout For Vision or import training data from Amazon Simple Storage Service (Amazon S3) and train a model.
+- Upload training data to Amazon Lookout For Vision or import training data from Amazon Simple Storage Service (Amazon S3) and train a model.
 
-Admin users signup and login to a management front end website.
+- Admin users signup and login to a management front end website.
 
-Start or stop the model or do one-time defect detection by uploading an image.
+- Start or stop the model or do one-time defect detection by uploading an image.
 
-Camera or a client application invokes an Amazon API Gateway endpoint to get a signed URL from Amazon S3. The request is authorized by an AWS Lambda function and a signed URL is returned.
+- Camera or a client application invokes an Amazon API Gateway endpoint to get a signed URL from Amazon S3. The request is authorized by an AWS Lambda function and a signed URL is returned.
 
-Using the signed URL, an image, along with its associated metadata, is uploaded to Amazon S3.
+- Using the signed URL, an image, along with its associated metadata, is uploaded to Amazon S3.
 
-Image upload to the S3 bucket triggers an event notification to initiate an AWS Step Functions workflow.
+- Image upload to the S3 bucket triggers an event notification to initiate an AWS Step Functions workflow.
 
-Fetch image from the S3 bucket and present to Amazon Lookout For Vision for anomaly detection using DetectAnomalies API.
+- Fetch image from the S3 bucket and present to Amazon Lookout For Vision for anomaly detection using DetectAnomalies API.
+
+
 
 
 
