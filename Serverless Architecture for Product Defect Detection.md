@@ -20,6 +20,15 @@ Architecture for camera-based in-line or end-of-line quality inspection. Support
 
 - Fetch image from the S3 bucket and present to Amazon Lookout For Vision for anomaly detection using DetectAnomalies API.
 
+- Store inference result and image metadata in Amazon DynamoDB.
+
+- Publish a notification to an Amazon Simple Notification Service (Amazon SNS) topic to send an email alert to subscribed operators and plant managers in case a defect or a low-confidence result is detected.
+
+- Inference results are fetched from DynamoDB Streams, transformed and enriched, sent to Amazon Kinesis Data Firehose for batching, and saved in another S3 bucket.
+
+
+
+
 
 
 
