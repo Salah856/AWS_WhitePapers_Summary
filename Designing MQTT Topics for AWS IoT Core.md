@@ -10,7 +10,6 @@
 
 - This whitepaper is intended for technical architects, IoT cloud engineers, and application architects. 
 
-- This paper assumes that the reader understands fundamental MQTT concepts and terminology.
 
 
 
