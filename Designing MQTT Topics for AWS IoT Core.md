@@ -59,7 +59,9 @@ The fan-in pattern is commonly used to aggregate telemetry data.
 
 The AWS IoT Rules Engine uses a wildcard subscription to receive the messages and route them to an Amazon Kinesis stream. 
 
-Specifically, the air quality sensors publish on a fan-in topic associated with a specific building (LAX002). 
+
+
+
 
 
 
