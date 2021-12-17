@@ -34,6 +34,28 @@ This approach is common in smart home scenarios where an end user receives updat
 
 In the following example, the room occupancy publishes a message on a topic subscribed to by an application running on digital display outside screening room.
 
+#### Broadcast
+
+Broadcast patterns are used for one-to-many messaging. The broadcast pattern sends the same message to a large fleet of devices. 
+
+In a broadcast, multiple devices subscribe to the same MQTT topic, and the sender publishes a message to that topic. 
+
+A typical use of a broadcast pattern is to send a notification to devices based on the category or group of the device. 
+
+For example, a weather station transmits a broadcast message based on a topic based on its geolocation.
+
+The following illustration depicts an example where a broadcast pattern sends a message on a weather topic that all delivery vehicles in the state subscribe to. 
+
+The message includes weather conditions and detailed location coordinates. 
+
+Based on the current location of the vehicle, it can ignore the message or take some action.
+
+
+
+
+
+
+
 
 
 <a href="https://docs.aws.amazon.com/whitepapers/latest/designing-mqtt-topics-aws-iot-core/designing-mqtt-topics-aws-iot-core.pdf#designing-mqtt-topics-aws-iot-core
