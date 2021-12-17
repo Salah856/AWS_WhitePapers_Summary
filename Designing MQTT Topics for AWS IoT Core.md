@@ -11,6 +11,11 @@
 - This whitepaper is intended for technical architects, IoT cloud engineers, and application architects. 
 
 
+### MQTT communication patterns
+
+- T applications support multiple communication scenarios, such as device-to-device, device-to-cloud, loud-to-device, and device-to-or-from-users. 
+
+Although the range of patterns can significantly vary, a ajority of MQTT communication models derive from three MQTT patterns: point-to-point, broadcast, nd fan-in.
 
 
 
