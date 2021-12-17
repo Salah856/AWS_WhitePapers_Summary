@@ -47,6 +47,23 @@ A typical use of a broadcast pattern is to send a notification to devices based 
 For example, a weather station transmits a broadcast message based on a topic based on its geolocation.
 
 
+#### Fan-In
+
+The fan-in pattern is a many-to-one communication pattern and can be thought of as the reverse of the broadcast pattern.
+
+Multiple devices publish on a shared or similar topic with a single subscriber to that topic. 
+
+With the fan-in pattern, the subscriber may use wildcards as the publishers all use a similar but unique MQTT topics. 
+
+The fan-in pattern is commonly used to aggregate telemetry data.
+
+In the following example, each device publishes to an MQTT topic containing a known group identifier.
+
+The AWS IoT Rules Engine uses a wildcard subscription to receive the messages and route them to an Amazon Kinesis stream. 
+
+Specifically, the air quality sensors publish on a fan-in topic associated with a specific building (LAX002). 
+
+The administrative system receives all updates for the building using an MQTT wildcard (+).
 
 
 
