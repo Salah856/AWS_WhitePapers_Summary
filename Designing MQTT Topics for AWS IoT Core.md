@@ -57,13 +57,11 @@ With the fan-in pattern, the subscriber may use wildcards as the publishers all 
 
 The fan-in pattern is commonly used to aggregate telemetry data.
 
-In the following example, each device publishes to an MQTT topic containing a known group identifier.
-
 The AWS IoT Rules Engine uses a wildcard subscription to receive the messages and route them to an Amazon Kinesis stream. 
 
 Specifically, the air quality sensors publish on a fan-in topic associated with a specific building (LAX002). 
 
-The administrative system receives all updates for the building using an MQTT wildcard (+).
+
 
 
 
