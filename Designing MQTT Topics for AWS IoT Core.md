@@ -17,7 +17,7 @@
 
 - Although the range of patterns can significantly vary, a ajority of MQTT communication models derive from three MQTT patterns: 
         
-        --  point-to-point, broadcast, nd fan-in.
+        --  point-to-point, broadcast, and fan-in.
 
 
 
