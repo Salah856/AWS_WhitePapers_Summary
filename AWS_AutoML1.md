@@ -15,3 +15,6 @@ The following topics will be covered:
 
 AWS offers a wide range of machine learning (ML) and artificial intelligence (AI) capabilities to its clients. AWS has collected and arranged these capabilities into what is often known as the AI/ML Stack in order to further aid its clients in understanding them. The main objective of the AI/ML stack is to offer the tools that a developer or an expert in machine learning could need, depending on their level of experience. In essence, it equips all developers, whether they are regarded as novices or experts, with AI and ML skills. 
 
+![image](https://user-images.githubusercontent.com/23625821/191805882-11ffbc89-818c-403e-b67a-8bf82a88c5d4.png)
+
+
