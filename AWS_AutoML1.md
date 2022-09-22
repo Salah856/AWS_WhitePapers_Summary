@@ -37,3 +37,6 @@ The AWS service that offers AutoML capability to its users is called SageMaker A
 
 These tools are connected by Autopilot to form an automated workflow. The raw data is the only component that the ML practitioner is required to provide. By just providing the data, Autopilot enables even a beginner in machine learning to automatically develop a model that is suitable for production.
 
+
+## Overcoming automation challenges with SageMaker Autopilot
+
