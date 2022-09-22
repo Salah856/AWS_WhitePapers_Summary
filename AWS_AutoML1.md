@@ -48,4 +48,4 @@ These tools are connected by Autopilot to form an automated workflow. The raw da
 
 
 
-For experimenting Sagemaker Autopilot, you can refer to this <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/autopilot-tutorials.html"> tutorial </a>
+For experimenting Sagemaker Autopilot, you can refer to this <a href="https://aws.amazon.com/getting-started/hands-on/create-machine-learning-model-automatically-sagemaker-autopilot/#"> tutorial </a>
