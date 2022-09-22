@@ -30,4 +30,8 @@ The AWS service that offers AutoML capability to its users is called SageMaker A
 
 • SageMaker Training: Training jobs handle the labor-intensive scaling and provisioning operations related to setting up the necessary compute resources to train the model.
 
+• Automatic Model Tuning: By enabling the ML practitioner to run numerous training jobs concurrently, each with a subset of the necessary parameters, model tuning or hyperparameter tuning scales the model tuning task. As a result, there is no longer a need to adjust, assess, and retrain the model in a sequential manner. In order to choose future hyperparameters that will better optimise the model, SageMaker model tuning by default creates a probabilistic model of the performance of previously used hyperparameters using Bayesian Search (although Random Search can also be used).
+
+• SageMaker Managed Deployment: After an optimal model has been trained, SageMaker Hosting can be used to deploy a single model or a collection of models as a fully functional API for use by production applications in an elastic and scalable way.
+
 
