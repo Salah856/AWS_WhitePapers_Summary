@@ -18,3 +18,5 @@ AWS offers a wide range of machine learning (ML) and artificial intelligence (AI
 ![image](https://user-images.githubusercontent.com/23625821/191805882-11ffbc89-818c-403e-b67a-8bf82a88c5d4.png)
 
 
+![image](https://user-images.githubusercontent.com/23625821/191806161-3355ff90-f041-4b60-b1c6-072532d7589e.png)
+
