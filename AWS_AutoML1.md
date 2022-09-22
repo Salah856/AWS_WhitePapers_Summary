@@ -35,3 +35,5 @@ The AWS service that offers AutoML capability to its users is called SageMaker A
 • SageMaker Managed Deployment: After an optimal model has been trained, SageMaker Hosting can be used to deploy a single model or a collection of models as a fully functional API for use by production applications in an elastic and scalable way.
 
 
+These tools are connected by Autopilot to form an automated workflow. The raw data is the only component that the ML practitioner is required to provide. By just providing the data, Autopilot enables even a beginner in machine learning to automatically develop a model that is suitable for production.
+
