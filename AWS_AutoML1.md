@@ -46,3 +46,6 @@ These tools are connected by Autopilot to form an automated workflow. The raw da
 • The difficulties associated with creating the optimal ML model, such as gathering and comprehending the data before creating the model that is most appropriate for the use case.
 • The difficulties brought on by the ML process itself, which is difficult, laborious, iterative, and continual.
 
+
+
+For experimenting Sagemaker Autopilot, you can refer to this <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/autopilot-tutorials.html"> tutorial </a>
