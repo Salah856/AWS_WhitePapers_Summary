@@ -5,10 +5,10 @@ AWS provides a variety of methods for automating the creation of ML models. I'll
 This post will introduce you to some of the AWS features that concentrate on machine learning (ML) solutions and ML automation.
 
 The following topics will be covered: 
-  • Introduction to the AWS AI and ML landscape 
-  • Overview of SageMaker Autopilot 
-  • Using SageMaker Autopilot to overcome automation problems 
-  • Using the SageMaker SDK to automate the ML experiment
+  • Introduction to the AWS AI and ML landscape.
+  • Overview of SageMaker Autopilot.
+  • Using SageMaker Autopilot to overcome automation problems.
+  • Using the SageMaker SDK to automate the ML experiment.
 
 
 ## Introducing the AWS AI and ML landscape
@@ -40,3 +40,5 @@ These tools are connected by Autopilot to form an automated workflow. The raw da
 
 ## Overcoming automation challenges with SageMaker Autopilot
 
+• The difficulties associated with creating the optimal ML model, such as gathering and comprehending the data before creating the model that is most appropriate for the use case.
+• The difficulties brought on by the ML process itself, which is difficult, laborious, iterative, and continual.
