@@ -20,3 +20,14 @@ AWS offers a wide range of machine learning (ML) and artificial intelligence (AI
 
 ![image](https://user-images.githubusercontent.com/23625821/191806161-3355ff90-f041-4b60-b1c6-072532d7589e.png)
 
+## Overview of SageMaker Autopilot
+
+The AWS service that offers AutoML capability to its users is called SageMaker Autopilot. The following SageMaker modules are pieced together by Autopilot into an automated framework to address the various AutoML requirements:
+
+• SageMaker Processing: Using a streamlined and controlled experience, processing jobs handle the labor-intensive tasks and scalability requirements of organising, validating, and feature engineering the data.
+
+• SageMaker Built-in Algorithms: SageMaker offers a number of pre-built algorithms that are suited to a variety of use case types, making it easier for ML practitioners to get started with model-building activities.
+
+• SageMaker Training: Training jobs handle the labor-intensive scaling and provisioning operations related to setting up the necessary compute resources to train the model.
+
+
