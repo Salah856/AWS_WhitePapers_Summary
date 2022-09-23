@@ -57,4 +57,8 @@ The SageMaker SDK is essentially a higher-level SDK with an emphasis on ML explo
 3. The trained model is deployed with the endpoint settings using the create endpoint() method.
 
 
+As an alternative, the ML practitioner might achieve the same result by executing the deploy() method on a model that has already been trained using the SageMaker SDK. The underlying model, endpoint setup, and endpoint deployment are all created by the SageMaker SDK.
+The SageMaker SDK greatly simplifies ML experimentation for the more seasoned ML practitioner. You will begin getting acquainted with the SageMaker SDK in the following part by working through an example to codify the AutoML experiment.
+
+
 
