@@ -51,5 +51,10 @@ For experimenting Sagemaker Autopilot, you can refer to this <a href="https://aw
 
 ## SageMaker SDK Using for automating the ML experiment
 
+The SageMaker SDK is essentially a higher-level SDK with an emphasis on ML exploration that utilises the base boto3 SDK. For instance, a machine learning practitioner would need to execute three different boto3 calls to deploy a model as a SageMaker hosted endpoint:
+1. The machine learning practitioner must use the SageMaker training job's output artefact to instantiate a trained model. This is done by using the boto3.client("sagemaker") low-level SageMaker client's create model() method.
+2. After that, the ML expert must construct a SageMaker hosted endpoint configuration that details the endpoint's extra configuration options as well as the underlying computer resources. The SageMaker client's create endpoint config() method is used for this.
+3. The trained model is deployed with the endpoint settings using the create endpoint() method.
+
 
 
