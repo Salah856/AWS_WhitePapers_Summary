@@ -8,7 +8,7 @@ The following topics will be covered:
   • Introduction to the AWS AI and ML landscape.
   
   • Overview of SageMaker Autopilot.
-  
+   
   • Using SageMaker Autopilot to overcome automation problems.
   
   • Using the SageMaker SDK to automate the ML experiment.
