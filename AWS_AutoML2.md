@@ -23,3 +23,8 @@ Other than initiating the full CI process, the source artefacts stage doesn't re
 
 For instance, application developers contribute updates to the shared version control system (such as GitHub, Bitbucket, or AWS CodeCommit) when they modify the code, add new features, or correct application defects. These stored changes are called commits, with\seach commit having an associated description or message that describes why a particular\schange was done. To help other contributors understand what has been changed in the code and why, these commits summarise the history of all the modifications. A Pull Request can be opened by the developer after a commit has been made (PR).
 
+### Construction of pipeline assets
+
+The various software artefacts (and their dependencies) are produced or compiled in the next stage of the pipeline. These assets, or assets that are specific to the current release or, to put it another way, assets that are specific to the current execution of the pipeline, are essentially the end product of building the source code artefacts into an asset that is specific to the current release. For instance, the build step can be used to create a Docker container image or to convert C++ code into a release binary.
+
+
