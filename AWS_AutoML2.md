@@ -32,4 +32,9 @@ The various software artefacts (and their dependencies) are produced or compiled
 After the pipeline assets are constructed, the following stage of the pipeline involves testing them for functionality as well as integration into the larger design or application. At this level, developers use automated testing, testing scripts, or even a testing architecture (also known as a test environment or QA environment) to carry out system testing.
 This step's main objective is to ensure that built assets will work properly after being put into production. Application developers can ensure that the overall integrity of the solution, in its entirety, is preserved once it is released into production by testing the complete system.
 
+### Approving the release
+
+The final step of the CI phase is to authorise the system or application for production once the integrity of the entire system or application has been tested. This step of the procedure can either include a human (or team) approving the test results, or it can be automated in cases when there are lots of code changes.
+
+
 
