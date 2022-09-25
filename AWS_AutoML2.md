@@ -27,4 +27,9 @@ For instance, application developers contribute updates to the shared version co
 
 The various software artefacts (and their dependencies) are produced or compiled in the next stage of the pipeline. These assets, or assets that are specific to the current release or, to put it another way, assets that are specific to the current execution of the pipeline, are essentially the end product of building the source code artefacts into an asset that is specific to the current release. For instance, the build step can be used to create a Docker container image or to convert C++ code into a release binary.
 
+### Testing the pipeline assets
+
+After the pipeline assets are constructed, the following stage of the pipeline involves testing them for functionality as well as integration into the larger design or application. At this level, developers use automated testing, testing scripts, or even a testing architecture (also known as a test environment or QA environment) to carry out system testing.
+This step's main objective is to ensure that built assets will work properly after being put into production. Application developers can ensure that the overall integrity of the solution, in its entirety, is preserved once it is released into production by testing the complete system.
+
 
