@@ -13,3 +13,6 @@ CI/CD methodology introduction; automating machine learning with CI/CD; building
 A highly well-liked mechanism for automating the creation and release of software into production is the CI/CD pattern. The basic idea behind this method is to deploy changes to production automatically and seamlessly after making incremental, dependable, and frequent modifications to the software code.
 Although this discipline has been around for a while and is used by many DevOps engineers, MLOps, or Machine Learning Operations, is beginning to gain traction within the ML practitioner community. Before delving into how this methodology might be used for ML, let's become familiar with the individual parts of the procedure, beginning with CI.
 
+
+![image](https://user-images.githubusercontent.com/23625821/192133212-55593a11-624e-4bfd-9853-9a38c0301e6e.png)
+
