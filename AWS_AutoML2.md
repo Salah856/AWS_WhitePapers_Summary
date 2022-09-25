@@ -19,3 +19,7 @@ Although this discipline has been around for a while and is used by many DevOps 
 
 ### Creating or updating source artifacts
 
+Other than initiating the full CI process, the source artefacts stage doesn't really do any particular tasks. In essence, this step acts as a repository for the source code or software components that make up the finished application. The pipeline begins when new software artefacts (such as new features) or updated software artefacts (such as bug patches) are added to this repository.
+
+For instance, application developers contribute updates to the shared version control system (such as GitHub, Bitbucket, or AWS CodeCommit) when they modify the code, add new features, or correct application defects. These stored changes are called commits, with\seach commit having an associated description or message that describes why a particular\schange was done. To help other contributors understand what has been changed in the code and why, these commits summarise the history of all the modifications. A Pull Request can be opened by the developer after a commit has been made (PR).
+
