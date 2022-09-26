@@ -52,7 +52,7 @@ AWS offers specialised services to meet the necessary capabilities of each of th
 
 • <a href="https://aws.amazon.com/codecommit/"> AWS CodeCommit </a>
 
-• AWS CodeBuild
+• <a href="https://aws.amazon.com/codebuild/"> AWS CodeBuild </a>
 
 • AWS CodePipeline
 
