@@ -54,9 +54,12 @@ AWS offers specialised services to meet the necessary capabilities of each of th
 
 • <a href="https://aws.amazon.com/codebuild/"> AWS CodeBuild </a>
 
-• AWS CodePipeline
+• <a href="https://aws.amazon.com/codepipeline/"> AWS CodePipeline </a>
 
 
 - AWS CodeCommit is a cloud-based source code and version control service. In essence, it is the AWS-managed alternative to GitHub. CodeCommit used to store all the various pipeline and ML model artifacts.
 
+- CodeBuild is the heart of the continuous integration phase of the CI/CD pipeline. This service is responsible for compiling or building the various artifacts into usable pipeline assets. In the case of ML release automation, CodeBuild builds the required model training and serves runtimes, as well as executing the data processing, model training, and model evaluation processes.
+
+- AWS CodePipeline handles the continuous deployment phase of the CI/CD pipeline. This service contains the structure of the pipeline and is responsible for automating the task of releasing the trained model into production as a SageMaker hosted endpoint.
 
