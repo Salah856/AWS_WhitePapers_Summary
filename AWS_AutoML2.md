@@ -37,6 +37,6 @@ This step's main objective is to ensure that built assets will work properly aft
 The final step of the CI phase is to authorise the system or application for production once the integrity of the entire system or application has been tested. This step of the procedure can either include a human (or team) approving the test results, or it can be automated in cases when there are lots of code changes.
 
 
-## Automating ML with CI/CD
+## Creating a CI/CD pipeline on AWS
 
 
