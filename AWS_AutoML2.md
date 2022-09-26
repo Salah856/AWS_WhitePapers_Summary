@@ -57,3 +57,7 @@ AWS offers specialised services to meet the necessary capabilities of each of th
 • AWS CodePipeline
 
 
+- AWS CodeCommit
+CodeCommit ( https://aws.amazon.com/codecommit/ ) is a cloud-based source code and version control service. In essence, it is the AWS-managed alternative to GitHub. CodeCommit used to store all the various pipeline and ML model artifacts.
+
+
