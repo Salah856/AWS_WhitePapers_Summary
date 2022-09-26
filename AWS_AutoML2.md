@@ -50,5 +50,10 @@ The following are the three essential elements of a CI/CD pipeline:
 
 AWS offers specialised services to meet the necessary capabilities of each of these three key components, particularly the following:
 
+• AWS CodeCommit
+
+• AWS CodeBuild
+
+• AWS CodePipeline
 
 
