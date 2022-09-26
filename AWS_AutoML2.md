@@ -50,13 +50,13 @@ The following are the three essential elements of a CI/CD pipeline:
 
 AWS offers specialised services to meet the necessary capabilities of each of these three key components, particularly the following:
 
-• AWS CodeCommit
+• <a href"https://aws.amazon.com/codecommit/"> AWS CodeCommit </a>
 
 • AWS CodeBuild
 
 • AWS CodePipeline
 
 
-- AWS CodeCommit ( https://aws.amazon.com/codecommit/ ) is a cloud-based source code and version control service. In essence, it is the AWS-managed alternative to GitHub. CodeCommit used to store all the various pipeline and ML model artifacts.
+- AWS CodeCommit is a cloud-based source code and version control service. In essence, it is the AWS-managed alternative to GitHub. CodeCommit used to store all the various pipeline and ML model artifacts.
 
 
