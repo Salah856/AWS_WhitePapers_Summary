@@ -38,7 +38,7 @@ The final step of the CI phase is to authorise the system or application for pro
 
 
 ## Creating a CI/CD pipeline on AWS
-
+ 
 AWS offers a comprehensive collection of developer tools to meet the varied needs for hosting code as well as creating and delivering pipeline assets. We will leverage three key services from the AWS developer toolchain to build a CI/CD pipeline on AWS. We will use two additional services from the AWS development package to make the construction and automation of the pipeline even easier.
 
 The following are the three essential elements of a CI/CD pipeline:
